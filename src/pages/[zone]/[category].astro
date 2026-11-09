@@ -1,0 +1,22 @@
+---
+import Base from '../../layouts/Base.astro';
+import Card from '../../components/Card.astro';
+import { ZONES, CATEGORIES } from '../../../lib/taxonomy.mjs';
+import { allArticles, href } from '../../lib/data.js';
+
+export function getStaticPaths() {
+  return Object.entries(CATEGORIES).map(([slug, c]) => ({ params: { zone: ZONES[c.zone].slug, category: slug }, props: { slug, c } }));
+}
+const { slug, c } = Astro.props;
+const z = ZONES[c.zone];
+const list = allArticles.filter((a) => a.category === slug);
+---
+<Base title={c.name} zone={c.zone}>
+  <section class="zone-hero compact">
+    <p class="eyebrow"><a href={href(`/${z.slug}`)}>{z.name}</a> · {z.kind}</p>
+    <h1 data-split>{c.name}</h1>
+  </section>
+  <section class="wrap">
+    {list.length ? <div class="grid">{list.map((a, i) => <Card a={a} feature={i === 0} />)}</div> : <p class="empty">Nenhum texto nesta editoria ainda.</p>}
+  </section>
+</Base>

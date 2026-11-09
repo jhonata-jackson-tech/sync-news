@@ -1,0 +1,19 @@
+---
+import { prose, longDate } from '../lib/data.js';
+const { pill, date } = Astro.props;
+---
+<article class="pill" data-pill data-reveal>
+  <div class="ring" aria-hidden="true">
+    <svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="52" class="ring-bg" /><circle cx="60" cy="60" r="52" class="ring-fg" data-ring pathLength="100" /></svg>
+    <span class="ring-label">1<small>min</small></span>
+  </div>
+  <div>
+    <p class="eyebrow">Pílula do Dia · {longDate(date)}</p>
+    <h3>{pill.title}</h3>
+    <div class="pill-text" set:html={prose(pill.body)}></div>
+    <p class="credit">
+      Adaptado da <a href={pill.sourceUrl} rel="noopener" target="_blank">Wikipédia em português</a>, sob licença
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br" rel="noopener license" target="_blank">CC BY-SA 4.0</a>.
+    </p>
+  </div>
+</article>

@@ -1,0 +1,21 @@
+name: Vigia da edição
+on:
+  schedule:
+    - cron: '33 13 * * *' # 10:33 em Brasília
+  workflow_dispatch:
+permissions:
+  contents: read
+  issues: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Conferir edição de hoje
+        run: |
+          TODAY=$(TZ=America/Sao_Paulo date +%F)
+          if [ ! -f "data/editions/$TODAY/edition.json" ]; then
+            gh issue create --title "Sem edição em $TODAY" --body "Até as 10:30 a edição de hoje não foi publicada. Confira a coleta, a tarefa agendada e o portão editorial."
+          fi

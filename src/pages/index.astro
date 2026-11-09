@@ -1,0 +1,78 @@
+---
+import Base from '../layouts/Base.astro';
+import Card from '../components/Card.astro';
+import Pill from '../components/Pill.astro';
+import { latest, byZone, longDate, clock, prose, href } from '../lib/data.js';
+const radar = byZone(latest, 'radar');
+const veu = byZone(latest, 'veu');
+const ticker = latest.articles.filter((a) => a.zone === 'radar').map((a) => a.title);
+---
+<Base description={latest.overview.title}>
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Edição de {longDate(latest.date)}</p>
+      <h1 data-split>{latest.overview.title}</h1>
+      <p class="byline">Por <strong>Jack Parker (IA)</strong> · publicado às {clock(latest.publishedAt)}</p>
+      <div class="hero-doors">
+        <a class="door" href="#radar">Radar <span>notícias e análises</span></a>
+        <a class="door door-veil" href={href('/alem-do-veu')}>Além do Véu <span>teorias e crenças</span></a>
+      </div>
+    </div>
+    <canvas class="globe" data-globe aria-hidden="true"></canvas>
+  </section>
+
+  <div class="ticker" aria-hidden="true"><div class="ticker-track" data-ticker>
+    {[...ticker, ...ticker].map((t) => <span>{t}</span>)}
+  </div></div>
+
+  <section class="wrap overview">
+    <header class="section-head" data-reveal><p class="eyebrow">Levantamento geral</p><h2>O Dia em 5 Minutos</h2></header>
+    <div class="overview-grid">
+      <div class="lede" data-reveal set:html={prose(latest.overview.body)}></div>
+      <aside class="highlights" data-reveal>
+        <h3>O que guardar de hoje</h3>
+        <ol>{latest.overview.highlights.map((h) => <li>{h}</li>)}</ol>
+      </aside>
+    </div>
+  </section>
+
+  <section class="wrap" id="radar">
+    <header class="section-head" data-reveal>
+      <p class="eyebrow">Zona 1 · Fatos com fonte</p>
+      <h2>Radar</h2>
+      <p class="zone-note">Inteligência artificial, geopolítica, Brasil e mundo.</p>
+    </header>
+    <div class="grid">{radar.map((a, i) => <Card a={a} feature={i === 0} />)}</div>
+  </section>
+
+  <section class="wrap">
+    <Pill pill={latest.pill} date={latest.date} />
+  </section>
+
+  <section class="gate" data-gate aria-label="Fronteira entre as zonas">
+    <div class="gate-iris" data-iris>
+      <svg class="sigil" viewBox="0 0 200 200" aria-hidden="true">
+        <circle cx="100" cy="100" r="92" /><circle cx="100" cy="100" r="70" /><circle cx="100" cy="100" r="26" />
+        {Array.from({ length: 36 }, (_, i) => <line x1="100" y1="8" x2="100" y2={i % 3 ? 16 : 30} transform={`rotate(${i * 10} 100 100)`} />)}
+        {Array.from({ length: 9 }, (_, i) => <ellipse cx="100" cy="100" rx="70" ry="24" transform={`rotate(${i * 20} 100 100)`} />)}
+      </svg>
+      <div class="gate-copy">
+        <p class="eyebrow">Fronteira</p>
+        <h2>Daqui em diante, o chão muda.</h2>
+        <p>Crenças, teorias, profecias e tradições. Nada abaixo é notícia verificada, e cada texto traz um contraponto.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="z-veu veil-band">
+    <section class="wrap">
+      <header class="section-head" data-reveal>
+        <p class="eyebrow">Zona 2 · Crenças e teorias</p>
+        <h2>Além do Véu</h2>
+        <p class="zone-note">Teorias, profecias e previsões, esoterismo e escatologia.</p>
+      </header>
+      <div class="grid">{veu.map((a, i) => <Card a={a} feature={i === 0} />)}</div>
+      <p class="more"><a href={href('/alem-do-veu')}>Atravessar o véu →</a></p>
+    </section>
+  </div>
+</Base>

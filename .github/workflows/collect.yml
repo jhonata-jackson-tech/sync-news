@@ -1,0 +1,41 @@
+name: Coleta diária
+on:
+  schedule:
+    - cron: '37 9 * * *' # 06:37 em Brasília
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: collect
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - name: Recuperar inbox anteriores
+        run: |
+          mkdir -p data/inbox
+          if git ls-remote --exit-code origin inbox >/dev/null; then bash scripts/fetch-inbox.sh; fi
+      - name: Coletar
+        run: npm run collect || (sleep 120 && npm run collect)
+      - name: Publicar na branch inbox
+        run: |
+          cp -r data/inbox "$RUNNER_TEMP/inbox"
+          git config user.name "sync-news-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if git ls-remote --exit-code origin inbox >/dev/null; then
+            git fetch origin inbox
+            git checkout -f -B inbox FETCH_HEAD
+          else
+            git checkout -f --orphan inbox
+            git rm -rfq .
+          fi
+          rm -rf data
+          mkdir -p data
+          cp -r "$RUNNER_TEMP/inbox" data/inbox
+          git add -A -f data/inbox
+          git commit -qm "Inbox $(TZ=America/Sao_Paulo date +%F)" || exit 0
+          git push origin inbox

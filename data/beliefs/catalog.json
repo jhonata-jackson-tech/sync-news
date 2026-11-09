@@ -1,0 +1,32 @@
+{
+  "entries": [
+    {
+      "id": "b_ref-escatologia",
+      "source": "Wikipédia",
+      "title": "Escatologia",
+      "url": "https://pt.wikipedia.org/wiki/Escatologia",
+      "summary": "Verbete de referência sobre as doutrinas religiosas e filosóficas acerca do fim dos tempos."
+    },
+    {
+      "id": "b_ref-tarot",
+      "source": "Wikipédia",
+      "title": "Tarô",
+      "url": "https://pt.wikipedia.org/wiki/Tarot",
+      "summary": "Verbete de referência sobre a história do baralho de tarô e seu uso esotérico."
+    },
+    {
+      "id": "b_ref-ceticismo",
+      "source": "Wikipédia",
+      "title": "Ceticismo científico",
+      "url": "https://pt.wikipedia.org/wiki/Ceticismo_cient%C3%ADfico",
+      "summary": "Verbete de referência sobre a prática de questionar alegações que não têm evidência empírica."
+    },
+    {
+      "id": "b_ref-ovni",
+      "source": "Wikipédia",
+      "title": "Objeto voador não identificado",
+      "url": "https://pt.wikipedia.org/wiki/Objeto_voador_n%C3%A3o_identificado",
+      "summary": "Verbete de referência sobre avistamentos de objetos voadores não identificados e suas explicações."
+    }
+  ]
+}

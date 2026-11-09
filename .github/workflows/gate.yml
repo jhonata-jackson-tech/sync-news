@@ -1,0 +1,48 @@
+name: Portão editorial
+# pull_request_target roda a versão da main: o PR é tratado somente como dado, nunca executado.
+on:
+  pull_request_target:
+    types: [opened, synchronize, reopened]
+    branches: [main]
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+  actions: write
+concurrency: gate-${{ github.event.pull_request.number }}
+jobs:
+  gate:
+    if: >-
+      github.event.pull_request.head.repo.full_name == github.repository &&
+      startsWith(github.event.pull_request.head.ref, 'claude/edition-') &&
+      github.event.pull_request.user.login == github.repository_owner
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PR: ${{ github.event.pull_request.number }}
+      SHA: ${{ github.event.pull_request.head.sha }}
+    steps:
+      - uses: actions/checkout@v4
+        with: { ref: main, fetch-depth: 1 }
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm }
+      - run: npm ci
+      - name: Trazer inbox e somente os dados do PR
+        run: |
+          bash scripts/fetch-inbox.sh
+          git fetch --quiet origin "$SHA"
+          TODAY=$(TZ=America/Sao_Paulo date +%F)
+          gh pr diff "$PR" --name-only > "$RUNNER_TEMP/changed"
+          mkdir -p "data/editions/$TODAY"
+          git show "$SHA:data/editions/$TODAY/edition.json" > "data/editions/$TODAY/edition.json"
+          git show "$SHA:data/editions/$TODAY/sources.json" > "data/editions/$TODAY/sources.json"
+      - name: Validar
+        run: node scripts/validate-edition.mjs --changed "$RUNNER_TEMP/changed"
+      - name: Publicar
+        run: |
+          gh pr merge "$PR" --squash --match-head-commit "$SHA" --delete-branch
+          gh workflow run deploy.yml --ref main
+      - name: Avisar falha
+        if: failure()
+        run: gh issue create --title "Edição reprovada no portão (PR #$PR)" --body "A validação falhou. Veja os logs em $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID. A edição anterior continua no ar."

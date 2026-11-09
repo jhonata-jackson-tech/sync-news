@@ -1,0 +1,28 @@
+---
+import Base from '../../layouts/Base.astro';
+import Card from '../../components/Card.astro';
+import { ZONES, CATEGORIES } from '../../../lib/taxonomy.mjs';
+import { allArticles, href, latest } from '../../lib/data.js';
+
+export function getStaticPaths() {
+  return Object.entries(ZONES).map(([key, z]) => ({ params: { zone: z.slug }, props: { key, z } }));
+}
+const { key, z } = Astro.props;
+const cats = Object.entries(CATEGORIES).filter(([, c]) => c.zone === key);
+const today = allArticles.filter((a) => a.zone === key && a.date === latest.date);
+const older = allArticles.filter((a) => a.zone === key && a.date !== latest.date).slice(0, 24);
+---
+<Base title={z.name} description={z.tagline} zone={key}>
+  <section class="zone-hero">
+    <p class="eyebrow">{z.kind}</p>
+    <h1 data-split>{z.name}</h1>
+    <p class="zone-tag">{z.tagline}</p>
+    <div class="chips">{cats.map(([slug, c]) => <a class="chip" href={href(`/${z.slug}/${slug}`)}>{c.name}</a>)}</div>
+  </section>
+  {key === 'veu' && <p class="veil-warning wrap">Você está no Além do Véu. Os textos daqui apresentam crenças e teorias, não notícias verificadas.</p>}
+  <section class="wrap">
+    <header class="section-head"><h2>Hoje</h2></header>
+    <div class="grid">{today.map((a, i) => <Card a={a} feature={i === 0} />)}</div>
+  </section>
+  {older.length > 0 && <section class="wrap"><header class="section-head"><h2>Edições anteriores</h2></header><div class="grid">{older.map((a) => <Card a={a} />)}</div></section>}
+</Base>

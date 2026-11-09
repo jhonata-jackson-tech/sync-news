@@ -1,0 +1,166 @@
+{
+  "ia": [
+    [
+      "TechCrunch",
+      "https://techcrunch.com/category/artificial-intelligence/feed/"
+    ],
+    [
+      "The Verge",
+      "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml"
+    ],
+    [
+      "MIT Technology Review",
+      "https://www.technologyreview.com/topic/artificial-intelligence/feed"
+    ],
+    [
+      "Ars Technica",
+      "https://feeds.arstechnica.com/arstechnica/technology-lab"
+    ],
+    [
+      "OpenAI",
+      "https://openai.com/news/rss.xml"
+    ],
+    [
+      "Google DeepMind",
+      "https://deepmind.google/blog/rss.xml"
+    ],
+    [
+      "Hugging Face",
+      "https://huggingface.co/blog/feed.xml"
+    ],
+    [
+      "Tecnoblog",
+      "https://tecnoblog.net/feed/"
+    ],
+    [
+      "Canaltech",
+      "https://canaltech.com.br/rss/"
+    ],
+    [
+      "Olhar Digital",
+      "https://olhardigital.com.br/feed/"
+    ]
+  ],
+  "geopolitica": [
+    [
+      "Foreign Policy",
+      "https://foreignpolicy.com/feed/"
+    ],
+    [
+      "Crisis Group",
+      "https://www.crisisgroup.org/rss"
+    ],
+    [
+      "Al Jazeera",
+      "https://www.aljazeera.com/xml/rss/all.xml"
+    ],
+    [
+      "ONU News",
+      "https://news.un.org/feed/subscribe/pt/news/all/rss.xml"
+    ]
+  ],
+  "mundo": [
+    [
+      "BBC World",
+      "https://feeds.bbci.co.uk/news/world/rss.xml"
+    ],
+    [
+      "BBC Brasil",
+      "https://feeds.bbci.co.uk/portuguese/rss.xml"
+    ],
+    [
+      "DW Brasil",
+      "https://rss.dw.com/rdf/rss-br-all"
+    ],
+    [
+      "The Guardian",
+      "https://www.theguardian.com/world/rss"
+    ]
+  ],
+  "brasil": [
+    [
+      "Agência Brasil",
+      "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml"
+    ],
+    [
+      "G1",
+      "https://g1.globo.com/rss/g1/"
+    ],
+    [
+      "Poder360",
+      "https://www.poder360.com.br/feed/"
+    ],
+    [
+      "Folha de S.Paulo",
+      "https://feeds.folha.uol.com.br/emcimadahora/rss091.xml"
+    ],
+    [
+      "Gazeta do Povo",
+      "https://www.gazetadopovo.com.br/feed/rss/ultimas-noticias.xml"
+    ],
+    [
+      "Revista Oeste",
+      "https://revistaoeste.com/feed/"
+    ],
+    [
+      "CartaCapital",
+      "https://www.cartacapital.com.br/feed/"
+    ]
+  ],
+  "checagem": [
+    [
+      "Aos Fatos",
+      "https://www.aosfatos.org/noticias/feed/"
+    ],
+    [
+      "Lupa",
+      "https://www.lupa.news/feed"
+    ]
+  ],
+  "escatologia": [
+    [
+      "Pleno.News",
+      "https://pleno.news/feed"
+    ],
+    [
+      "Rapture Ready",
+      "https://www.raptureready.com/feed/"
+    ],
+    [
+      "Harbingers Daily",
+      "https://harbingersdaily.com/feed/"
+    ],
+    [
+      "Gospel Prime",
+      "https://www.gospelprime.com.br/feed/"
+    ]
+  ],
+  "esoterismo": [
+    [
+      "WeMystic",
+      "https://www.wemystic.com.br/feed/"
+    ],
+    [
+      "Eu Sem Fronteiras",
+      "https://www.eusemfronteiras.com.br/feed/"
+    ]
+  ],
+  "teorias": [
+    [
+      "Mistérios do Mundo",
+      "https://misteriosdomundo.org/feed/"
+    ],
+    [
+      "OVNI Hoje",
+      "https://ovnihoje.com/feed/"
+    ],
+    [
+      "Unexplained Mysteries",
+      "https://www.unexplained-mysteries.com/news/umnews.xml"
+    ],
+    [
+      "The Debrief",
+      "https://thedebrief.org/feed/"
+    ]
+  ]
+}

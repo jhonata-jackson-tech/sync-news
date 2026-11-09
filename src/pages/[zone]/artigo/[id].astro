@@ -1,0 +1,47 @@
+---
+import Base from '../../../layouts/Base.astro';
+import Card from '../../../components/Card.astro';
+import { BADGES, ZONES } from '../../../../lib/taxonomy.mjs';
+import { allArticles, prose, longDate, clock, href } from '../../../lib/data.js';
+import { art } from '../../../lib/art.js';
+
+export function getStaticPaths() {
+  return allArticles.map((a) => ({ params: { zone: a.zoneSlug, id: a.id }, props: { a } }));
+}
+const { a } = Astro.props;
+const z = ZONES[a.zone];
+const belief = a.zone === 'veu';
+const related = allArticles.filter((o) => o.zone === a.zone && o.id !== a.id && o.date === a.date).slice(0, 3);
+---
+<Base title={a.title} description={a.dek} zone={a.zone}>
+  <article class="article" data-article>
+    <div class="article-art" set:html={art(a.id, a.zone)}></div>
+    {belief && <p class="veil-banner"><strong>Além do Véu.</strong> Este texto apresenta uma crença ou teoria, não uma notícia verificada.</p>}
+    <header class="article-head">
+      <div class="meta">
+        <span class={`badge b-${a.badge.toLowerCase()}`}>{BADGES[a.badge].label}</span>
+        <a class="cat" href={href(`/${z.slug}/${a.category}`)}>{a.categoryName}</a>
+        <span class="mins">{a.minutes} min de leitura</span>
+      </div>
+      <h1 data-split>{a.title}</h1>
+      <p class="dek">{a.dek}</p>
+      <p class="byline">Por <strong>Jack Parker (IA)</strong> · {longDate(a.date)}, {clock(a.publishedAt)}</p>
+      {belief && a.attribution && <p class="attribution">Origem da tese: {a.attribution}</p>}
+      {a.singleSource && <p class="attribution">Informação baseada em uma única fonte até o momento.</p>}
+    </header>
+    <div class="prose" set:html={prose(a.body)}></div>
+    {a.quotes.map((q) => <blockquote class="quote"><p>{q.text}</p>{q.from && <cite>{q.from.source}</cite>}</blockquote>)}
+    {a.counterpoint && (
+      <aside class="counter">
+        <h2>O que as fontes confirmam até agora</h2>
+        <div set:html={prose(a.counterpoint.body)}></div>
+        <ul>{a.counterSources.map((s) => <li><a href={s.url} rel="noopener" target="_blank">{s.source}: {s.title}</a></li>)}</ul>
+      </aside>
+    )}
+    <section class="sources">
+      <h2>Fontes</h2>
+      <ul>{a.sourceList.map((s) => <li><a href={s.url} rel="noopener" target="_blank">{s.source}: {s.title}</a></li>)}</ul>
+    </section>
+  </article>
+  {related.length > 0 && <section class="wrap"><header class="section-head"><h2>Na mesma zona, hoje</h2></header><div class="grid">{related.map((r) => <Card a={r} />)}</div></section>}
+</Base>

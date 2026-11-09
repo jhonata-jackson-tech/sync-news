@@ -1,0 +1,16 @@
+---
+import Base from '../layouts/Base.astro';
+import Pill from '../components/Pill.astro';
+import { editions, latest, shortDate } from '../lib/data.js';
+const past = editions.slice(1);
+---
+<Base title="Pílula do Dia" description="Uma curiosidade por dia, em um minuto de leitura.">
+  <section class="zone-hero compact"><p class="eyebrow">Um minuto por dia</p><h1 data-split>Pílula do Dia</h1></section>
+  <section class="wrap"><Pill pill={latest.pill} date={latest.date} /></section>
+  {past.length > 0 && (
+    <section class="wrap">
+      <header class="section-head"><h2>Pílulas anteriores</h2></header>
+      <ul class="edition-list">{past.map((e) => <li><a href={e.pill.sourceUrl} rel="noopener" target="_blank"><time datetime={e.date}>{shortDate(e.date)}</time><span>{e.pill.title}</span></a></li>)}</ul>
+    </section>
+  )}
+</Base>

@@ -1,0 +1,226 @@
+{
+  "date": "2026-11-09",
+  "publishedAt": "2026-11-09T00:25:59-03:00",
+  "overview": {
+    "title": "Espionagem na Nvidia, pressão sobre o Irã e um quarto mandato que já começa sob cobrança",
+    "body": "A segunda-feira amanhece com três frentes abertas. Na tecnologia, a Nvidia anunciou uma investigação independente sobre seu próprio presidente-executivo, depois de reportagens que o ligam a uma executiva apontada como agente chinesa. Na mesma semana, a OpenAI alcançou avaliação de 1,25 trilhão de dólares, enquanto dados de mercado sugerem que os gastos corporativos com IA pararam de crescer.\n\nNo Oriente Médio, Donald Trump diz que o bloqueio terrestre ao Irã já vale e pretende tratar do tema com Xi Jinping e Vladimir Putin. Ataques atingiram a Torre Aramco, em Riad, e deixaram sem luz a maior parte da região curda do Iraque.\n\nNo Brasil, Lula fez o primeiro grande pronunciamento depois da reeleição, voltou a acusar as big techs e prometeu responsabilidade fiscal sem detalhar o caminho. Na vizinhança, o Paraguai vive o colapso do banco Ueno, com o ex-presidente Santiago Peña preso preventivamente, e o papa Leão XIV confrontou a austeridade de Javier Milei em Buenos Aires. Também hoje começa a COP31, em Antália, na Turquia, com duas semanas de negociações sobre o clima.",
+    "highlights": [
+      "A Nvidia investiga o próprio CEO por suspeita ligada à espionagem chinesa.",
+      "Trump alterna bloqueio ao Irã e diálogo com Xi e Putin.",
+      "Ataques a alvos de energia elevam a tensão no Oriente Médio.",
+      "Lula abre o novo ciclo cobrado por um plano fiscal concreto.",
+      "A COP31 começa em Antália e vai até 20 de novembro."
+    ]
+  },
+  "articles": [
+    {
+      "slug": "nvidia-investiga-jensen-huang",
+      "category": "ia",
+      "badge": "FATO",
+      "title": "Nvidia abre investigação independente sobre o próprio CEO após suspeita de espionagem chinesa",
+      "dek": "Conselho da maior fabricante de chips de IA reage a reportagens sobre a relação de Jensen Huang com uma executiva apontada como agente de Pequim.",
+      "body": "O conselho de administração da Nvidia anunciou uma investigação independente envolvendo o presidente-executivo da companhia, Jensen Huang. O motivo, de acordo com o The Verge, é a relação dele com Alice Huang, executiva da Megaspeed que teria sido recrutada pelo Ministério da Segurança do Estado da China para espionar a empresa.\n\nO The Guardian lembra que o New York Times noticiou em outubro que Donald Trump foi informado, no ano passado, sobre dados de inteligência que indicavam proximidade entre Huang e uma empresária chinesa que repassava informações a Pequim.\n\nEm memorando aos funcionários, relatado pelo TechCrunch, Huang admitiu ter tido um caso extraconjugal. A BBC informa que ele prometeu cooperar com as apurações. A China já havia rejeitado as alegações, que classificou como especulação infundada.\n\nA apuração está no início e não há conclusão divulgada. O caso pesa porque a Nvidia ocupa o centro da disputa tecnológica entre Estados Unidos e China, e uma dúvida dessa natureza sobre seu líder vai além da vida pessoal.",
+      "sources": [
+        "s_ecd65815b585",
+        "s_2b527a5d8a86",
+        "s_3644ea5022ac",
+        "s_bc55171edc52"
+      ]
+    },
+    {
+      "slug": "openai-avaliacao-gastos-ia",
+      "category": "ia",
+      "badge": "ANALISE",
+      "title": "OpenAI chega a US$ 1,25 trilhão enquanto dados sugerem freio nos gastos corporativos com IA",
+      "dek": "A nova rodada amplia a aposta dos investidores no mesmo momento em que orçamentos de empresas param de crescer.",
+      "body": "A OpenAI captou mais 11 bilhões de dólares em uma rodada que a avalia em 1,25 trilhão, segundo a Bloomberg, citada pelo The Verge. O TechCrunch observa que a rodada ainda não foi encerrada e deve ser concluída nas próximas semanas. Em março, a empresa havia levantado 122 bilhões de dólares, com avaliação de 852 bilhões.\n\nO salto ocorre enquanto a rival Anthropic se aproxima de uma oferta pública inicial. E surge um contraste: dados da Ramp, relatados pelo TechCrunch, indicam que o uso de IA segue subindo, mas os gastos pararam de crescer. Cortes de preço e controles de custo entre os maiores compradores ajudam a explicar o movimento.\n\nA leitura que fica é de tensão entre duas curvas. Investidores pagam valores que pressupõem expansão acelerada por muitos anos, enquanto os orçamentos corporativos dão os primeiros sinais de disciplina. Se o uso cresce e a receita por uso cai, a conta só fecha com volume muito maior ou com novos produtos. Os próximos resultados do setor devem começar a responder a essa dúvida.",
+      "sources": [
+        "s_6813d62fd925",
+        "s_314bd089789a",
+        "s_d275be2a1267"
+      ]
+    },
+    {
+      "slug": "ira-bloqueio-trump-xi-putin",
+      "category": "geopolitica",
+      "badge": "FATO",
+      "title": "Trump anuncia bloqueio terrestre ao Irã e quer discutir Teerã com Xi e Putin",
+      "dek": "Washington alterna pressão militar e diplomacia, enquanto o governo iraniano fala em negociações paradas.",
+      "body": "Donald Trump afirma que um bloqueio terrestre ao Irã já está em vigor, e Teerã ameaça uma resposta dura caso os Estados Unidos retomem os ataques, informa a Al Jazeera em sua cobertura ao vivo. O presidente americano também pretende conversar com Xi Jinping e Vladimir Putin sobre o Irã e sobre desnuclearização.\n\nOs sinais são desencontrados. Segundo a CartaCapital, Trump disse considerar altamente improvável a retomada da guerra e declarou que caberá ao país persa assinar um acordo sólido. Do lado iraniano, um ministro citado pela mesma reportagem descreve as conversas como estagnadas.\n\nO Crisis Group publicou uma análise sobre os caminhos pelos quais o conflito pode escalar, tema que ganha urgência com os ataques recentes a alvos de energia na região.\n\nO quadro combina pressão econômica e militar com a tentativa de envolver Pequim e Moscou na conversa. A entrada dos dois pode abrir um canal diplomático, mas também aumenta o número de interesses em jogo. O resultado desses contatos e o efeito prático do bloqueio devem indicar a direção da crise nos próximos dias.",
+      "sources": [
+        "s_1dd415ded767",
+        "s_2c161606c00c",
+        "s_ff0d291ad7d1"
+      ]
+    },
+    {
+      "slug": "ataques-aramco-khor-mor-energia",
+      "category": "geopolitica",
+      "badge": "FATO",
+      "title": "Torre da Aramco em Riad e campo de gás no Iraque são atingidos em ataques no fim de semana",
+      "dek": "Ofensiva dos houthis e drone contra Khor Mor colocam a infraestrutura de energia do Oriente Médio no centro da tensão.",
+      "body": "A infraestrutura de energia do Oriente Médio voltou à linha de tiro. A Torre Aramco, no distrito financeiro central da capital saudita, foi atingida em uma nova onda de ataques dos houthis, segundo a BBC, que autenticou imagens dos danos por meio da equipe BBC Verify.\n\nNo norte do Iraque, um ataque com drone interrompeu a produção no campo de gás de Khor Mor, de acordo com a Al Jazeera. A consequência foi imediata: mais de 70% da região curda iraquiana ficou sem eletricidade. Os resumos iniciais da emissora não apontam a autoria do ataque, e as fontes consultadas não estabelecem ligação direta entre os dois episódios.\n\nO ponto em comum é o tipo de alvo. Golpes contra ativos de energia têm efeito imediato sobre a população local e repercutem nos preços internacionais. A ONU News destacou, em reportagem recente, que uma agência das Nações Unidas mostrou como a alta do petróleo afeta os países de maneiras diferentes, o que dá dimensão global a uma crise concentrada em poucos pontos do mapa.",
+      "sources": [
+        "s_f17511fbf627",
+        "s_5f1f35e39458",
+        "s_2b3dc2d2a90b",
+        "s_09ab4b185e41"
+      ]
+    },
+    {
+      "slug": "lula-pronunciamento-big-techs",
+      "category": "brasil",
+      "badge": "FATO",
+      "title": "Em pronunciamento após a reeleição, Lula acusa big techs de interferir nas eleições",
+      "dek": "Fala em rede nacional foi lida como aceno por uns e como ataque por outros, em um país que se vê dividido.",
+      "body": "Reeleito para um quarto mandato, Luiz Inácio Lula da Silva fez no domingo (8) um pronunciamento em rede de rádio e televisão e voltou a acusar as grandes empresas de tecnologia de interferir nas eleições. Segundo o Poder360, ele afirmou que plataformas impulsionaram notícias falsas e disse que o Brasil não é quintal de nenhum país. A Revista Oeste ressalta que a acusação foi feita sem apresentação de provas.\n\nA Agência Brasil destacou o tom conciliatório da fala, com agradecimentos à mobilização das juventudes e ao esforço dos idosos, além de compromissos sobre economia e segurança pública. De acordo com a Revista Oeste, o presidente também defendeu uma reforma política e do Judiciário. Esse veículo e a Gazeta do Povo registraram ainda uma crítica indireta ao senador Flávio Bolsonaro.\n\nA diferença de enfoque entre os veículos é, em si, um retrato do momento. Levantamento da Quaest noticiado pela CartaCapital aponta que 81% dos entrevistados acreditam que o país saiu mais dividido das eleições.",
+      "sources": [
+        "s_e9b02c23ede6",
+        "s_3c7469dc85d0",
+        "s_8923e56b3ff9",
+        "s_44032d16cce9",
+        "s_60f1c09ec2aa"
+      ]
+    },
+    {
+      "slug": "ajuste-fiscal-quarto-mandato",
+      "category": "brasil",
+      "badge": "ANALISE",
+      "title": "Ajuste fiscal é o primeiro teste do novo mandato, e o mercado já cobra a conta",
+      "dek": "Lula promete responsabilidade fiscal, mas o caminho para equilibrar as contas segue sem detalhes.",
+      "body": "A promessa de responsabilidade fiscal apareceu no pronunciamento presidencial de domingo, conforme relatou a Agência Brasil. O G1 registra que Lula se disse preocupado com a trajetória da dívida pública. Para o Poder360, porém, a fala de sete minutos não explicou como o ajuste será feito e enfatizou programas sociais que elevam o gasto, em tom de campanha.\n\nA cobrança não é apenas doméstica. Organismos internacionais apontam há anos a necessidade de reequilibrar as contas, voltar aos superávits primários e conter o avanço da dívida, segundo o G1.\n\nOs investidores já reagem. A Folha de S.Paulo mostra que, em 12 meses, a estrutura da dívida interna federal mudou de forma expressiva: os títulos atrelados à Selic dobraram e diminuiu o colchão para rolar os vencimentos de curto prazo, sinal de ceticismo com as contas públicas.\n\nO dilema do início de mandato está posto. Quanto mais o governo demorar a apresentar medidas concretas, maior tende a ser o prêmio exigido por quem financia o país. Os nomes escolhidos para a equipe econômica serão a primeira pista.",
+      "sources": [
+        "s_8923e56b3ff9",
+        "s_db2d1bcf0fd6",
+        "s_effd637a3d10",
+        "s_2942ff2c00d1"
+      ]
+    },
+    {
+      "slug": "papa-leao-argentina-milei",
+      "category": "mundo",
+      "badge": "FATO",
+      "title": "Na Argentina, papa Leão XIV critica a austeridade diante de Milei",
+      "dek": "Primeira visita papal ao país em 40 anos expõe as diferenças entre a Igreja e o governo argentino.",
+      "body": "O papa Leão XIV chegou à Argentina no domingo (8), segunda etapa de uma viagem de 12 dias pela América Latina, e logo fez um discurso duro sobre economia. De acordo com o The Guardian, ele insistiu, diante de Javier Milei, que o crescimento precisa beneficiar a todos, e foi muito aplaudido em Buenos Aires.\n\nA Gazeta do Povo acrescenta que o pontífice abordou, já na chegada, a criminalidade organizada, a polarização e o abismo entre ricos e pobres. Segundo o G1, ele fica até quarta-feira (11), com uma agenda que deve evidenciar as divergências entre a Igreja e o governo em temas sociais, políticos e econômicos.\n\nA visita tem peso simbólico próprio. A Gazeta do Povo registra que a Argentina não recebia um papa havia 40 anos, e o G1 lembra que a viagem ficou pendente durante todo o pontificado anterior. Para Milei, cujos cortes são o centro do seu governo, o desafio é receber um líder popular que questiona exatamente essa agenda.",
+      "sources": [
+        "s_27ba2ac4c5ad",
+        "s_f8407ec9e157",
+        "s_393e32db9f4f",
+        "s_41aa2c9f9675"
+      ],
+      "quotes": [
+        {
+          "text": "The economy must be at the service of the people, rather than people being at the service of the economy",
+          "source": "s_27ba2ac4c5ad"
+        }
+      ]
+    },
+    {
+      "slug": "paraguai-pena-prisao-banco-ueno",
+      "category": "mundo",
+      "badge": "FATO",
+      "title": "Justiça do Paraguai ordena prisão preventiva de Santiago Peña após colapso do banco Ueno",
+      "dek": "Fechamento de banco digital atingiu milhões de clientes e derrubou o presidente em poucos dias.",
+      "body": "Um juiz paraguaio ordenou a prisão preventiva do ex-presidente Santiago Peña, que deve permanecer na unidade militar para onde foi levado após a detenção, informa a DW. A justificativa é assegurar que ele não deixe o país.\n\nA crise explodiu em 3 de novembro. Segundo reportagem do El Surtidor publicada pelo Aos Fatos, quase 3 milhões de paraguaios, cerca de metade da população, amanheceram sem acesso ao próprio dinheiro depois que o Banco Central anunciou o fechamento do Ueno Bank, instituição digital vinculada a Peña. O banco guardava poupanças de milhares de famílias e US$ 800 milhões em recursos públicos.\n\nDe acordo com a Revista Oeste, que cita o jornal ABC Color, o Ministério Público atribuiu um prejuízo preliminar de US$ 809,5 milhões às operações investigadas, em imputação contra Peña e o ex-presidente do Banco Central Carlos Carvallo. O processo está em curso.\n\nA BBC Brasil levanta a questão regional: Peña era aliado de Donald Trump, e sua queda pode servir de alerta para a direita latino-americana.",
+      "sources": [
+        "s_b04c08a6d907",
+        "s_056805dfa2ac",
+        "s_34e9830d4239",
+        "s_e31123ee9b11",
+        "s_eb95f3fcf933"
+      ]
+    },
+    {
+      "slug": "ovnis-congresso-jake-barber-japao",
+      "category": "teorias",
+      "badge": "TEORIA",
+      "title": "Ex-militar vai trabalhar com OVNIs no Congresso dos EUA, e ex-ministro japonês fala em inteligência não humana",
+      "dek": "Para a comunidade ufológica, os dois episódios indicam que o assunto saiu da margem e entrou nos gabinetes.",
+      "body": "Na comunidade ufológica, a semana foi lida como mais um passo rumo à revelação. Segundo o site OVNI Hoje, o ex-militar da Força Aérea americana Jake Barber, conhecido como denunciante sobre o tema, passou a integrar o gabinete do deputado Eric Burlison, para colaborar com a pauta dos OVNIs no Congresso. A contratação teria sido confirmada pelo porta-voz do parlamentar à publicação Paradigm.\n\nO mesmo site relata que o ex-ministro da Defesa do Japão Yasukazu Hamada afirmou, em um podcast, que a hipótese de inteligência não humana merece ser levada a sério para explicar avistamentos sobre instalações nucleares japonesas.\n\nOs defensores da tese sustentam que autoridades só falam disso em público porque sabem mais do que revelam. Na visão deles, a soma de ex-militares, parlamentares e ex-ministros tratando do assunto seria o sinal de que o sigilo está perdendo força. Para esse público, o interesse institucional já seria parte da prova.",
+      "sources": [
+        "s_0cdc250d7f2b",
+        "s_6fb702794b8e"
+      ],
+      "attribution": "Comunidade ufológica, conforme relatos do site OVNI Hoje",
+      "counterpoint": {
+        "body": "As fontes relatam que uma contratação ocorreu e que um ex-ministro deu uma opinião. Nenhuma delas apresenta evidência de inteligência não humana. Interesse político e declarações de autoridades não equivalem a prova, e o próprio termo OVNI designa apenas um objeto que não foi identificado.",
+        "sources": [
+          "b_ref-ovni",
+          "b_ref-ceticismo"
+        ]
+      }
+    },
+    {
+      "slug": "governo-mundial-eleicao-americana",
+      "category": "profecias",
+      "badge": "PROFECIA",
+      "title": "Depois das eleições nos EUA, ministérios proféticos veem o palco montado para um governo mundial",
+      "dek": "Em programas cristãos americanos, a turbulência política é interpretada como preparação para um salvador político.",
+      "body": "A derrota republicana nas eleições de meio de mandato virou matéria-prima para a leitura profética nos Estados Unidos. No Harbingers Daily, Jan Markell e Michele Bachmann comentam o resultado e a instabilidade em outros países, e sustentam que o cenário está sendo preparado para um governo mundial. Na leitura apresentada no programa, povos insatisfeitos passariam a desejar um salvador político.\n\nA ideia dialoga com uma corrente da escatologia cristã que associa crises globais à ascensão de uma autoridade única no fim dos tempos. Para quem acredita nessa cronologia, cada eleição conturbada é uma peça a mais em um quadro já anunciado nas Escrituras.\n\nTerry James, no Rapture Ready, segue caminho semelhante ao tratar da eleição, de Israel e do destino americano. Os autores dessa linha defendem que o observador atento deve ler o noticiário junto com a Bíblia, e não separado dela.",
+      "sources": [
+        "s_813d7f6a37d7",
+        "s_721dada4df59"
+      ],
+      "attribution": "Jan Markell, Michele Bachmann e Terry James, em publicações cristãs proféticas",
+      "counterpoint": {
+        "body": "A cobertura política explica o resultado por outros fatores: a BBC descreve uma coalizão de Trump fragmentada, e a Foreign Policy trata de uma onda eleitoral contrária ao presidente. Nenhuma das reportagens consultadas indica movimento concreto rumo a um governo mundial. A previsão é uma interpretação religiosa e não pode ser verificada.",
+        "sources": [
+          "s_37d974faced6",
+          "s_eeca8568d2ed",
+          "b_ref-escatologia"
+        ]
+      }
+    },
+    {
+      "slug": "tarot-arcanos-previsao-2027",
+      "category": "esoterismo",
+      "badge": "ESOTERICO",
+      "title": "Força e Justiça: o que a leitura esotérica de 2027 propõe para quem busca orientação",
+      "dek": "Publicações do setor apresentam os arcanos como convite ao autoconhecimento para o ano que vem.",
+      "body": "Com o fim do ano se aproximando, as publicações esotéricas começam a falar de 2027. Segundo o portal Eu Sem Fronteiras, as cartas da Força e da Justiça convidam o leitor a olhar para dentro, reconhecer limites e alinhar as próprias escolhas aos valores que cultiva. Na interpretação apresentada, os obstáculos do próximo ano podem se converter em amadurecimento.\n\nO site WeMystic, por sua vez, defende que os Arcanos Menores ajudam a simplificar dúvidas e oferecem percepções a quem procura orientação. Na tradição do tarô, os arcanos maiores representam grandes temas da jornada humana, e os menores se voltam às situações do cotidiano.\n\nPara seus praticantes, a força dessa leitura está menos em adivinhar acontecimentos e mais em provocar reflexão. A carta funcionaria como um espelho: quem a interpreta afirma encontrar nela uma pergunta sobre a própria vida, e não uma sentença sobre o futuro.",
+      "sources": [
+        "s_187e17926467",
+        "s_430ed6e00013"
+      ],
+      "attribution": "Portais esotéricos Eu Sem Fronteiras e WeMystic",
+      "counterpoint": {
+        "body": "O tarô tem história documentada como baralho de jogo na Europa, e seu uso divinatório se consolidou depois. Não há comprovação científica de que as cartas prevejam eventos. Mensagens amplas sobre desafios e amadurecimento podem servir a quase qualquer pessoa, ponto frequentemente levantado por céticos.",
+        "sources": [
+          "b_ref-tarot",
+          "b_ref-ceticismo"
+        ]
+      }
+    },
+    {
+      "slug": "ezequiel-38-ira-russia",
+      "category": "escatologia",
+      "badge": "ESCATOLOGIA",
+      "title": "Irã, Rússia e Ezequiel 38: a guerra lida como sinal do fim dos tempos",
+      "dek": "Autores cristãos perguntam se o conflito atual está montando o cenário descrito pelo profeta.",
+      "body": "Para uma parte dos estudiosos cristãos de profecia, a guerra com o Irã tem um roteiro antigo. No Rapture Ready, o autor Mark Hitchcock pergunta se o palco estaria sendo preparado para o capítulo 38 de Ezequiel, passagem que descreve uma coalizão de povos, incluindo a Pérsia, marchando contra Israel. O texto observa que o conflito vem em ondas desde junho de 2025.\n\nNo mesmo site, Daymond Duck publica a mensagem de um leitor segundo a qual a expressão guerras e rumores de guerras se referiria especificamente a Israel cercado por conflitos. Já no Harbingers Daily, Erick Stakelbeck questiona se Trump levará adiante a ofensiva depois do revés eleitoral.\n\nNessa tradição, chamada de pré-milenista por muitos de seus seguidores, os acontecimentos no Oriente Médio são observados como marcadores de um calendário profético. O título de Hitchcock coloca Irã e Rússia lado a lado, dupla que os defensores dessa leitura acompanham de perto.",
+      "sources": [
+        "s_6303de113db1",
+        "s_23662fbd43b5",
+        "s_29844f351f47"
+      ],
+      "attribution": "Mark Hitchcock, Daymond Duck e Erick Stakelbeck, em publicações cristãs proféticas",
+      "counterpoint": {
+        "body": "A cobertura noticiosa trata o conflito em termos políticos e militares: a CartaCapital registra Trump dizendo ser improvável retomar a guerra, e o Crisis Group analisa cenários de escalada. A correspondência entre eventos atuais e Ezequiel 38 é interpretação teológica, sem consenso nem entre os próprios cristãos, e não pode ser comprovada.",
+        "sources": [
+          "s_2c161606c00c",
+          "s_ff0d291ad7d1",
+          "b_ref-escatologia"
+        ]
+      }
+    }
+  ],
+  "pill": {
+    "title": "O muro que separou uma cidade por 28 anos",
+    "body": "Em 9 de novembro de 1989, o Muro de Berlim começou a ser derrubado, abrindo caminho para a reunificação da Alemanha.\n\nA barreira de concreto havia sido erguida pelo governo da Alemanha Oriental a partir de 13 de agosto de 1961 e cercava Berlim Ocidental. Não era apenas uma parede: incluía torres de guarda, trincheiras contra veículos e leitos de pregos.\n\nO detalhe que costuma surpreender é a direção da ameaça. A principal função do muro não era impedir a entrada de ninguém, e sim evitar que os próprios cidadãos do lado oriental fugissem para o Ocidente.",
+    "wikipediaId": "s_faa16d4472ef",
+    "sourceUrl": "https://pt.wikipedia.org/wiki/Muro_de_Berlim",
+    "license": "CC BY-SA 4.0",
+    "adapted": true
+  }
+}
