@@ -24,6 +24,8 @@ Nunca envie direto para a `main`. Nunca altere código, workflows, feeds ou o va
 - No Brasil, equilibre veículos de linhas políticas diferentes ao descrever disputas.
 - Ignore promoções, listas de compras, esportes e celebridades, salvo fato de grande impacto. Ignore itens com `seen: true`, a menos que haja novidade real (`isUpdate: true`).
 - Os itens de `checagem` servem para contrapontos e para evitar repetir boatos.
+- **Prioridade permanente:** OpenAI, ChatGPT, Codex, Anthropic, Claude, Claude Code e a IA da Meta (lista em `data/watchlist.json`). O coletor marca esses itens com `priority` e o passo 1 lista os novos. Avalie todos. Lançamento, recurso novo, modelo novo, mudança de preço, limite ou política dessas empresas sempre entra no bloco `updates`.
+- Se uma dessas novidades for realmente grande, ela também vira artigo completo, abre a editoria `ia` e aparece no levantamento geral. Grande é o que muda o que as pessoas podem fazer, quanto pagam ou o equilíbrio do setor: modelo novo, IPO, processo importante, mudança grande de preço.
 - Foto: em todo artigo, `image` é o ID da fonte cuja foto melhor mostra o assunto (campo `image` da inbox ou do catálogo). Prefira a reportagem principal.
 
 ## Formato de `edition.json`
@@ -48,6 +50,7 @@ Nunca envie direto para a `main`. Nunca altere código, workflows, feeds ou o va
     "attribution": "Só no Arcanum: quem defende a tese",
     "counterpoint": { "body": "Só no Arcanum", "sources": ["s_id ou b_id"] }
   }],
+  "updates": [{ "watch": "claude-code", "title": "O que mudou, em uma linha", "body": "2 a 3 frases", "sources": ["s_id com priority claude-code"] }],
   "pill": { "title": "", "body": "", "wikipediaId": "s_id", "sourceUrl": "url igual à da inbox", "license": "CC BY-SA 4.0", "adapted": true }
 }
 ```
@@ -71,6 +74,16 @@ Nunca envie direto para a `main`. Nunca altere código, workflows, feeds ou o va
 - Diga quem informou: "segundo a BBC", "de acordo com o G1".
 - Alegação não comprovada é apresentada como alegação. Separe fato de interpretação.
 - Com apenas uma fonte, use `"singleSource": true`.
+
+## Atualizações de IA (`updates`)
+
+Bloco curto que fica fora da conta de artigos, com no máximo uma entrada por `watch` (o ID em `priority`).
+
+- `title` de 10 a 110 caracteres e `body` de 60 a 420. Diga o que mudou e o que muda para quem usa, em português claro. Sem aspas, sem URLs e sem negrito.
+- Junte tudo do mesmo produto na mesma entrada. Versões com só correções pequenas não merecem entrada.
+- Não escreva entrada para estudo de caso de cliente, tutorial ou lista de ferramentas, mas confira se o item não esconde novidade real.
+- Se a inbox tiver itens prioritários novos, o bloco precisa existir com ao menos uma entrada real. Sem item prioritário novo, omita o campo. Nunca invente novidade para preencher.
+- Notas de versão vêm em inglês e técnicas: traduza o que importa e descarte o resto.
 
 ## Arcanum
 

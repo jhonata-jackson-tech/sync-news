@@ -21,6 +21,35 @@
       "https://openai.com/news/rss.xml"
     ],
     [
+      "Anthropic",
+      "https://www.anthropic.com/sitemap.xml",
+      {
+        "sitemap": "/news/"
+      }
+    ],
+    [
+      "Claude Code",
+      "https://api.github.com/repos/anthropics/claude-code/releases/latest",
+      {
+        "release": "Claude Code"
+      }
+    ],
+    [
+      "Codex",
+      "https://api.github.com/repos/openai/codex/releases/latest",
+      {
+        "release": "Codex"
+      }
+    ],
+    [
+      "Meta",
+      "https://about.fb.com/news/feed/"
+    ],
+    [
+      "Meta Engenharia (IA)",
+      "https://engineering.fb.com/category/ai-research/feed/"
+    ],
+    [
       "Google DeepMind",
       "https://deepmind.google/blog/rss.xml"
     ],

@@ -5,6 +5,7 @@ import Pill from '../components/Pill.astro';
 import Archive from '../components/Archive.astro';
 import Sources from '../components/Sources.astro';
 import About from '../components/About.astro';
+import AiUpdates from '../components/AiUpdates.astro';
 import { latest, byZone, longDate, clock, prose, href } from '../lib/data.js';
 const radar = byZone(latest, 'radar');
 const veu = byZone(latest, 'veu');
@@ -39,6 +40,8 @@ const ticker = radar.map((a) => a.title);
       </aside>
     </div>
   </section>
+
+  <AiUpdates updates={latest.updates} />
 
   <section class="wrap" id="radar" data-section>
     <header class="section-head" data-reveal>

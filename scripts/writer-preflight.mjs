@@ -8,5 +8,9 @@ const today = todayBRT();
 const inboxPath = `data/inbox/${today}.json`;
 if (existsSync(`data/editions/${today}/edition.json`)) { console.log(`Edição ${today} já existe. Nada a fazer.`); process.exit(3); }
 if (!existsSync(inboxPath)) { console.error(`Sem inbox de ${today}. Coletor não rodou.`); process.exit(3); }
-if (!inboxIsFresh(JSON.parse(readFileSync(inboxPath, 'utf8')))) { console.error(`Inbox de ${today} velha demais.`); process.exit(3); }
+const inbox = JSON.parse(readFileSync(inboxPath, 'utf8'));
+if (!inboxIsFresh(inbox)) { console.error(`Inbox de ${today} velha demais.`); process.exit(3); }
 console.log(`OK: escrever a edição ${today} a partir de ${inboxPath}.`);
+const priority = inbox.items.filter((i) => i.priority?.length && !i.seen);
+console.log(`\nItens prioritários novos (${priority.length}). Avalie todos para o bloco updates:`);
+for (const i of priority) console.log(`- [${i.priority.join(', ')}] ${i.id} · ${i.source} · ${i.title}`);

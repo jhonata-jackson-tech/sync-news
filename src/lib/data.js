@@ -1,4 +1,5 @@
 import { CATEGORIES, ZONES } from '../../lib/taxonomy.mjs';
+import watchlist from '../../data/watchlist.json';
 
 const editionFiles = import.meta.glob('/data/editions/*/edition.json', { eager: true, import: 'default' });
 const sourceFiles = import.meta.glob('/data/editions/*/sources.json', { eager: true, import: 'default' });
@@ -6,6 +7,7 @@ const sourceFiles = import.meta.glob('/data/editions/*/sources.json', { eager: t
 export const B = import.meta.env.BASE_URL.replace(/\/$/, '');
 export const href = (p = '/') => `${B}${p.startsWith('/') ? p : `/${p}`}`;
 
+const watchName = Object.fromEntries(watchlist.map((w) => [w.id, w.name]));
 const zoneOf = (a) => CATEGORIES[a.category].zone;
 
 function hydrate(ed, file) {
@@ -29,7 +31,8 @@ function hydrate(ed, file) {
     minutes: Math.ceil(a.body.split(/\s+/).length / 200),
   }));
   const pill = { ...ed.pill, minutes: Math.ceil(ed.pill.body.split(/\s+/).length / 200), photo: sources[ed.pill.wikipediaId]?.image ?? null };
-  return { ...ed, pill, articles };
+  const updates = (ed.updates ?? []).map((u) => ({ ...u, name: watchName[u.watch] ?? u.watch, sourceList: resolve(u.sources) }));
+  return { ...ed, pill, articles, updates };
 }
 
 export const editions = Object.entries(editionFiles)

@@ -1,0 +1,15 @@
+[
+  { "id": "openai", "name": "OpenAI", "feeds": ["OpenAI"], "terms": ["OpenAI"], "patterns": ["\\bGPT[-‑]?\\d"] },
+  { "id": "chatgpt", "name": "ChatGPT", "terms": ["ChatGPT"] },
+  { "id": "codex", "name": "Codex", "feeds": ["Codex"], "terms": ["Codex"] },
+  { "id": "anthropic", "name": "Anthropic", "feeds": ["Anthropic"], "terms": ["Anthropic"] },
+  { "id": "claude", "name": "Claude", "terms": ["Claude"] },
+  { "id": "claude-code", "name": "Claude Code", "feeds": ["Claude Code"], "terms": ["Claude Code"] },
+  {
+    "id": "meta-ai",
+    "name": "Meta IA",
+    "feeds": ["Meta Engenharia (IA)"],
+    "terms": ["Meta AI", "Meta IA", "IA da Meta"],
+    "patterns": ["\\bMuse\\b", "\\bLlama\\b", "\\bMeta\\b.*\\b(AI|IA|agentes?|agents?|modelos?|models?|chatbot|Superintelligence)\\b", "\\b(AI|IA)\\b.*\\bMeta\\b"]
+  }
+]
