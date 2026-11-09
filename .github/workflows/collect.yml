@@ -1,7 +1,11 @@
 name: Coleta diária
 on:
   schedule:
-    - cron: '37 9 * * *' # 06:37 em Brasília
+    # O GitHub às vezes atrasa ou descarta agendamentos. Várias tentativas; a primeira que rodar coleta.
+    - cron: '17 8 * * *' # 05:17 em Brasília
+    - cron: '47 8 * * *' # 05:47
+    - cron: '17 9 * * *' # 06:17
+    - cron: '47 9 * * *' # 06:47
   workflow_dispatch:
 permissions:
   contents: write
@@ -19,11 +23,19 @@ jobs:
         run: |
           mkdir -p data/inbox
           if git ls-remote --exit-code origin inbox >/dev/null; then bash scripts/fetch-inbox.sh; fi
+      - name: Ver se hoje já foi coletado
+        id: today
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && [ -f "data/inbox/$(TZ=America/Sao_Paulo date +%F).json" ]; then
+            echo "done=true" >> "$GITHUB_OUTPUT"
+          fi
       - name: Coletar
+        if: steps.today.outputs.done != 'true'
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: npm run collect || (sleep 120 && npm run collect)
       - name: Publicar na branch inbox
+        if: steps.today.outputs.done != 'true'
         run: |
           cp -r data/inbox "$RUNNER_TEMP/inbox"
           git config user.name "sync-news-bot"

@@ -24,7 +24,7 @@ const nav = [
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content={zone === 'veu' ? '#e7d9bd' : '#070d18'} />
     <link rel="manifest" href={href('/manifest.webmanifest')} />
-    <link rel="apple-touch-icon" href={href('/icons/apple-touch-icon.png')} />
+    <link rel="apple-touch-icon" href={href('/icons/apple-touch-icon.png?v=2')} />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="Sync News" />
@@ -34,8 +34,7 @@ const nav = [
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={new URL(href('/brand/hero.jpg'), Astro.site).href} />
-    <link rel="icon" type="image/svg+xml" href={href('/icon.svg')} />
-    <link rel="icon" type="image/png" sizes="32x32" href={href('/icons/favicon-32.png')} />
+    <link rel="icon" type="image/png" sizes="32x32" href={href('/icons/favicon-32.png?v=2')} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Cinzel:wght@500;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Michroma&family=JetBrains+Mono:wght@500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet" />
@@ -88,7 +87,7 @@ const nav = [
     <main id="conteudo"><slot /></main>
     <footer class="foot">
       <div>
-        <Logo />
+        <img class="foot-logo" src={href('/icons/icon-192.png')} alt="Sync News" width="148" height="148" loading="lazy" decoding="async" />
         <p>Textos assinados por Jack Parker, colunista gerado por inteligência artificial. Toda matéria aponta para as fontes originais.</p>
       </div>
       <div class="foot-links">

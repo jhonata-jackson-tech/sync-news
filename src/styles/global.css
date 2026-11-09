@@ -35,9 +35,8 @@ h1, h2, h3 { font-family: var(--display); font-weight: var(--display-weight); le
 
 /* Logo */
 .logo { display: inline-flex; align-items: center; gap: 10px; }
-.logo-mark { width: 44px; height: 44px; overflow: visible; }
-.logo-orbit { stroke-dasharray: 90; animation: orbit-in 5s ease-in-out infinite; }
-@keyframes orbit-in { 0% { stroke-dashoffset: 90; } 30%, 100% { stroke-dashoffset: 0; } }
+.logo-mark { width: 44px; height: 44px; border-radius: 50%; box-shadow: 0 0 0 1px rgba(214, 150, 74, 0.75), 0 0 14px rgba(255, 138, 43, 0.28); }
+.foot-logo { display: block; width: 148px; height: 148px; margin-bottom: 14px; }
 .logo-word { font: 400 1.02rem/1 'Michroma', 'Bricolage Grotesque', sans-serif; letter-spacing: 0.02em; white-space: nowrap; }
 .logo-word b { font-weight: 400; color: var(--logo-a); }
 .logo-word i { font-style: normal; color: var(--glow); margin-left: 0.42em; }
