@@ -31,7 +31,7 @@ for (const segment of ['Subscribed Users', 'Total Subscriptions']) {
     included_segments: [segment],
     headings: { en: heading, pt: heading },
     contents: { en: body, pt: body },
-    url: 'https://jhonata-jackson-tech.github.io/sync-news/',
+    url: 'https://jhonata-jackson-tech.github.io/sync-news/?utm_source=push&utm_medium=notification&utm_campaign=edicao',
     idempotency_key: uuidFor(`${edition.publishedAt}:${segment}`),
   };
   if (dry) { console.log(JSON.stringify(payload, null, 2)); process.exit(0); }

@@ -14,7 +14,7 @@ const sameDay = allArticles.filter((o) => o.zone === a.zone && o.date === a.date
 const next = sameDay[sameDay.findIndex((o) => o.id === a.id) + 1];
 ---
 <Base title={a.title} description={a.dek} zone={a.zone}>
-  <article class="article" data-article data-url={a.url} data-title={`${a.title} · Sync News`}>
+  <article class="article" data-article data-url={a.url} data-title={`${a.title} · Sync News`} data-id={a.id} data-zone={a.zone} data-category={a.category} data-badge={a.badge} data-edition={a.date}>
     <figure class="article-figure">
       <div class="article-art">
         <Fragment set:html={art(a.id, a.zone)} />
