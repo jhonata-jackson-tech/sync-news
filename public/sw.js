@@ -1,3 +1,6 @@
+// O push do OneSignal roda neste mesmo worker. Se a CDN falhar, o modo offline continua funcionando.
+try { importScripts('https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js'); } catch { /* sem push nesta instalação */ }
+
 // Páginas: rede primeiro, para a edição nova aparecer. Arquivos do site: cache. Fotos externas: sempre rede.
 const VERSION = 'sync-news-v1';
 const BASE = new URL('./', self.location).pathname;

@@ -6,6 +6,7 @@ import { href, latest } from '../lib/data.js';
 
 const { title, description = 'Portal diário de IA, geopolítica, Brasil e mundo, com uma área separada para teorias e crenças.', zone = 'radar' } = Astro.props;
 const isHome = Astro.url.pathname.replace(/\/$/, '') === href('/').replace(/\/$/, '');
+const hasPush = Boolean(import.meta.env.PUBLIC_ONESIGNAL_APP_ID);
 const fullTitle = title ? `${title} · Sync News` : 'Sync News';
 const nav = [
   ['radar', 'Radar', ''],
@@ -45,7 +46,10 @@ const nav = [
     <div class="progress" data-progress aria-hidden="true"></div>
     <header class="top">
       <a class="brand" href={href('/')} aria-label="Sync News, página inicial"><Logo /></a>
-      <button class="burger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu" data-burger><span></span><span></span><span></span></button>
+      <div class="top-actions">
+        {hasPush && <button class="bell" type="button" aria-label="Ativar notificações" aria-pressed="false" data-push><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 9a6 6 0 1 0-12 0c0 6-2.5 8-2.5 8h17S18 15 18 9" /><path d="M10.3 21a2 2 0 0 0 3.4 0" /></svg></button>}
+  <button class="burger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu" data-burger><span></span><span></span><span></span></button>
+      </div>
       <nav id="menu" aria-label="Principal" data-menu>
         {nav.map(([id, label, cls]) => <a href={isHome ? `#${id}` : href(`/#${id}`)} class={cls} data-nav={id}>{label}</a>)}
       </nav>
@@ -65,6 +69,8 @@ const nav = [
         <a href={href('/edicoes')}>Arquivo</a>
       </div>
     </footer>
+    <div class="toast" data-toast role="status" aria-live="polite"></div>
     <script src="../scripts/motion.js"></script>
+    <script src="../scripts/push.js"></script>
   </body>
 </html>

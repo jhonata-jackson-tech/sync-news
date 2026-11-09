@@ -42,7 +42,7 @@ jobs:
       - name: Publicar
         run: |
           gh pr merge "$PR" --squash --match-head-commit "$SHA" --delete-branch
-          gh workflow run deploy.yml --ref main
+          gh workflow run deploy.yml --ref main -f notify=true
       - name: Avisar falha
         if: failure()
         run: |

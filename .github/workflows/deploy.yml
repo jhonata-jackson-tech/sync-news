@@ -3,6 +3,11 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      notify:
+        description: Enviar notificação da edição do dia
+        type: boolean
+        default: false
 permissions:
   contents: read
   pages: write
@@ -20,6 +25,8 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
+        env:
+          PUBLIC_ONESIGNAL_APP_ID: ${{ vars.ONESIGNAL_APP_ID }}
       - uses: actions/upload-pages-artifact@v3
         with: { path: dist }
   deploy:
@@ -31,3 +38,16 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+  notify:
+    # Só depois do site no ar, e somente quando o portão publica uma edição nova.
+    needs: deploy
+    if: github.event_name == 'workflow_dispatch' && inputs.notify
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node scripts/notify.mjs
+        env:
+          ONESIGNAL_APP_ID: ${{ vars.ONESIGNAL_APP_ID }}
+          ONESIGNAL_APP_API_KEY: ${{ secrets.ONESIGNAL_APP_API_KEY }}
