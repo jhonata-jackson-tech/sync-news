@@ -47,7 +47,7 @@ function initGlobe(canvas) {
     for (const d of dots) {
       const [x, y, z] = project(d);
       if (z < 0) continue;
-      ctx.globalAlpha = 0.14 + z * 0.5;
+      ctx.globalAlpha = 0.28 + z * 0.62;
       ctx.fillStyle = ink;
       ctx.beginPath(); ctx.arc(x, y, 0.7 + z * 0.9, 0, 7); ctx.fill();
     }
@@ -101,8 +101,25 @@ function splitWords(el) {
   return el.querySelectorAll('.w > span');
 }
 
+/* Cifra: o título nasce em símbolos e se decifra letra a letra. */
+const GLYPHS = 'ΑΒΓΔΘΛΞΠΣΦΨΩ☉☽☿♃♄⊕⋈∴';
+function decipher(el) {
+  const text = el.textContent.trim();
+  el.setAttribute('aria-label', text);
+  const state = { p: 0 };
+  const render = () => {
+    const solved = Math.floor(state.p * text.length);
+    let out = '';
+    for (let i = 0; i < text.length; i++) out += i < solved || text[i] === ' ' ? text[i] : GLYPHS[Math.floor(Math.random() * GLYPHS.length)];
+    el.textContent = out;
+  };
+  render();
+  gsap.to(state, { p: 1, duration: 1.5, ease: 'power1.inOut', onUpdate: render, onComplete: () => { el.textContent = text; }, scrollTrigger: { trigger: el, start: 'top 88%', once: true } });
+}
+
 function initMotion() {
-  document.querySelectorAll('[data-split]').forEach((el) => {
+  document.querySelectorAll('[data-cipher]').forEach(decipher);
+  document.querySelectorAll('[data-split]:not([data-cipher])').forEach((el) => {
     gsap.from(splitWords(el), { yPercent: 115, duration: 0.85, ease: 'expo.out', stagger: 0.035, delay: 0.1 });
   });
   gsap.utils.toArray('[data-reveal]').forEach((el) => {
@@ -117,10 +134,12 @@ function initMotion() {
   const gate = document.querySelector('[data-gate]');
   if (gate) {
     const iris = gate.querySelector('[data-iris]');
-    gsap.fromTo(iris, { clipPath: 'circle(6% at 50% 50%)' }, { clipPath: 'circle(120% at 50% 50%)', ease: 'none', scrollTrigger: { trigger: gate, start: 'top 85%', end: 'center 45%', scrub: 0.6 } });
-    gsap.from(gate.querySelector('.gate-copy'), { y: 50, autoAlpha: 0, ease: 'none', scrollTrigger: { trigger: gate, start: 'top 45%', end: 'center 55%', scrub: 0.6 } });
-    gsap.to(gate.querySelector('.sigil'), { rotate: 120, ease: 'none', scrollTrigger: { trigger: gate, start: 'top bottom', end: 'bottom top', scrub: 1 } });
+    gsap.fromTo(iris, { clipPath: 'circle(8% at 50% 46%)' }, { clipPath: 'circle(120% at 50% 46%)', ease: 'none', scrollTrigger: { trigger: gate, start: 'top 90%', end: 'center 50%', scrub: 0.6 } });
+    gsap.fromTo(iris.querySelector('img'), { scale: 1.28 }, { scale: 1, ease: 'none', scrollTrigger: { trigger: gate, start: 'top bottom', end: 'bottom 60%', scrub: 0.6 } });
   }
+  gsap.utils.toArray('[data-thread]').forEach((thread) => {
+    gsap.fromTo(thread, { scaleY: 0 }, { scaleY: 1, ease: 'none', scrollTrigger: { trigger: thread.parentNode, start: 'top 75%', end: 'bottom 75%', scrub: 0.5 } });
+  });
   const art = document.querySelector('.article-art img') ?? document.querySelector('.article-art .art');
   if (art) gsap.to(art, { yPercent: 16, ease: 'none', scrollTrigger: { trigger: '.article-art', start: 'top top', end: 'bottom top', scrub: true } });
 }
@@ -178,7 +197,7 @@ function teardown() {
 }
 
 /* ---------- Atravessar o véu ---------- */
-const inVeil = (path) => /\/entrelinhas(\/|$)/.test(path);
+const inVeil = (path) => /\/arcanum(\/|$)/.test(path);
 let crossing = false;
 
 document.addEventListener('astro:before-preparation', (e) => {

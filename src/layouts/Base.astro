@@ -1,13 +1,14 @@
 ---
 import { ClientRouter } from 'astro:transitions';
 import '../styles/global.css';
+import Logo from '../components/Logo.astro';
 import { href, latest } from '../lib/data.js';
 
 const { title, description = 'Portal diário de IA, geopolítica, Brasil e mundo, com uma área separada para teorias e crenças.', zone = 'radar' } = Astro.props;
 const fullTitle = title ? `${title} · Sync News` : 'Sync News';
 const nav = [
   ['/radar', 'Radar', ''],
-  ['/entrelinhas', 'Entrelinhas', 'veil-link'],
+  ['/arcanum', 'Arcanum', 'veil-link'],
   ['/pilula', 'Pílula do Dia', ''],
   ['/edicoes', 'Edições', ''],
   ['/fontes', 'Fontes', ''],
@@ -21,17 +22,20 @@ const nav = [
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230a1620'/%3E%3Ccircle cx='16' cy='16' r='9' fill='none' stroke='%2300d4ff' stroke-width='2.5'/%3E%3Ccircle cx='16' cy='16' r='3.5' fill='%23e3bd68'/%3E%3C/svg%3E" />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={new URL(href('/brand/hero.jpg'), Astro.site).href} />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23070d18'/%3E%3Ccircle cx='32' cy='32' r='18' fill='%230f2a47'/%3E%3Cpath d='M38 15a18 18 0 0 1 11 24' fill='none' stroke='%23ff8a2b' stroke-width='3'/%3E%3Cpath d='M6 46C18 54 44 40 58 16' fill='none' stroke='%23fff' stroke-width='3.4' stroke-linecap='round'/%3E%3C/svg%3E" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=JetBrains+Mono:wght@500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Cinzel:wght@500;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Michroma&family=JetBrains+Mono:wght@500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet" />
     <ClientRouter />
   </head>
   <body>
     <a class="skip" href="#conteudo">Pular para o conteúdo</a>
     <div class="progress" data-progress aria-hidden="true"></div>
     <header class="top">
-      <a class="brand" href={href('/')} aria-label="Sync News, página inicial"><span class="pulse" aria-hidden="true"></span>SYNC<em>/</em>NEWS</a>
+      <a class="brand" href={href('/')} aria-label="Sync News, página inicial"><Logo /></a>
       <nav aria-label="Principal">
         {nav.map(([p, label, cls]) => <a href={href(p)} class={cls}>{label}</a>)}
       </nav>
@@ -42,7 +46,7 @@ const nav = [
     <main id="conteudo"><slot /></main>
     <footer class="foot">
       <div>
-        <strong class="foot-brand">SYNC/NEWS</strong>
+        <Logo />
         <p>Textos assinados por Jack Parker, colunista gerado por inteligência artificial. Toda matéria aponta para as fontes originais.</p>
       </div>
       <div class="foot-links">

@@ -1,0 +1,6 @@
+---
+import Mosaic from './Mosaic.astro';
+import Dossier from './Dossier.astro';
+const { items } = Astro.props;
+---
+{items[0]?.zone === 'veu' ? <Dossier items={items} /> : <Mosaic items={items} />}

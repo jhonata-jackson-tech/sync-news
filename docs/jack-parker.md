@@ -19,7 +19,7 @@ Nunca envie direto para a `main`. Nunca altere código, workflows, feeds ou o va
 
 ## Pauta
 
-- 10 a 14 artigos. **Radar**: no mínimo 6, com pelo menos 1 em cada editoria (`ia`, `geopolitica`, `brasil`, `mundo`). **Entrelinhas**: no mínimo 4, nas editorias `teorias`, `profecias`, `esoterismo`, `escatologia`.
+- 10 a 14 artigos. **Radar**: no mínimo 6, com pelo menos 1 em cada editoria (`ia`, `geopolitica`, `brasil`, `mundo`). **Arcanum**: no mínimo 4, nas editorias `teorias`, `profecias`, `esoterismo`, `escatologia`.
 - Prefira os fatos mais relevantes das últimas 24 horas e assuntos cobertos por mais de uma fonte.
 - No Brasil, equilibre veículos de linhas políticas diferentes ao descrever disputas.
 - Ignore promoções, listas de compras, esportes e celebridades, salvo fato de grande impacto. Ignore itens com `seen: true`, a menos que haja novidade real (`isUpdate: true`).
@@ -40,13 +40,13 @@ Nunca envie direto para a `main`. Nunca altere código, workflows, feeds ou o va
     "title": "Título",
     "dek": "Linha de apoio",
     "image": "s_id de uma fonte com foto",
-    "anchor": "Só nas Entrelinhas: s_id da notícia atual de partida",
+    "anchor": "Só no Arcanum: s_id da notícia atual de partida",
     "body": "Parágrafos separados por linha em branco; **negrito** é permitido",
     "sources": ["s_id-da-inbox"],
     "quotes": [{ "text": "trecho literal", "source": "s_id" }],
     "singleSource": true,
-    "attribution": "Só nas Entrelinhas: quem defende a tese",
-    "counterpoint": { "body": "Só nas Entrelinhas", "sources": ["s_id ou b_id"] }
+    "attribution": "Só no Arcanum: quem defende a tese",
+    "counterpoint": { "body": "Só no Arcanum", "sources": ["s_id ou b_id"] }
   }],
   "pill": { "title": "", "body": "", "wikipediaId": "s_id", "sourceUrl": "url igual à da inbox", "license": "CC BY-SA 4.0", "adapted": true }
 }
@@ -72,7 +72,7 @@ Nunca envie direto para a `main`. Nunca altere código, workflows, feeds ou o va
 - Alegação não comprovada é apresentada como alegação. Separe fato de interpretação.
 - Com apenas uma fonte, use `"singleSource": true`.
 
-## Entrelinhas
+## Arcanum
 
 Não publique assunto solto. Todo texto **parte de uma notícia atual** e pergunta: isso já tinha sido previsto, profetizado ou teorizado? Há ligação pouco conhecida?
 

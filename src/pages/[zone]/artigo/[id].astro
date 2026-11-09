@@ -1,6 +1,6 @@
 ---
 import Base from '../../../layouts/Base.astro';
-import Card from '../../../components/Card.astro';
+import ArticleList from '../../../components/ArticleList.astro';
 import { BADGES, ZONES } from '../../../../lib/taxonomy.mjs';
 import { allArticles, prose, longDate, clock, href } from '../../../lib/data.js';
 import { art } from '../../../lib/art.js';
@@ -22,7 +22,7 @@ const related = allArticles.filter((o) => o.zone === a.zone && o.id !== a.id && 
       </div>
       {a.photo && <figcaption>Imagem: reprodução de <a href={a.photo.url} rel="noopener" target="_blank">{a.photo.source}</a></figcaption>}
     </figure>
-    {belief && <p class="veil-banner"><strong>Entrelinhas.</strong> Este texto apresenta teorias, previsões ou crenças ligadas a um fato atual. Não é notícia verificada.</p>}
+    {belief && <p class="veil-banner"><strong>Arcanum.</strong> Este texto apresenta teorias, previsões ou crenças ligadas a um fato atual. Não é notícia verificada.</p>}
     {a.anchorSource && <p class="anchor">Ponto de partida: <a href={a.anchorSource.url} rel="noopener" target="_blank">{a.anchorSource.source}: {a.anchorSource.title}</a></p>}
     <header class="article-head">
       <div class="meta">
@@ -50,5 +50,5 @@ const related = allArticles.filter((o) => o.zone === a.zone && o.id !== a.id && 
       <ul>{a.sourceList.map((s) => <li><a href={s.url} rel="noopener" target="_blank">{s.source}: {s.title}</a></li>)}</ul>
     </section>
   </article>
-  {related.length > 0 && <section class="wrap"><header class="section-head"><h2>Na mesma zona, hoje</h2></header><div class="grid">{related.map((r) => <Card a={r} />)}</div></section>}
+  {related.length > 0 && <section class="wrap"><header class="section-head"><h2>Na mesma zona, hoje</h2></header><ArticleList items={related} /></section>}
 </Base>

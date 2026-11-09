@@ -1,24 +1,25 @@
 ---
 import Base from '../layouts/Base.astro';
-import Card from '../components/Card.astro';
+import ArticleList from '../components/ArticleList.astro';
 import Pill from '../components/Pill.astro';
 import { latest, byZone, longDate, clock, prose, href } from '../lib/data.js';
 const radar = byZone(latest, 'radar');
 const veu = byZone(latest, 'veu');
-const ticker = latest.articles.filter((a) => a.zone === 'radar').map((a) => a.title);
+const ticker = radar.map((a) => a.title);
 ---
 <Base description={latest.overview.title}>
   <section class="hero">
+    <canvas class="globe" data-globe aria-hidden="true"></canvas>
     <div class="hero-copy">
       <p class="eyebrow">Edição de {longDate(latest.date)}</p>
       <h1 data-split>{latest.overview.title}</h1>
       <p class="byline">Por <strong>Jack Parker (IA)</strong> · publicado às {clock(latest.publishedAt)}</p>
       <div class="hero-doors">
         <a class="door" href="#radar">Radar <span>notícias e análises</span></a>
-        <a class="door door-veil" href={href('/entrelinhas')}>Entrelinhas <span>teorias e conexões</span></a>
+        <a class="door door-veil" href={href('/arcanum')}>Arcanum <span>teorias e conexões</span></a>
       </div>
     </div>
-    <canvas class="globe" data-globe aria-hidden="true"></canvas>
+    <p class="hud" aria-hidden="true">23°33′S 46°38′W<br />SINAL ATIVO</p>
   </section>
 
   <div class="ticker" aria-hidden="true"><div class="ticker-track" data-ticker>
@@ -42,37 +43,24 @@ const ticker = latest.articles.filter((a) => a.zone === 'radar').map((a) => a.ti
       <h2>Radar</h2>
       <p class="zone-note">Inteligência artificial, geopolítica, Brasil e mundo.</p>
     </header>
-    <div class="grid">{radar.map((a, i) => <Card a={a} feature={i === 0} />)}</div>
+    <ArticleList items={radar} />
   </section>
 
-  <section class="wrap">
-    <Pill pill={latest.pill} date={latest.date} teaser />
-  </section>
+  <section class="pill-band"><Pill pill={latest.pill} date={latest.date} teaser /></section>
 
   <section class="gate" data-gate aria-label="Fronteira entre as zonas">
-    <div class="gate-iris" data-iris>
-      <svg class="sigil" viewBox="0 0 200 200" aria-hidden="true">
-        <circle cx="100" cy="100" r="92" /><circle cx="100" cy="100" r="70" /><circle cx="100" cy="100" r="26" />
-        {Array.from({ length: 36 }, (_, i) => <line x1="100" y1="8" x2="100" y2={i % 3 ? 16 : 30} transform={`rotate(${i * 10} 100 100)`} />)}
-        {Array.from({ length: 9 }, (_, i) => <ellipse cx="100" cy="100" rx="70" ry="24" transform={`rotate(${i * 20} 100 100)`} />)}
-      </svg>
-      <div class="gate-copy">
-        <p class="eyebrow">Fronteira</p>
-        <h2>Daqui em diante, o chão muda.</h2>
-        <p>As notícias de hoje, ligadas a previsões, profecias e teorias. Nada abaixo é notícia verificada, e cada texto traz um contraponto.</p>
-      </div>
-    </div>
+    <div class="gate-iris" data-iris><img src={href('/brand/hero.jpg')} alt="" /></div>
   </section>
 
   <div class="z-veu veil-band">
     <section class="wrap">
-      <header class="section-head" data-reveal>
+      <header class="section-head arcanum-head" data-reveal>
         <p class="eyebrow">Zona 2 · Teorias e conexões</p>
-        <h2>Entrelinhas</h2>
-        <p class="zone-note">O que já tinha sido previsto, profetizado ou teorizado sobre o que está acontecendo agora.</p>
+        <h2 data-cipher>Arcanum</h2>
+        <p class="zone-note">Nada aqui é notícia verificada. Cada documento parte de um fato de hoje e segue o fio até o que já tinha sido previsto, profetizado ou teorizado.</p>
       </header>
-      <div class="grid">{veu.map((a, i) => <Card a={a} feature={i === 0} />)}</div>
-      <p class="more"><a href={href('/entrelinhas')}>Ler nas entrelinhas →</a></p>
+      <ArticleList items={veu} />
+      <p class="more"><a href={href('/arcanum')}>Abrir o Arcanum →</a></p>
     </section>
   </div>
 </Base>
