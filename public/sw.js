@@ -2,7 +2,7 @@
 try { importScripts('https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.sw.js'); } catch { /* sem push nesta instalação */ }
 
 // Páginas: rede primeiro, para a edição nova aparecer. Arquivos do site: cache. Fotos externas: sempre rede.
-const VERSION = 'sync-news-v1';
+const VERSION = 'sync-news-v2';
 const BASE = new URL('./', self.location).pathname;
 const SHELL = [BASE, `${BASE}offline/`, `${BASE}manifest.webmanifest`, `${BASE}icons/icon-192.png`];
 const FONT_HOSTS = ['fonts.googleapis.com', 'fonts.gstatic.com'];
