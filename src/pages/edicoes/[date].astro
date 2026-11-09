@@ -18,6 +18,6 @@ const { ed } = Astro.props;
     </div>
   </section>
   <section class="wrap"><header class="section-head"><h2>Radar</h2></header><ArticleList items={byZone(ed, 'radar')} /></section>
-  <section class="wrap"><Pill pill={ed.pill} date={ed.date} /></section>
+  <section class="wrap" id="pilula" data-section><Pill pill={ed.pill} date={ed.date} /></section>
   <div class="z-veu veil-band"><section class="wrap"><header class="section-head"><h2>Arcanum</h2><p class="zone-note">Teorias e conexões, não notícias verificadas.</p></header><ArticleList items={byZone(ed, 'veu')} /></section></div>
 </Base>
