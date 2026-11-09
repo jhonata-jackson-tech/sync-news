@@ -1,4 +1,6 @@
 // Notificações via OneSignal: nada é pedido ao leitor sem ele tocar no sino.
+import { track } from './analytics.js';
+
 const APP_ID = import.meta.env.PUBLIC_ONESIGNAL_APP_ID;
 let client = null;
 
@@ -30,7 +32,10 @@ if (APP_ID) {
         promptOptions: { slidedown: { prompts: [{ type: 'push', autoPrompt: false }] } },
       });
       client = OneSignal;
-      OneSignal.User.PushSubscription.addEventListener('change', paintBell);
+      OneSignal.User.PushSubscription.addEventListener('change', ({ previous, current }) => {
+        paintBell();
+        if (Boolean(previous?.optedIn) !== Boolean(current?.optedIn)) track(current?.optedIn ? 'push_opt_in' : 'push_opt_out');
+      });
       paintBell();
     } catch (e) { console.warn('Push indisponível', e); }
   });

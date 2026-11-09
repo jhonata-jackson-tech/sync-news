@@ -79,6 +79,10 @@ const nav = [
           <span>Notificações push<small>Aviso a cada edição nova</small></span>
           <button class="switch" type="button" role="switch" aria-checked="false" aria-label="Notificações push" data-push><span></span></button>
         </div>}
+        <div class="setting">
+          <span>Estatísticas de uso<small>Ajuda a saber o que é mais lido</small></span>
+          <button class="switch" type="button" role="switch" aria-checked="true" aria-label="Estatísticas de uso" data-analytics><span></span></button>
+        </div>
       </section>
     </header>
     <div class="stale" data-stale data-latest={latest?.date} hidden>
@@ -100,5 +104,6 @@ const nav = [
     <script src="../scripts/motion.js"></script>
     <script src="../scripts/push.js"></script>
     <script src="../scripts/center.js"></script>
+    <script src="../scripts/analytics.js"></script>
   </body>
 </html>
