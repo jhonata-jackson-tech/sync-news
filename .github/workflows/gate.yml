@@ -45,4 +45,5 @@ jobs:
           gh workflow run deploy.yml --ref main
       - name: Avisar falha
         if: failure()
-        run: gh issue create --title "Edição reprovada no portão (PR #$PR)" --body "A validação falhou. Veja os logs em $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID. A edição anterior continua no ar."
+        run: |
+          gh issue create --title "Edição reprovada no portão (PR $PR)" --body "A validação falhou. Veja os logs em $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID. A edição anterior continua no ar."
