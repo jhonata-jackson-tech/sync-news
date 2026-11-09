@@ -43,7 +43,7 @@ h1, h2, h3 { font-family: var(--display); font-weight: var(--display-weight); le
 .logo-word i { font-style: normal; color: var(--glow); margin-left: 0.42em; }
 
 /* Topo */
-.top { position: sticky; top: 0; z-index: 50; display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: 8px clamp(16px, 4vw, 48px); background: var(--header); backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); }
+.top { position: sticky; top: 0; z-index: 50; display: flex; align-items: center; justify-content: space-between; gap: 20px; padding: calc(8px + env(safe-area-inset-top)) clamp(16px, 4vw, 48px) 8px; background: var(--header); backdrop-filter: blur(14px); border-bottom: 1px solid var(--line); }
 .brand { text-decoration: none; display: inline-flex; }
 .top nav { display: flex; gap: 4px; font-size: 0.78rem; overflow-x: auto; scrollbar-width: none; }
 .top nav::-webkit-scrollbar { display: none; }
@@ -51,6 +51,20 @@ h1, h2, h3 { font-family: var(--display); font-weight: var(--display-weight); le
 .top nav a:hover { background: color-mix(in srgb, var(--glow) 22%, transparent); }
 .top nav a.veil-link { background: #e7d9bd; color: #22180e; font-weight: 700; }
 html[data-zone='veu'] .top nav a.veil-link { background: #22180e; color: #e7d9bd; }
+.top nav a[aria-current] { box-shadow: inset 0 -2px 0 var(--glow); }
+.burger { display: none; flex-direction: column; justify-content: center; gap: 5px; width: 44px; height: 44px; padding: 10px; background: none; border: 0; color: var(--ink); cursor: pointer; }
+.burger span { display: block; height: 2px; background: currentColor; transition: transform 0.3s ease, opacity 0.2s ease; }
+[aria-expanded='true'].burger span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+[aria-expanded='true'].burger span:nth-child(2) { opacity: 0; }
+[aria-expanded='true'].burger span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+[data-section] { scroll-margin-top: 66px; }
+.next-article { margin-top: 44px; padding: 24px 0 8px; border-top: 3px solid var(--glow); }
+.next-article .eyebrow { margin-bottom: 6px; }
+.next-article a { font: var(--display-weight) clamp(1.4rem, 3vw, 2rem)/1.2 var(--display); text-decoration: none; }
+.next-article a:hover { color: var(--accent); }
+.article + .article { margin-top: 30px; }
+.source-box h3, .about .prose h3 { font-size: 1.35rem; margin: 0 0 8px; }
+.about .prose h3 { font-size: 1.7rem; margin: 1.2em 0 0.4em; }
 .stale { position: relative; z-index: 1; padding: 8px 16px; text-align: center; font-size: 0.9rem; background: var(--glow); color: #120a03; }
 
 /* Hero: manchete sobre o globo */
@@ -250,8 +264,12 @@ html.veil-cross::view-transition-new(root) { animation: veil-in 1.25s cubic-bezi
 @keyframes veil-in { from { clip-path: circle(0% at 50% 50%); filter: brightness(1.6); } to { clip-path: circle(150% at 50% 50%); filter: brightness(1); } }
 
 @media (max-width: 900px) {
-  .top { flex-direction: column; align-items: flex-start; gap: 2px; padding-block: 6px; }
-  .top nav { width: 100%; }
+  .burger { display: inline-flex; }
+  .top nav { position: absolute; top: 100%; left: 0; right: 0; height: calc(100dvh - 60px); flex-direction: column; gap: 0; padding: 12px 16px 40px; background: var(--bg); overflow-y: auto; visibility: hidden; clip-path: inset(0 0 100% 0); transition: clip-path 0.35s ease, visibility 0.35s; }
+  .menu-open .top nav { visibility: visible; clip-path: inset(0); }
+  .menu-open, .menu-open body { overflow: hidden; }
+  .top nav a { padding: 16px 8px; border-bottom: 1px solid var(--line); border-radius: 0; font: 700 1.7rem/1.1 var(--display); }
+  .top nav a.veil-link, html[data-zone='veu'] .top nav a.veil-link { background: none; color: var(--accent); font-family: 'Cinzel', serif; }
   .hero { min-height: 0; padding-top: 48vw; }
   .globe { top: -8vw; right: -14vw; width: 96vw; transform: none; }
   .hud { display: none; }

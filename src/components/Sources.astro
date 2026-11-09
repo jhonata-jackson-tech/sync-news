@@ -1,0 +1,11 @@
+---
+import feeds from '../../data/feeds.json';
+const groups = [
+  ['Inteligência Artificial', 'ia', 'Radar'], ['Geopolítica', 'geopolitica', 'Radar'], ['Mundo', 'mundo', 'Radar'], ['Brasil', 'brasil', 'Radar'],
+  ['Checagem de fatos', 'checagem', 'Contrapontos'], ['Escatologia e fé', 'escatologia', 'Arcanum'], ['Teorias e contranarrativas', 'teorias', 'Arcanum'],
+];
+---
+<p class="intro">O coletor lê estes canais todas as manhãs. Estar na lista significa ser lido, não ser endossado. As fontes do Arcanum expressam crenças e opiniões dos próprios autores.</p>
+<div class="source-grid">
+  {groups.map(([name, key, zone]) => <div class="source-box" data-reveal><p class="eyebrow">{zone}</p><h3>{name}</h3><ul>{feeds[key].map(([n]) => <li>{n}</li>)}</ul></div>)}
+</div>

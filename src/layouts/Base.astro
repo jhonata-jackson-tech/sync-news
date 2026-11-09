@@ -5,27 +5,36 @@ import Logo from '../components/Logo.astro';
 import { href, latest } from '../lib/data.js';
 
 const { title, description = 'Portal diário de IA, geopolítica, Brasil e mundo, com uma área separada para teorias e crenças.', zone = 'radar' } = Astro.props;
+const isHome = Astro.url.pathname.replace(/\/$/, '') === href('/').replace(/\/$/, '');
 const fullTitle = title ? `${title} · Sync News` : 'Sync News';
 const nav = [
-  ['/radar', 'Radar', ''],
-  ['/arcanum', 'Arcanum', 'veil-link'],
-  ['/pilula', 'Pílula do Dia', ''],
-  ['/edicoes', 'Edições', ''],
-  ['/fontes', 'Fontes', ''],
-  ['/sobre', 'Sobre', ''],
+  ['radar', 'Radar', ''],
+  ['pilula', 'Pílula do Dia', ''],
+  ['arcanum', 'Arcanum', 'veil-link'],
+  ['edicoes', 'Edições', ''],
+  ['fontes', 'Fontes', ''],
+  ['sobre', 'Sobre', ''],
 ];
 ---
 <!doctype html>
 <html lang="pt-BR" data-zone={zone}>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content={zone === 'veu' ? '#e7d9bd' : '#070d18'} />
+    <link rel="manifest" href={href('/manifest.webmanifest')} />
+    <link rel="apple-touch-icon" href={href('/icons/apple-touch-icon.png')} />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Sync News" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
     <meta property="og:title" content={fullTitle} />
     <meta property="og:description" content={description} />
     <meta property="og:image" content={new URL(href('/brand/hero.jpg'), Astro.site).href} />
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23070d18'/%3E%3Ccircle cx='32' cy='32' r='18' fill='%230f2a47'/%3E%3Cpath d='M38 15a18 18 0 0 1 11 24' fill='none' stroke='%23ff8a2b' stroke-width='3'/%3E%3Cpath d='M6 46C18 54 44 40 58 16' fill='none' stroke='%23fff' stroke-width='3.4' stroke-linecap='round'/%3E%3C/svg%3E" />
+    <link rel="icon" type="image/svg+xml" href={href('/icon.svg')} />
+    <link rel="icon" type="image/png" sizes="32x32" href={href('/icons/favicon-32.png')} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Cinzel:wght@500;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Michroma&family=JetBrains+Mono:wght@500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet" />
@@ -36,8 +45,9 @@ const nav = [
     <div class="progress" data-progress aria-hidden="true"></div>
     <header class="top">
       <a class="brand" href={href('/')} aria-label="Sync News, página inicial"><Logo /></a>
-      <nav aria-label="Principal">
-        {nav.map(([p, label, cls]) => <a href={href(p)} class={cls}>{label}</a>)}
+      <button class="burger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu" data-burger><span></span><span></span><span></span></button>
+      <nav id="menu" aria-label="Principal" data-menu>
+        {nav.map(([id, label, cls]) => <a href={isHome ? `#${id}` : href(`/#${id}`)} class={cls} data-nav={id}>{label}</a>)}
       </nav>
     </header>
     <div class="stale" data-stale data-latest={latest?.date} hidden>

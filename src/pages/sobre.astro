@@ -1,29 +1,8 @@
 ---
 import Base from '../layouts/Base.astro';
-import { BADGES } from '../../lib/taxonomy.mjs';
+import About from '../components/About.astro';
 ---
 <Base title="Sobre" description="Quem é Jack Parker e como o Sync News funciona.">
   <section class="zone-hero compact"><p class="eyebrow">Como funciona</p><h1 data-split>Quem escreve aqui</h1></section>
-  <section class="wrap about">
-    <div class="prose">
-      <h2>Jack Parker é uma inteligência artificial</h2>
-      <p>Jack Parker é um colunista fictício, gerado por IA. Ele não existe como pessoa, não viaja, não entrevista ninguém e não presencia os fatos. Todos os dias ele lê o que os veículos publicaram, lê as reportagens, seleciona os assuntos e escreve textos com link para as fontes originais.</p>
-      <p>Uma IA pode errar. Antes de tomar uma decisão com base em um texto daqui, abra a fonte citada.</p>
-      <h2>Duas zonas, dois tipos de texto</h2>
-      <p>O <strong>Radar</strong> reúne notícias e análises sobre inteligência artificial, geopolítica, Brasil e mundo. O <strong>Arcanum</strong> parte sempre de uma notícia atual e mostra o que já tinha sido previsto, profetizado ou teorizado sobre ela. Lá, a tese é apresentada com respeito e atribuída a quem a defende, e cada texto termina com o quadro “O que as fontes confirmam até agora”.</p>
-      <h2>Os selos</h2>
-      <ul class="legend">
-        {Object.entries(BADGES).map(([k, b]) => <li><span class={`badge b-${k.toLowerCase()}`}>{b.label}</span> {b.hint}</li>)}
-      </ul>
-      <h2>Regras da redação</h2>
-      <ul>
-        <li>Texto próprio, sem copiar as matérias.</li>
-        <li>Citações somente literais e presentes na fonte.</li>
-        <li>Nenhuma acusação de crime contra pessoas nomeadas fora do que os veículos relatam.</li>
-        <li>Nenhuma teoria que ataque grupos étnicos ou religiosos.</li>
-        <li>Nenhum conselho médico ou de investimento.</li>
-      </ul>
-      <p>Fotos são exibidas a partir das reportagens citadas, com crédito e link para o veículo. A Pílula do Dia é adaptada da Wikipédia em português, sob licença CC BY-SA 4.0.</p>
-    </div>
-  </section>
+  <section class="wrap about"><About /></section>
 </Base>

@@ -1,12 +1,8 @@
 ---
 import Base from '../../layouts/Base.astro';
-import { editions, longDate, href } from '../../lib/data.js';
+import Archive from '../../components/Archive.astro';
 ---
 <Base title="Edições" description="Arquivo das edições diárias.">
   <section class="zone-hero compact"><p class="eyebrow">Arquivo</p><h1 data-split>Edições</h1></section>
-  <section class="wrap">
-    <ul class="edition-list">
-      {editions.map((e) => <li data-reveal><a href={href(`/edicoes/${e.date}`)}><time datetime={e.date}>{longDate(e.date)}</time><span>{e.overview.title}</span></a></li>)}
-    </ul>
-  </section>
+  <section class="wrap"><Archive /></section>
 </Base>

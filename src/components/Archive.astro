@@ -1,0 +1,6 @@
+---
+import { editions, longDate, href } from '../lib/data.js';
+---
+<ul class="edition-list">
+  {editions.map((e) => <li data-reveal><a href={href(`/edicoes/${e.date}`)}><time datetime={e.date}>{longDate(e.date)}</time><span>{e.overview.title}</span></a></li>)}
+</ul>
