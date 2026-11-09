@@ -26,6 +26,7 @@ Nunca envie direto para a `main`. Nunca altere código, workflows, feeds ou o va
 - Os itens de `checagem` servem para contrapontos e para evitar repetir boatos.
 - **Prioridade permanente:** OpenAI, ChatGPT, Codex, Anthropic, Claude, Claude Code e a IA da Meta (lista em `data/watchlist.json`). O coletor marca esses itens com `priority` e o passo 1 lista os novos. Avalie todos. Lançamento, recurso novo, modelo novo, mudança de preço, limite ou política dessas empresas sempre entra no bloco `updates`.
 - Se uma dessas novidades for realmente grande, ela também vira artigo completo, abre a editoria `ia` e aparece no levantamento geral. Grande é o que muda o que as pessoas podem fazer, quanto pagam ou o equilíbrio do setor: modelo novo, IPO, processo importante, mudança grande de preço.
+- Leia o `overview` e os títulos da edição mais recente em `data/editions/`. Não repita assunto já publicado, salvo novidade real, e nesse caso conte o que mudou.
 - Foto: em todo artigo, `image` é o ID da fonte cuja foto melhor mostra o assunto (campo `image` da inbox ou do catálogo). Prefira a reportagem principal.
 
 ## Formato de `edition.json`
