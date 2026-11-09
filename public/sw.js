@@ -46,6 +46,7 @@ self.addEventListener('fetch', (e) => {
   const url = new URL(req.url);
   if (FONT_HOSTS.includes(url.hostname)) { e.respondWith(staleWhileRevalidate(req)); return; }
   if (url.origin !== self.location.origin || !url.pathname.startsWith(BASE)) return;
+  if (url.pathname.endsWith('notificacoes.json')) { e.respondWith(networkFirst(req)); return; }
   if (req.mode === 'navigate' || req.headers.get('accept')?.includes('text/html')) { e.respondWith(networkFirst(req)); return; }
   e.respondWith(staleWhileRevalidate(req));
 });

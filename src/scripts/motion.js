@@ -257,6 +257,11 @@ function boot() {
   if (globe) initGlobe(globe);
   if (!reduced()) initMotion();
   ScrollTrigger.refresh();
+  // Ao chegar de outra página com #seção, desce até o ponto exato.
+  if (location.hash) {
+    const target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
+    if (target) requestAnimationFrame(() => { target.scrollIntoView({ behavior: 'instant' }); ScrollTrigger.refresh(); });
+  }
 }
 
 function teardown() {

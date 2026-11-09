@@ -6,9 +6,10 @@ import { join } from 'node:path';
 import { createHash } from 'node:crypto';
 import { XMLParser } from 'fast-xml-parser';
 import { todayBRT } from '../lib/taxonomy.mjs';
+import { compileWatchlist, matchWatch } from '../lib/watchlist.mjs';
 
 const UA = 'Mozilla/5.0 (compatible; SyncNewsBot/1.0)';
-const MAX_PER_FEED = 12, SNIPPET = 600, MAX_AGE_DAYS = 4, SEEN_DAYS = 14;
+const MAX_PER_FEED = 12, SNIPPET = 600, RELEASE_NOTES = 1500, MAX_AGE_DAYS = 4, SEEN_DAYS = 14;
 const PROMO = /promo[cç][aã]o|black friday|\bofertas?\b|desconto|% mais barato|melhores .* para comprar|^\d+ melhores/i;
 const today = todayBRT();
 const inboxDir = 'data/inbox';
@@ -41,8 +42,8 @@ function entries(doc) {
   });
 }
 
-async function fetchText(url) {
-  const res = await fetch(url, { headers: { 'user-agent': UA, accept: '*/*' }, redirect: 'follow', signal: AbortSignal.timeout(20_000) });
+async function fetchText(url, headers = {}) {
+  const res = await fetch(url, { headers: { 'user-agent': UA, accept: '*/*', ...headers }, redirect: 'follow', signal: AbortSignal.timeout(20_000) });
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   // Alguns feeds (Folha) vêm em ISO-8859-1; o encoding real está no prólogo XML.
   const bytes = new Uint8Array(await res.arrayBuffer());
@@ -52,7 +53,7 @@ async function fetchText(url) {
   return new TextDecoder(declared ?? header ?? 'utf-8').decode(bytes);
 }
 
-const BAD_IMAGE = /logo|placeholder|default|avatar|favicon|sprite|poster-1024x576|blank|\.svg(\?|$)/i;
+const BAD_IMAGE = /logo|placeholder|default|avatar|favicon|sprite|poster-1024x576|blank|githubassets|\.svg(\?|$)/i;
 const okImage = (u) => (typeof u === 'string' && /^https:\/\/[^\s"'<>]+$/.test(u) && !BAD_IMAGE.test(u) ? u : null);
 
 /** Foto da própria matéria: og:image em boa resolução. */
@@ -81,6 +82,40 @@ async function attachImages(items) {
   for (const it of items) if (count.get(it.image) >= 3) it.image = null;
 }
 
+const metaContent = (html, name) => {
+  const tag = new RegExp(`<meta[^>]+(?:property|name)=["']${name}["'][^>]*>`, 'i').exec(html)?.[0];
+  return tag ? clean(/content=["']([^"']*)["']/i.exec(tag)?.[1] ?? '') : '';
+};
+
+/** Última versão estável de um projeto no GitHub. O feed público só mostra as versões de teste mais recentes. */
+async function releaseEntries(job) {
+  const headers = { accept: 'application/vnd.github+json', ...(process.env.GITHUB_TOKEN ? { authorization: `Bearer ${process.env.GITHUB_TOKEN}` } : {}) };
+  const r = JSON.parse(await fetchText(job.url, headers));
+  if (r.draft || r.prerelease) return [];
+  return [{ title: `${job.opts.release} ${r.name || r.tag_name}`, link: r.html_url, publishedAt: r.published_at, image: null, snippet: clean(r.body).slice(0, RELEASE_NOTES) }];
+}
+
+/** Para sites sem feed: páginas recentes do sitemap. A data vale pela página, pois o sitemap muda quando um texto antigo é editado. */
+async function sitemapEntries(job) {
+  const cutoff = Date.now() - MAX_AGE_DAYS * 86_400_000;
+  const urls = arr(parser.parse(await fetchText(job.url)).urlset?.url)
+    .filter((u) => val(u.loc).includes(job.opts.sitemap) && Date.parse(val(u.lastmod)) >= cutoff)
+    .map((u) => val(u.loc));
+  const pages = await Promise.all(urls.slice(0, MAX_PER_FEED).map(async (link) => {
+    try {
+      const html = (await fetchText(link)).slice(0, 250_000);
+      return { title: metaContent(html, 'og:title'), link, publishedAt: metaContent(html, 'article:published_time'), image: null, snippet: metaContent(html, 'og:description') };
+    } catch { return null; }
+  }));
+  return pages.filter((p) => p?.publishedAt);
+}
+
+async function loadFeed(job) {
+  if (job.opts?.release) return retry(() => releaseEntries(job));
+  if (job.opts?.sitemap) return retry(() => sitemapEntries(job));
+  return entries(parser.parse(await retry(() => fetchText(job.url))));
+}
+
 async function retry(fn) {
   try { return await fn(); } catch { await new Promise((r) => setTimeout(r, 2000)); return fn(); }
 }
@@ -98,15 +133,12 @@ function seenLinks() {
 
 async function collectFeeds() {
   const feeds = JSON.parse(readFileSync('data/feeds.json', 'utf8'));
-  const jobs = Object.entries(feeds).flatMap(([category, list]) => list.map(([source, url]) => ({ category, source, url })));
+  const jobs = Object.entries(feeds).flatMap(([category, list]) => list.map(([source, url, opts]) => ({ category, source, url, opts })));
   const seen = seenLinks();
   const cutoff = Date.now() - MAX_AGE_DAYS * 86_400_000;
   const items = new Map();
   const report = [];
-  const results = await Promise.allSettled(jobs.map(async (job) => {
-    const xml = await retry(() => fetchText(job.url));
-    return { job, list: entries(parser.parse(xml)) };
-  }));
+  const results = await Promise.allSettled(jobs.map(async (job) => ({ job, list: await loadFeed(job) })));
   results.forEach((r, i) => {
     const job = jobs[i];
     if (r.status === 'rejected') { report.push({ source: job.source, ok: false, error: String(r.reason?.message ?? r.reason) }); return; }
@@ -124,6 +156,11 @@ async function collectFeeds() {
     }
     report.push({ source: job.source, ok: true, items: kept });
   });
+  const watch = compileWatchlist(JSON.parse(readFileSync('data/watchlist.json', 'utf8')));
+  for (const it of items.values()) {
+    const priority = matchWatch(it, watch);
+    if (priority.length) it.priority = priority;
+  }
   await attachImages([...items.values()]);
   return { items: [...items.values()], report };
 }
@@ -166,6 +203,7 @@ const [{ items, report }, wikipedia] = await Promise.all([collectFeeds(), collec
 const failed = report.filter((r) => !r.ok);
 const inbox = { date: today, collectedAt: new Date().toISOString(), items, wikipedia, report };
 writeFileSync(join(inboxDir, `${today}.json`), `${JSON.stringify(inbox, null, 1)}\n`);
+console.log(`${items.filter((i) => i.priority && !i.seen).length} itens prioritários novos.`);
 console.log(`${items.length} itens de ${report.length - failed.length}/${report.length} feeds; Wikipédia: ${wikipedia.dyk.length} dyk, ${wikipedia.onthisday.length} efemérides.`);
 for (const f of failed) console.log(`  falhou: ${f.source} (${f.error})`);
 for (const r of report.filter((x) => x.ok && !x.items)) console.log(`  sem itens recentes: ${r.source}`);

@@ -20,6 +20,8 @@ jobs:
           mkdir -p data/inbox
           if git ls-remote --exit-code origin inbox >/dev/null; then bash scripts/fetch-inbox.sh; fi
       - name: Coletar
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
         run: npm run collect || (sleep 120 && npm run collect)
       - name: Publicar na branch inbox
         run: |

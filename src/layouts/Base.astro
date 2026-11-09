@@ -39,6 +39,7 @@ const nav = [
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500..800&family=Cinzel:wght@500;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Michroma&family=JetBrains+Mono:wght@500;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet" />
+    <script is:inline>try{var f=JSON.parse(localStorage.getItem("sn-font"));if(f&&f!==100)document.documentElement.style.fontSize=f+"%"}catch(e){}</script>
     <ClientRouter />
   </head>
   <body>
@@ -47,12 +48,39 @@ const nav = [
     <header class="top">
       <a class="brand" href={href('/')} aria-label="Sync News, página inicial"><Logo /></a>
       <div class="top-actions">
-        {hasPush && <button class="bell" type="button" aria-label="Ativar notificações" aria-pressed="false" data-push><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 9a6 6 0 1 0-12 0c0 6-2.5 8-2.5 8h17S18 15 18 9" /><path d="M10.3 21a2 2 0 0 0 3.4 0" /></svg></button>}
-  <button class="burger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu" data-burger><span></span><span></span><span></span></button>
+        <button class="bell" type="button" aria-label="Configurações" aria-expanded="false" aria-controls="painel-config" data-panel-toggle="settings"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h2M10 17h10" /><circle cx="16" cy="7" r="2" /><circle cx="8" cy="17" r="2" /></svg></button>
+        <button class="bell" type="button" aria-label="Notificações" aria-expanded="false" aria-controls="painel-notificacoes" data-panel-toggle="notifications"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18 9a6 6 0 1 0-12 0c0 6-2.5 8-2.5 8h17S18 15 18 9" /><path d="M10.3 21a2 2 0 0 0 3.4 0" /></svg><span class="bell-count" data-center-count hidden></span></button>
+        <button class="burger" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu" data-burger><span></span><span></span><span></span></button>
       </div>
       <nav id="menu" aria-label="Principal" data-menu>
         {nav.map(([id, label, cls]) => <a href={isHome ? `#${id}` : href(`/#${id}`)} class={cls} data-nav={id}>{label}</a>)}
       </nav>
+      <section class="panel" id="painel-notificacoes" data-panel="notifications" aria-label="Central de notificações" hidden>
+        <header class="panel-head">
+          <h2>Notificações</h2>
+          <div class="panel-actions">
+            <button type="button" data-center-readall>Marcar todas como lidas</button>
+            <button type="button" data-center-clear>Apagar tudo</button>
+          </div>
+        </header>
+        <ul class="center-list" data-center-list></ul>
+      </section>
+      <section class="panel panel-settings" id="painel-config" data-panel="settings" aria-label="Configurações" hidden>
+        <header class="panel-head"><h2>Configurações</h2></header>
+        <div class="setting">
+          <span>Tamanho do texto</span>
+          <div class="stepper">
+            <button type="button" data-font="dec" aria-label="Diminuir texto">A−</button>
+            <output data-font-value>100%</output>
+            <button type="button" data-font="inc" aria-label="Aumentar texto">A+</button>
+          </div>
+        </div>
+        <button class="setting-reset" type="button" data-font="reset">Restaurar tamanho padrão</button>
+        {hasPush && <div class="setting">
+          <span>Notificações push<small>Aviso a cada edição nova</small></span>
+          <button class="switch" type="button" role="switch" aria-checked="false" aria-label="Notificações push" data-push><span></span></button>
+        </div>}
+      </section>
     </header>
     <div class="stale" data-stale data-latest={latest?.date} hidden>
       Você está lendo a edição mais recente disponível. A próxima sai por volta das 08:00.
@@ -72,5 +100,6 @@ const nav = [
     <div class="toast" data-toast role="status" aria-live="polite"></div>
     <script src="../scripts/motion.js"></script>
     <script src="../scripts/push.js"></script>
+    <script src="../scripts/center.js"></script>
   </body>
 </html>

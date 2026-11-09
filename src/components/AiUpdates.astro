@@ -1,0 +1,20 @@
+---
+const { updates = [] } = Astro.props;
+---
+{updates.length > 0 && (
+  <section class="wrap ai-updates" id="atualizacoes-ia">
+    <header class="section-head" data-reveal><p class="eyebrow">Sempre no radar</p><h2>Atualizações de IA</h2></header>
+    <ul class="update-list">
+      {updates.map((u) => (
+        <li data-reveal>
+          <p class="update-name">{u.name}</p>
+          <div>
+            <h3>{u.title}</h3>
+            <p class="update-body">{u.body}</p>
+            <p class="update-sources">Fonte: {u.sourceList.map((s, i) => <>{i > 0 && ' · '}<a href={s.url} rel="noopener" target="_blank">{s.source}</a></>)}</p>
+          </div>
+        </li>
+      ))}
+    </ul>
+  </section>
+)}

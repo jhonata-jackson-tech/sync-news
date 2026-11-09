@@ -14,8 +14,7 @@ function toast(message) {
 function paintBell() {
   const on = Boolean(client?.User.PushSubscription.optedIn);
   document.querySelectorAll('[data-push]').forEach((b) => {
-    b.setAttribute('aria-pressed', String(on));
-    b.setAttribute('aria-label', on ? 'Desativar notificações' : 'Ativar notificações');
+    b.setAttribute('aria-checked', String(on));
   });
 }
 

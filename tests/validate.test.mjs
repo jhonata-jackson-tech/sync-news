@@ -94,3 +94,22 @@ test('data em Brasília vira depois de 03:00 UTC', () => {
   assert.equal(todayBRT(new Date('2026-11-10T02:59:00Z')), '2026-11-09');
   assert.equal(todayBRT(new Date('2026-11-10T03:01:00Z')), '2026-11-10');
 });
+
+const withPriority = (edition, ctx) => {
+  ctx.inbox.items[15].priority = ['codex'];
+  edition.updates = [{ watch: 'codex', title: 'Codex ganha novo modo', body: 'A nova versão do Codex muda a forma de acompanhar agentes em execução no terminal.', sources: ['s_item15'] }];
+};
+test('bloco de atualizações válido passa', () => {
+  const { edition, ctx } = build();
+  withPriority(edition, ctx);
+  assert.deepEqual(validateEdition(edition, ctx), []);
+});
+test('item prioritário novo exige o bloco de atualizações', () => expectError((e, c) => { c.inbox.items[15].priority = ['codex']; }, /inclua o bloco updates/));
+test('item prioritário já visto não exige o bloco', () => {
+  const { edition, ctx } = build();
+  Object.assign(ctx.inbox.items[15], { priority: ['codex'], seen: true });
+  assert.deepEqual(validateEdition(edition, ctx), []);
+});
+test('atualização com fonte de outra empresa é rejeitada', () => expectError((e, c) => { withPriority(e, c); e.updates[0].watch = 'openai'; }, /nenhuma fonte é um item prioritário/));
+test('atualização repetida por empresa é rejeitada', () => expectError((e, c) => { withPriority(e, c); e.updates.push({ ...e.updates[0] }); }, /só uma entrada/));
+test('atualização com URL é rejeitada', () => expectError((e, c) => { withPriority(e, c); e.updates[0].body += ' Veja em https://exemplo.com agora.'; }, /URL ou link/));
