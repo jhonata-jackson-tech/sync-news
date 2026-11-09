@@ -1,0 +1,19 @@
+{
+  "id": "/sync-news/",
+  "name": "Sync News",
+  "short_name": "Sync News",
+  "description": "Portal diário de IA, geopolítica, Brasil e mundo, com o Arcanum de teorias e conexões.",
+  "lang": "pt-BR",
+  "start_url": "/sync-news/",
+  "scope": "/sync-news/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#070d18",
+  "theme_color": "#070d18",
+  "categories": ["news"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

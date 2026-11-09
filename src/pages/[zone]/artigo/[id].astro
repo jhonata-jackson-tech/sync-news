@@ -1,6 +1,5 @@
 ---
 import Base from '../../../layouts/Base.astro';
-import ArticleList from '../../../components/ArticleList.astro';
 import { BADGES, ZONES } from '../../../../lib/taxonomy.mjs';
 import { allArticles, prose, longDate, clock, href } from '../../../lib/data.js';
 import { art } from '../../../lib/art.js';
@@ -11,10 +10,11 @@ export function getStaticPaths() {
 const { a } = Astro.props;
 const z = ZONES[a.zone];
 const belief = a.zone === 'veu';
-const related = allArticles.filter((o) => o.zone === a.zone && o.id !== a.id && o.date === a.date).slice(0, 3);
+const sameDay = allArticles.filter((o) => o.zone === a.zone && o.date === a.date);
+const next = sameDay[sameDay.findIndex((o) => o.id === a.id) + 1];
 ---
 <Base title={a.title} description={a.dek} zone={a.zone}>
-  <article class="article" data-article>
+  <article class="article" data-article data-url={a.url} data-title={`${a.title} · Sync News`}>
     <figure class="article-figure">
       <div class="article-art">
         <Fragment set:html={art(a.id, a.zone)} />
@@ -49,6 +49,8 @@ const related = allArticles.filter((o) => o.zone === a.zone && o.id !== a.id && 
       <h2>Fontes</h2>
       <ul>{a.sourceList.map((s) => <li><a href={s.url} rel="noopener" target="_blank">{s.source}: {s.title}</a></li>)}</ul>
     </section>
+    {next
+      ? <div class="next-article" data-next={next.url}><p class="eyebrow">Continue rolando</p><a href={next.url}>{next.title}</a></div>
+      : <div class="next-article"><p class="eyebrow">Fim desta zona</p><a href={href(a.zone === 'veu' ? '/#radar' : '/#arcanum')}>{a.zone === 'veu' ? 'Voltar ao Radar' : 'Seguir para o Arcanum'} →</a></div>}
   </article>
-  {related.length > 0 && <section class="wrap"><header class="section-head"><h2>Na mesma zona, hoje</h2></header><ArticleList items={related} /></section>}
 </Base>

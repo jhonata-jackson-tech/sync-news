@@ -1,0 +1,7 @@
+---
+import Base from '../layouts/Base.astro';
+import { href } from '../lib/data.js';
+---
+<Base title="Sem conexão">
+  <section class="zone-hero compact"><p class="eyebrow">Sem conexão</p><h1>O sinal caiu.</h1><p class="zone-tag">Esta página ainda não foi salva no aparelho. <a href={href('/')}>Tentar a edição de hoje</a></p></section>
+</Base>

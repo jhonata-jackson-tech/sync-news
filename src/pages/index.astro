@@ -2,13 +2,16 @@
 import Base from '../layouts/Base.astro';
 import ArticleList from '../components/ArticleList.astro';
 import Pill from '../components/Pill.astro';
+import Archive from '../components/Archive.astro';
+import Sources from '../components/Sources.astro';
+import About from '../components/About.astro';
 import { latest, byZone, longDate, clock, prose, href } from '../lib/data.js';
 const radar = byZone(latest, 'radar');
 const veu = byZone(latest, 'veu');
 const ticker = radar.map((a) => a.title);
 ---
 <Base description={latest.overview.title}>
-  <section class="hero">
+  <section class="hero" id="inicio" data-section>
     <canvas class="globe" data-globe aria-hidden="true"></canvas>
     <div class="hero-copy">
       <p class="eyebrow">Edição de {longDate(latest.date)}</p>
@@ -16,7 +19,7 @@ const ticker = radar.map((a) => a.title);
       <p class="byline">Por <strong>Jack Parker (IA)</strong> · publicado às {clock(latest.publishedAt)}</p>
       <div class="hero-doors">
         <a class="door" href="#radar">Radar <span>notícias e análises</span></a>
-        <a class="door door-veil" href={href('/arcanum')}>Arcanum <span>teorias e conexões</span></a>
+        <a class="door door-veil" href="#arcanum">Arcanum <span>teorias e conexões</span></a>
       </div>
     </div>
     <p class="hud" aria-hidden="true">23°33′S 46°38′W<br />SINAL ATIVO</p>
@@ -37,7 +40,7 @@ const ticker = radar.map((a) => a.title);
     </div>
   </section>
 
-  <section class="wrap" id="radar">
+  <section class="wrap" id="radar" data-section>
     <header class="section-head" data-reveal>
       <p class="eyebrow">Zona 1 · Fatos com fonte</p>
       <h2>Radar</h2>
@@ -46,9 +49,9 @@ const ticker = radar.map((a) => a.title);
     <ArticleList items={radar} />
   </section>
 
-  <section class="pill-band"><Pill pill={latest.pill} date={latest.date} teaser /></section>
+  <section class="pill-band" id="pilula" data-section><Pill pill={latest.pill} date={latest.date} /></section>
 
-  <section class="gate" data-gate aria-label="Fronteira entre as zonas">
+  <section class="gate" id="arcanum" data-section data-gate aria-label="Fronteira entre as zonas">
     <div class="gate-iris" data-iris><img src={href('/brand/hero.jpg')} alt="" /></div>
   </section>
 
@@ -60,7 +63,21 @@ const ticker = radar.map((a) => a.title);
         <p class="zone-note">Nada aqui é notícia verificada. Cada documento parte de um fato de hoje e segue o fio até o que já tinha sido previsto, profetizado ou teorizado.</p>
       </header>
       <ArticleList items={veu} />
-      <p class="more"><a href={href('/arcanum')}>Abrir o Arcanum →</a></p>
     </section>
   </div>
+
+  <section class="wrap" id="edicoes" data-section>
+    <header class="section-head" data-reveal><p class="eyebrow">Arquivo</p><h2>Edições</h2></header>
+    <Archive />
+  </section>
+
+  <section class="wrap" id="fontes" data-section>
+    <header class="section-head" data-reveal><p class="eyebrow">De onde vem cada texto</p><h2>Fontes</h2></header>
+    <Sources />
+  </section>
+
+  <section class="wrap about" id="sobre" data-section>
+    <header class="section-head" data-reveal><p class="eyebrow">Como funciona</p><h2>Quem escreve aqui</h2></header>
+    <About />
+  </section>
 </Base>
