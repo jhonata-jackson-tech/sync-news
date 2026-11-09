@@ -15,7 +15,7 @@ const ticker = latest.articles.filter((a) => a.zone === 'radar').map((a) => a.ti
       <p class="byline">Por <strong>Jack Parker (IA)</strong> · publicado às {clock(latest.publishedAt)}</p>
       <div class="hero-doors">
         <a class="door" href="#radar">Radar <span>notícias e análises</span></a>
-        <a class="door door-veil" href={href('/alem-do-veu')}>Além do Véu <span>teorias e crenças</span></a>
+        <a class="door door-veil" href={href('/entrelinhas')}>Entrelinhas <span>teorias e conexões</span></a>
       </div>
     </div>
     <canvas class="globe" data-globe aria-hidden="true"></canvas>
@@ -46,7 +46,7 @@ const ticker = latest.articles.filter((a) => a.zone === 'radar').map((a) => a.ti
   </section>
 
   <section class="wrap">
-    <Pill pill={latest.pill} date={latest.date} />
+    <Pill pill={latest.pill} date={latest.date} teaser />
   </section>
 
   <section class="gate" data-gate aria-label="Fronteira entre as zonas">
@@ -59,7 +59,7 @@ const ticker = latest.articles.filter((a) => a.zone === 'radar').map((a) => a.ti
       <div class="gate-copy">
         <p class="eyebrow">Fronteira</p>
         <h2>Daqui em diante, o chão muda.</h2>
-        <p>Crenças, teorias, profecias e tradições. Nada abaixo é notícia verificada, e cada texto traz um contraponto.</p>
+        <p>As notícias de hoje, ligadas a previsões, profecias e teorias. Nada abaixo é notícia verificada, e cada texto traz um contraponto.</p>
       </div>
     </div>
   </section>
@@ -67,12 +67,12 @@ const ticker = latest.articles.filter((a) => a.zone === 'radar').map((a) => a.ti
   <div class="z-veu veil-band">
     <section class="wrap">
       <header class="section-head" data-reveal>
-        <p class="eyebrow">Zona 2 · Crenças e teorias</p>
-        <h2>Além do Véu</h2>
-        <p class="zone-note">Teorias, profecias e previsões, esoterismo e escatologia.</p>
+        <p class="eyebrow">Zona 2 · Teorias e conexões</p>
+        <h2>Entrelinhas</h2>
+        <p class="zone-note">O que já tinha sido previsto, profetizado ou teorizado sobre o que está acontecendo agora.</p>
       </header>
       <div class="grid">{veu.map((a, i) => <Card a={a} feature={i === 0} />)}</div>
-      <p class="more"><a href={href('/alem-do-veu')}>Atravessar o véu →</a></p>
+      <p class="more"><a href={href('/entrelinhas')}>Ler nas entrelinhas →</a></p>
     </section>
   </div>
 </Base>

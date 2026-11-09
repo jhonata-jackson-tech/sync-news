@@ -15,8 +15,15 @@ const related = allArticles.filter((o) => o.zone === a.zone && o.id !== a.id && 
 ---
 <Base title={a.title} description={a.dek} zone={a.zone}>
   <article class="article" data-article>
-    <div class="article-art" set:html={art(a.id, a.zone)}></div>
-    {belief && <p class="veil-banner"><strong>Além do Véu.</strong> Este texto apresenta uma crença ou teoria, não uma notícia verificada.</p>}
+    <figure class="article-figure">
+      <div class="article-art">
+        <Fragment set:html={art(a.id, a.zone)} />
+        {a.photo && <img src={a.photo.image} alt="" referrerpolicy="no-referrer" onerror="this.closest('figure').querySelector('figcaption')?.remove(); this.remove()" />}
+      </div>
+      {a.photo && <figcaption>Imagem: reprodução de <a href={a.photo.url} rel="noopener" target="_blank">{a.photo.source}</a></figcaption>}
+    </figure>
+    {belief && <p class="veil-banner"><strong>Entrelinhas.</strong> Este texto apresenta teorias, previsões ou crenças ligadas a um fato atual. Não é notícia verificada.</p>}
+    {a.anchorSource && <p class="anchor">Ponto de partida: <a href={a.anchorSource.url} rel="noopener" target="_blank">{a.anchorSource.source}: {a.anchorSource.title}</a></p>}
     <header class="article-head">
       <div class="meta">
         <span class={`badge b-${a.badge.toLowerCase()}`}>{BADGES[a.badge].label}</span>

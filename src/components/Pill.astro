@@ -1,16 +1,20 @@
 ---
-import { prose, longDate } from '../lib/data.js';
-const { pill, date } = Astro.props;
+import { prose, longDate, href } from '../lib/data.js';
+const { pill, date, teaser = false } = Astro.props;
+const paragraphs = pill.body.split(/\n{2,}/);
+const shown = teaser ? paragraphs.slice(0, 2).join('\n\n') : pill.body;
 ---
-<article class="pill" data-pill data-reveal>
+<article class="pill" data-pill data-reveal data-seconds={pill.minutes * 60}>
   <div class="ring" aria-hidden="true">
     <svg viewBox="0 0 120 120"><circle cx="60" cy="60" r="52" class="ring-bg" /><circle cx="60" cy="60" r="52" class="ring-fg" data-ring pathLength="100" /></svg>
-    <span class="ring-label">1<small>min</small></span>
+    <span class="ring-label">{pill.minutes}<small>min</small></span>
   </div>
   <div>
     <p class="eyebrow">Pílula do Dia · {longDate(date)}</p>
     <h3>{pill.title}</h3>
-    <div class="pill-text" set:html={prose(pill.body)}></div>
+    {pill.photo && <img class="pill-photo" src={pill.photo} alt="" loading="lazy" referrerpolicy="no-referrer" onerror="this.remove()" />}
+    <div class="pill-text" set:html={prose(shown)}></div>
+    {teaser && <p class="more"><a href={href('/pilula')}>Continuar lendo →</a></p>}
     <p class="credit">
       Adaptado da <a href={pill.sourceUrl} rel="noopener" target="_blank">Wikipédia em português</a>, sob licença
       <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br" rel="noopener license" target="_blank">CC BY-SA 4.0</a>.

@@ -19,5 +19,5 @@ const { ed } = Astro.props;
   </section>
   <section class="wrap"><header class="section-head"><h2>Radar</h2></header><div class="grid">{byZone(ed, 'radar').map((a) => <Card a={a} />)}</div></section>
   <section class="wrap"><Pill pill={ed.pill} date={ed.date} /></section>
-  <div class="z-veu veil-band"><section class="wrap"><header class="section-head"><h2>Além do Véu</h2><p class="zone-note">Crenças e teorias, não notícias verificadas.</p></header><div class="grid">{byZone(ed, 'veu').map((a) => <Card a={a} />)}</div></section></div>
+  <div class="z-veu veil-band"><section class="wrap"><header class="section-head"><h2>Entrelinhas</h2><p class="zone-note">Teorias e conexões, não notícias verificadas.</p></header><div class="grid">{byZone(ed, 'veu').map((a) => <Card a={a} />)}</div></section></div>
 </Base>

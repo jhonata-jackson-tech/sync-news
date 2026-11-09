@@ -1,32 +1,115 @@
 {
   "entries": [
     {
+      "id": "b_ref-profecia-papas",
+      "source": "Wikipédia",
+      "title": "Profecia dos Papas",
+      "url": "https://pt.wikipedia.org/wiki/Profecia_dos_Papas",
+      "summary": "A Profecia dos Papas, ou Profecia de São Malaquias, é uma série de 113 frases curtas crípticas em latim, as quais supostamente descreveriam, cada uma, um futuro Papa da Igreja Católica, iniciando com o Papa Celestino II.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Arnold_Wion_-_Lignum_Vitae_-_1595_-_p311_Part.jpg"
+    },
+    {
+      "id": "b_ref-nostradamus",
+      "source": "Wikipédia",
+      "title": "Nostradamus",
+      "url": "https://pt.wikipedia.org/wiki/Nostradamus",
+      "summary": "Michel de Nostredame, geralmente latinizado como Nostradamus ou aportuguesado como Nostradamo, foi um astrólogo, médico e vidente francês de renome, mais conhecido por seu livro Les Prophéties, uma coleção de 942 quadras poéticas supostamente prevendo eventos futuros. O livro foi publicado pela primeira vez em 1555 e raramente deixou de ser publicado desde a sua morte.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Nostradamus_by_Cesar.jpg"
+    },
+    {
+      "id": "b_ref-baba-vanga",
+      "source": "Wikipédia",
+      "title": "Baba Vanga",
+      "url": "https://pt.wikipedia.org/wiki/Baba_Vanga",
+      "summary": "Vangelia Pandeva Gushterova, comumente conhecida como Baba Vanga, foi uma mística e fitoterapeuta búlgara. Cega desde a infância, Gushterova passou a maior parte de sua vida na região de Petrich, na Bulgária.\nNo final dos anos 1970 e 1980, ela se tornou amplamente conhecida na região do Pacto de Varsóvia na Europa Oriental por suas alegadas habilidades de clarividência e precognição. Zheni Kostadinova afirmou em 1997 que milhões de pessoas acreditavam que ela possuía habilidades paranormais.",
+      "image": "https://upload.wikimedia.org/wikipedia/pt/3/3a/Baba_Vanga.png"
+    },
+    {
+      "id": "b_ref-gogue-magogue",
+      "source": "Wikipédia",
+      "title": "Gogue e Magogue",
+      "url": "https://pt.wikipedia.org/wiki/Gogue_e_Magogue",
+      "summary": "Gogue e Magogue, ou Gog e Magog, aparecem no livro de Gênesis, nos livros de Ezequiel, Apocalipse e no Alcorão. São muitas vezes apresentados como o nome de um príncipe, ou de um líder, ou ainda de um povo que habitava em uma região denominada Meseque e Tubal, respectivamente. Eles também aparecem na mitologia e no folclore.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/Iranischer_Meister_001.jpg"
+    },
+    {
+      "id": "b_ref-conspiracao",
+      "source": "Wikipédia",
+      "title": "Teoria da conspiração",
+      "url": "https://pt.wikipedia.org/wiki/Teoria_da_conspira%C3%A7%C3%A3o",
+      "summary": "Teoria da conspiração, também chamada de teoria conspiratória ou conspiracionismo, é uma hipótese explicativa ou especulativa que sugere que há duas ou mais pessoas ou até mesmo uma organização que têm “tramado” para causar ou acobertar, por meio de planejamento secreto e de ação deliberada, em situação ou evento tipicamente considerado manipulativo, ilegal ou prejudicial.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Dollarnote_siegel_hq.jpg"
+    },
+    {
+      "id": "b_ref-singularidade",
+      "source": "Wikipédia",
+      "title": "Singularidade tecnológica",
+      "url": "https://pt.wikipedia.org/wiki/Singularidade_tecnol%C3%B3gica",
+      "summary": "A singularidade tecnológica, frequentemente chamada simplesmente de singularidade, é um evento hipotético no qual o crescimento tecnológico acelera além do controle humano, produzindo mudanças imprevisíveis na civilização humana. De acordo com a versão mais popular da hipótese da singularidade, o modelo de explosão de inteligência de I. J. Good, de 1965, um agente inteligente atualizável poderia eventualmente entrar em um ciclo positivo de retroalimentação de ciclos sucessivos de autoaperfeiçoamento; gerações mais inteligentes surgiriam cada vez mais rapidamente, causando um aumento explosivo "
+    },
+    {
+      "id": "b_ref-numero-besta",
+      "source": "Wikipédia",
+      "title": "Número da Besta",
+      "url": "https://pt.wikipedia.org/wiki/N%C3%BAmero_da_Besta",
+      "summary": "O número da besta ou marca da besta é, de acordo com a tradição cristã, o número correspondente ao sinal da besta.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/40/The_number_of_the_beast_is_666_Philadelphia%2C_Rosenbach_Museum_and_Library.jpg"
+    },
+    {
+      "id": "b_ref-nova-ordem",
+      "source": "Wikipédia",
+      "title": "Nova Ordem Mundial (teoria conspiratória)",
+      "url": "https://pt.wikipedia.org/wiki/Nova_Ordem_Mundial_(teoria_conspirat%C3%B3ria)",
+      "summary": "Nova Ordem Mundial refere-se a uma teoria conspiratória de que, supostamente, certas elites políticas e governos planejam a implantação de um governo mundial totalitário. Entretanto, países como Rússia e China têm referido-se a essa nomenclatura reiteradamente, endossando os pressupostos, deixando de ser teoria conspiratória.",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Great_Seal_of_the_United_States_%28reverse%29.svg/langpt-960px-Great_Seal_of_the_United_States_%28reverse%29.svg.png"
+    },
+    {
+      "id": "b_ref-illuminati",
+      "source": "Wikipédia",
+      "title": "Illuminati",
+      "url": "https://pt.wikipedia.org/wiki/Illuminati",
+      "summary": "Os Illuminati é um nome dado a vários grupos secretos, tanto reais quanto fictícios. Historicamente, o nome geralmente se refere aos Illuminati da Baviera, uma sociedade secreta da época do Iluminismo fundada em 1 de maio de 1776. Os objetivos da sociedade eram opor-se à superstição, ao obscurantismo, à influência religiosa sobre a vida pública e aos abusos de poder do estado. \"A ordem do dia,\" escreveram em seus estatutos gerais, \"é colocar fim às maquinações dos perpetradores da injustiça, controlá-los sem dominá-los\". Os Illuminati — juntamente com a Maçonaria e outras sociedades secretas —",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/5/58/Adam_Weishaupt01.jpg"
+    },
+    {
+      "id": "b_ref-astrologia",
+      "source": "Wikipédia",
+      "title": "Astrologia",
+      "url": "https://pt.wikipedia.org/wiki/Astrologia",
+      "summary": "Astrologia é uma gama de práticas divinatórias, reconhecida como pseudocientífica desde o século XVIII, segundo a qual as posições relativas dos corpos celestes poderiam prover informação sobre a personalidade, as relações humanas, e outros assuntos relacionados à vida do ser humano.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Milenio.png"
+    },
+    {
       "id": "b_ref-escatologia",
       "source": "Wikipédia",
       "title": "Escatologia",
       "url": "https://pt.wikipedia.org/wiki/Escatologia",
-      "summary": "Verbete de referência sobre as doutrinas religiosas e filosóficas acerca do fim dos tempos."
+      "summary": "Escatologia é uma parte da teologia e filosofia que trata dos últimos eventos na história do mundo ou do destino final da espécie humana, comumente denominado como fim do mundo. Em muitas religiões, o fim do mundo é um evento futuro profetizado no texto sagrado ou no folclore. De forma ampla, escatologia costuma relacionar-se com conceitos tais como Messias ou Era Messiânica, a pós-vida, e a alma.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Durer_Revelation_Four_Riders.jpg"
     },
     {
       "id": "b_ref-tarot",
       "source": "Wikipédia",
       "title": "Tarô",
-      "url": "https://pt.wikipedia.org/wiki/Tarot",
-      "summary": "Verbete de referência sobre a história do baralho de tarô e seu uso esotérico."
+      "url": "https://pt.wikipedia.org/wiki/Tar%C3%B4",
+      "summary": "O tarô é um oráculo e baralho de uso recreativo e esotérico utilizado majoritariamente no século XVIII, geralmente composto por 78 cartas. Há relatos de seu uso pela nobreza italiana desde o período renascentista e suas regras oficiais são publicadas pela Federação Francesa de Tarot. Desde o século XVIII, as cartas passaram a ser usadas para a previsão do futuro e desde fins do século XIX elas integram o cerne do esoterismo moderno juntamente com a cabala, a astrologia e a alquimia.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Print%2C_playing-card_%28BM_1904%2C0511.47.1-78_3%29.jpg"
     },
     {
       "id": "b_ref-ceticismo",
       "source": "Wikipédia",
       "title": "Ceticismo científico",
       "url": "https://pt.wikipedia.org/wiki/Ceticismo_cient%C3%ADfico",
-      "summary": "Verbete de referência sobre a prática de questionar alegações que não têm evidência empírica."
+      "summary": "Ceticismo científico (português brasileiro) ou cepticismo científico (português europeu) é a prática de questionar se uma afirmação está sustentada em pesquisa empírica e se é reproduzível, como parte da norma metodológica que procura a \"extensão do conhecimento certificado\". O sociólogo Robert K. Merton afirma que todas as ideias devem ser testadas e estar sujeitas ao escrutínio rigoroso e estruturado da comunidade. O ceticismo organizado é uma das normas básicas de conduta científica. Segundo Merton, essa é uma das normas que garante à boa ciência o respeito da sociedade.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Carl_Sagan_Planetary_Society.JPG"
     },
     {
       "id": "b_ref-ovni",
       "source": "Wikipédia",
       "title": "Objeto voador não identificado",
       "url": "https://pt.wikipedia.org/wiki/Objeto_voador_n%C3%A3o_identificado",
-      "summary": "Verbete de referência sobre avistamentos de objetos voadores não identificados e suas explicações."
+      "summary": "Objeto voador não identificado (OVNI), também chamado de UFO, e mais recentemente chamado de unidentified anomalous phenomenon (UAP), é um objeto ou luz vistos no céu que não consegue ser identificado pelos observadores com os meios de exame ao seu dispor.",
+      "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/FLIR1_Official_UAP_Footage_from_the_USG_for_Public_Release.webm/330px--FLIR1_Official_UAP_Footage_from_the_USG_for_Public_Release.webm.jpg"
     }
   ]
 }

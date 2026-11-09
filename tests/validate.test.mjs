@@ -9,7 +9,7 @@ const now = new Date('2026-11-09T11:00:00-03:00');
 
 function build() {
   const items = Array.from({ length: 16 }, (_, i) => ({
-    id: `s_item${i}`, title: `Titulo da fonte ${i}`, link: `https://exemplo.com/${i}`, source: 'Exemplo',
+    id: `s_item${i}`, category: 'ia', title: `Titulo da fonte ${i}`, link: `https://exemplo.com/${i}`, source: 'Exemplo',
     snippet: `alfa beta gama delta epsilon zeta eta teta iota kappa lambda mi nu xi fonte${i}`, seen: false,
   }));
   const radarCats = ['ia', 'ia', 'geopolitica', 'geopolitica', 'brasil', 'brasil', 'mundo'];
@@ -17,13 +17,13 @@ function build() {
   const articles = [
     ...radarCats.map((category, i) => ({
       slug: `radar-nota-${i}`, category, badge: 'FATO', title: `Manchete do radar numero ${i}`,
-      dek: 'Linha de apoio com tamanho suficiente para passar.', body: lorem(`r${i}x`, 180),
+      dek: 'Linha de apoio com tamanho suficiente para passar.', body: lorem(`r${i}x`, 400),
       sources: [`s_item${i}`, `s_item${i + 1}`], quotes: [],
     })),
     ...veuCats.map(([category, badge], i) => ({
       slug: `veu-texto-${i}`, category, badge, title: `Tese do veu numero ${i} aqui`,
       dek: 'Linha de apoio com tamanho suficiente para passar.',
-      body: `Segundo os autores, ${lorem(`v${i}x`, 200)}`, sources: [`s_item${i + 8}`], quotes: [],
+      body: `Segundo os autores, ${lorem(`v${i}x`, 520)}`, sources: [`s_item${i + 8}`], anchor: 's_item13', quotes: [],
       attribution: 'Tese atribuída a autores citados',
       counterpoint: { body: 'Até agora as fontes jornalísticas não confirmaram esta tese de forma independente.', sources: ['s_item12'] },
     })),
@@ -32,7 +32,7 @@ function build() {
     date, publishedAt: '2026-11-09T08:00:00-03:00',
     overview: { title: 'O dia em cinco minutos de leitura', body: lorem('palavra', 90), highlights: ['Destaque numero um', 'Destaque numero dois', 'Destaque numero tres'] },
     articles,
-    pill: { title: 'Curiosidade', body: lorem('palavra', 50), wikipediaId: 's_wiki1', sourceUrl: 'https://pt.wikipedia.org/wiki/Teste', license: 'CC BY-SA 4.0', adapted: true },
+    pill: { title: 'Curiosidade', body: lorem('palavra', 260), wikipediaId: 's_wiki1', sourceUrl: 'https://pt.wikipedia.org/wiki/Teste', license: 'CC BY-SA 4.0', adapted: true },
   };
   return {
     edition,
@@ -80,6 +80,12 @@ test('rejeita curiosidade repetida', () => expectError((_, c) => { c.previous = 
 test('rejeita campo extra (injeção de esquema)', () => expectError((e) => { e.articles[0].html = 'x'; }, /esquema/));
 test('rejeita menos de 10 artigos', () => expectError((e) => { e.articles = e.articles.slice(0, 5); }, /esquema/));
 test('rejeita sources.json adulterado', () => expectError((_, c) => { c.sourcesFile = { s_item0: { title: 'x', source: 'x', url: 'https://mal.example' } }; }, /sources.json/));
+test('Entrelinhas exige notícia atual de partida', () => expectError((e) => { delete e.articles[7].anchor; }, /anchor/));
+test('anchor não pode ser item de teoria', () => expectError((_, c) => { c.inbox.items[13].category = 'teorias'; }, /notícia do Radar/));
+test('anchor não pode ser notícia antiga', () => expectError((_, c) => { c.inbox.items[13].seen = true; }, /notícia atual/));
+test('exige foto quando a fonte tem', () => expectError((_, c) => { c.inbox.items[0].image = 'https://x.example/a.jpg'; }, /informe image/));
+test('rejeita foto de fonte que não é do artigo', () => expectError((e, c) => { c.inbox.items[15].image = 'https://x.example/a.jpg'; e.articles[0].image = 's_item15'; }, /fontes do artigo/));
+test('rejeita texto raso', () => expectError((e) => { e.articles[0].body = lorem('palavra', 200); }, /palavras/));
 test('inbox velha não serve', () => {
   assert.equal(inboxIsFresh({ date, collectedAt: '2026-11-09T01:00:00-03:00' }, { today: date, now }), false);
   assert.equal(inboxIsFresh({ date, collectedAt: '2026-11-09T06:40:00-03:00' }, { today: date, now }), true);

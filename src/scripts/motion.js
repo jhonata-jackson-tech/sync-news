@@ -121,7 +121,7 @@ function initMotion() {
     gsap.from(gate.querySelector('.gate-copy'), { y: 50, autoAlpha: 0, ease: 'none', scrollTrigger: { trigger: gate, start: 'top 45%', end: 'center 55%', scrub: 0.6 } });
     gsap.to(gate.querySelector('.sigil'), { rotate: 120, ease: 'none', scrollTrigger: { trigger: gate, start: 'top bottom', end: 'bottom top', scrub: 1 } });
   }
-  const art = document.querySelector('.article-art .art');
+  const art = document.querySelector('.article-art img') ?? document.querySelector('.article-art .art');
   if (art) gsap.to(art, { yPercent: 16, ease: 'none', scrollTrigger: { trigger: '.article-art', start: 'top top', end: 'bottom top', scrub: true } });
 }
 
@@ -129,7 +129,7 @@ function initPill() {
   document.querySelectorAll('[data-pill]').forEach((pill) => {
     const ring = pill.querySelector('[data-ring]');
     if (reduced()) { ring.style.strokeDashoffset = 0; return; }
-    const tween = gsap.fromTo(ring, { strokeDashoffset: 100 }, { strokeDashoffset: 0, duration: 60, ease: 'none', paused: true });
+    const tween = gsap.fromTo(ring, { strokeDashoffset: 100 }, { strokeDashoffset: 0, duration: Number(pill.dataset.seconds) || 120, ease: 'none', paused: true });
     const io = new IntersectionObserver(([e]) => (e.isIntersecting ? tween.play() : tween.pause()), { threshold: 0.5 });
     io.observe(pill);
     cleanups.push(() => { io.disconnect(); tween.kill(); });
@@ -178,7 +178,7 @@ function teardown() {
 }
 
 /* ---------- Atravessar o véu ---------- */
-const inVeil = (path) => /\/alem-do-veu(\/|$)/.test(path);
+const inVeil = (path) => /\/entrelinhas(\/|$)/.test(path);
 let crossing = false;
 
 document.addEventListener('astro:before-preparation', (e) => {

@@ -19,7 +19,7 @@ const older = allArticles.filter((a) => a.zone === key && a.date !== latest.date
     <p class="zone-tag">{z.tagline}</p>
     <div class="chips">{cats.map(([slug, c]) => <a class="chip" href={href(`/${z.slug}/${slug}`)}>{c.name}</a>)}</div>
   </section>
-  {key === 'veu' && <p class="veil-warning wrap">Você está no Além do Véu. Os textos daqui apresentam crenças e teorias, não notícias verificadas.</p>}
+  {key === 'veu' && <p class="veil-warning wrap">Você está nas Entrelinhas. Cada texto parte de uma notícia atual e explora teorias, previsões e profecias ligadas a ela. Não é notícia verificada.</p>}
   <section class="wrap">
     <header class="section-head"><h2>Hoje</h2></header>
     <div class="grid">{today.map((a, i) => <Card a={a} feature={i === 0} />)}</div>

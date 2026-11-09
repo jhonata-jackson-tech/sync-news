@@ -111,7 +111,9 @@ h1, h2, h3 { font-family: var(--display); font-weight: var(--display-weight); le
 .card { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; text-decoration: none; transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease; }
 .card:hover { transform: translateY(-5px); border-color: var(--glow); box-shadow: 0 18px 42px -22px var(--glow); }
 .card.feature { grid-column: span 2; }
-.card-art { aspect-ratio: 5 / 2; background: var(--art-bg); color: var(--art-ink); overflow: hidden; }
+.card-art { position: relative; aspect-ratio: 16 / 9; background: var(--art-bg); color: var(--art-ink); overflow: hidden; }
+.card-art img, .article-art img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; transition: transform 0.7s ease; }
+.card:hover .card-art img { transform: scale(1.05); }
 .art { width: 100%; height: 100%; display: block; transition: transform 0.7s ease; }
 .card:hover .art { transform: scale(1.06); }
 .card-body { padding: 18px 20px 22px; }
@@ -132,6 +134,7 @@ h1, h2, h3 { font-family: var(--display); font-weight: var(--display-weight); le
 .pill { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: clamp(18px, 3vw, 36px); align-items: start; background: var(--surface); border: 1px solid var(--line); border-radius: 18px; padding: clamp(20px, 3.5vw, 40px); }
 .pill h3 { font-size: clamp(1.6rem, 3.2vw, 2.4rem); margin-bottom: 10px; }
 .pill-text p { margin: 0 0 0.8em; }
+.pill-photo { display: block; width: 100%; max-height: 340px; object-fit: cover; border-radius: 10px; margin: 6px 0 16px; }
 .ring { position: relative; width: clamp(72px, 10vw, 112px); aspect-ratio: 1; }
 .ring svg { width: 100%; height: 100%; transform: rotate(-90deg); }
 .ring circle { fill: none; stroke-width: 8; }
@@ -167,7 +170,10 @@ h1, h2, h3 { font-family: var(--display); font-weight: var(--display-weight); le
 
 /* Artigo */
 .article { max-width: 780px; margin: 0 auto; padding: 0 16px 40px; }
-.article-art { height: clamp(160px, 28vw, 300px); margin: 0 calc(50% - 50vw); background: var(--art-bg); color: var(--art-ink); overflow: hidden; }
+.article-figure { margin: 0; }
+.article-art { position: relative; height: clamp(220px, 42vw, 520px); margin: 0 calc(50% - 50vw); background: var(--art-bg); color: var(--art-ink); overflow: hidden; }
+.article-figure figcaption { margin-top: 8px; font: 500 0.72rem/1.5 'JetBrains Mono', monospace; color: var(--muted); }
+.anchor { margin: 14px 0 0; padding: 12px 16px; background: var(--surface); border-left: 3px solid var(--glow); font-size: 0.98rem; }
 .veil-banner { margin: 22px 0 0; padding: 12px 16px; border: 1px solid var(--accent); border-radius: 8px; color: var(--accent); font-size: 0.98rem; }
 .article-head { margin: 28px 0 26px; }
 .article-head h1 { font-size: clamp(2.1rem, 5.4vw, 3.6rem); margin: 12px 0; }

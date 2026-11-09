@@ -35,6 +35,7 @@ function entries(doc) {
       title: clean(e.title),
       link: decode(String(link || val(e.guid))).trim(),
       publishedAt: val(e.pubDate) || val(e['dc:date']) || val(e.published) || val(e.updated),
+      image: okImage(arr(e['media:content'])[0]?.['@url'] ?? arr(e['media:thumbnail'])[0]?.['@url'] ?? (String(arr(e.enclosure)[0]?.['@type'] ?? '').startsWith('image') ? arr(e.enclosure)[0]['@url'] : null)),
       snippet: clean(e.description ?? e.summary ?? e['content:encoded'] ?? e.content).slice(0, SNIPPET),
     };
   });
@@ -49,6 +50,35 @@ async function fetchText(url) {
   const declared = /encoding=["']([\w-]+)["']/i.exec(head)?.[1];
   const header = /charset=([\w-]+)/i.exec(res.headers.get('content-type') ?? '')?.[1];
   return new TextDecoder(declared ?? header ?? 'utf-8').decode(bytes);
+}
+
+const BAD_IMAGE = /logo|placeholder|default|avatar|favicon|sprite|poster-1024x576|blank|\.svg(\?|$)/i;
+const okImage = (u) => (typeof u === 'string' && /^https:\/\/[^\s"'<>]+$/.test(u) && !BAD_IMAGE.test(u) ? u : null);
+
+/** Foto da própria matéria: og:image em boa resolução. */
+async function ogImage(url) {
+  try {
+    const res = await fetch(url, { headers: { 'user-agent': UA }, redirect: 'follow', signal: AbortSignal.timeout(9000) });
+    if (!res.ok) return null;
+    const html = (await res.text()).slice(0, 250_000);
+    const tag = /<meta[^>]+(?:property|name)=["'](?:og:image(?::secure_url)?|twitter:image)["'][^>]*>/i.exec(html)?.[0];
+    const src = tag && /content=["']([^"']+)["']/i.exec(tag)?.[1];
+    return src ? okImage(decode(src)) : null;
+  } catch { return null; }
+}
+
+async function attachImages(items) {
+  const queue = [...items];
+  await Promise.all(Array.from({ length: 16 }, async () => {
+    while (queue.length) {
+      const it = queue.shift();
+      it.image = (await ogImage(it.link)) ?? it.image ?? null;
+    }
+  }));
+  // A mesma imagem em várias matérias é logotipo ou capa genérica do site.
+  const count = new Map();
+  for (const it of items) if (it.image) count.set(it.image, (count.get(it.image) ?? 0) + 1);
+  for (const it of items) if (count.get(it.image) >= 3) it.image = null;
 }
 
 async function retry(fn) {
@@ -89,11 +119,12 @@ async function collectFeeds() {
       const t = Date.parse(e.publishedAt);
       if (t && t < cutoff) continue;
       if (items.has(id(e.link)) || PROMO.test(e.title)) continue;
-      items.set(id(e.link), { id: id(e.link), category: job.category, source: job.source, title: e.title, link: e.link, publishedAt: t ? new Date(t).toISOString() : null, snippet: e.snippet, seen: seen.has(e.link) });
+      items.set(id(e.link), { id: id(e.link), category: job.category, source: job.source, title: e.title, link: e.link, publishedAt: t ? new Date(t).toISOString() : null, snippet: e.snippet, image: e.image, seen: seen.has(e.link) });
       kept++;
     }
     report.push({ source: job.source, ok: true, items: kept });
   });
+  await attachImages([...items.values()]);
   return { items: [...items.values()], report };
 }
 
@@ -121,7 +152,10 @@ async function collectWikipedia() {
   await Promise.all([...out.dyk, ...out.onthisday].map(async (w) => {
     try {
       const title = w.url.split('/wiki/')[1];
-      w.extract = JSON.parse(await fetchText(`https://pt.wikipedia.org/api/rest_v1/page/summary/${title}`)).extract?.slice(0, 900) ?? '';
+      const summary = JSON.parse(await fetchText(`https://pt.wikipedia.org/api/rest_v1/page/summary/${title}`));
+      w.image = okImage(summary.originalimage?.source ?? summary.thumbnail?.source);
+      const q = JSON.parse(await fetchText(`https://pt.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&exsectionformat=plain&redirects=1&format=json&titles=${title}`));
+      w.extract = (Object.values(q.query.pages)[0].extract ?? summary.extract ?? '').slice(0, 7000);
     } catch { w.extract = ''; }
   }));
   return out;
