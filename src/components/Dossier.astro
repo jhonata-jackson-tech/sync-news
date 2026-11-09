@@ -1,0 +1,30 @@
+---
+import { art } from '../lib/art.js';
+import { BADGES } from '../../lib/taxonomy.mjs';
+const { items } = Astro.props;
+const roman = (n) => ['I','II','III','IV','V','VI','VII','VIII','IX','X','XI','XII','XIII','XIV','XV','XVI','XVII','XVIII','XIX','XX','XXI','XXII','XXIII','XXIV'][n] ?? String(n + 1);
+---
+<ol class="dossier">
+  <span class="thread" data-thread aria-hidden="true"></span>
+  {items.map((a, i) => (
+    <li class:list={['doc', i % 2 ? 'doc-right' : 'doc-left']} data-reveal>
+      <span class="seal" aria-hidden="true">{roman(i)}</span>
+      <a class="doc-sheet" href={a.url}>
+        <div class="doc-photo">
+          <Fragment set:html={art(a.id, a.zone)} />
+          {a.photo && <img src={a.photo.image} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()" />}
+        </div>
+        <div class="doc-text">
+          {a.anchorSource && <p class="doc-from"><span>O fato</span> {a.anchorSource.title}</p>}
+          <div class="meta">
+            <span class={`badge b-${a.badge.toLowerCase()}`} title={BADGES[a.badge].hint}>{BADGES[a.badge].label}</span>
+            <span class="cat">{a.categoryShort}</span>
+            <span class="mins">{a.minutes} min</span>
+          </div>
+          <h3>{a.title}</h3>
+          <p class="doc-dek">{a.dek}</p>
+        </div>
+      </a>
+    </li>
+  ))}
+</ol>

@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
-import Card from '../../components/Card.astro';
+import ArticleList from '../../components/ArticleList.astro';
 import Pill from '../../components/Pill.astro';
 import { editions, byZone, longDate, prose } from '../../lib/data.js';
 
@@ -17,7 +17,7 @@ const { ed } = Astro.props;
       <aside class="highlights"><h3>O que guardar deste dia</h3><ol>{ed.overview.highlights.map((h) => <li>{h}</li>)}</ol></aside>
     </div>
   </section>
-  <section class="wrap"><header class="section-head"><h2>Radar</h2></header><div class="grid">{byZone(ed, 'radar').map((a) => <Card a={a} />)}</div></section>
+  <section class="wrap"><header class="section-head"><h2>Radar</h2></header><ArticleList items={byZone(ed, 'radar')} /></section>
   <section class="wrap"><Pill pill={ed.pill} date={ed.date} /></section>
-  <div class="z-veu veil-band"><section class="wrap"><header class="section-head"><h2>Além do Véu</h2><p class="zone-note">Crenças e teorias, não notícias verificadas.</p></header><div class="grid">{byZone(ed, 'veu').map((a) => <Card a={a} />)}</div></section></div>
+  <div class="z-veu veil-band"><section class="wrap"><header class="section-head"><h2>Arcanum</h2><p class="zone-note">Teorias e conexões, não notícias verificadas.</p></header><ArticleList items={byZone(ed, 'veu')} /></section></div>
 </Base>

@@ -4,8 +4,8 @@ import Pill from '../components/Pill.astro';
 import { editions, latest, shortDate } from '../lib/data.js';
 const past = editions.slice(1);
 ---
-<Base title="Pílula do Dia" description="Uma curiosidade por dia, em um minuto de leitura.">
-  <section class="zone-hero compact"><p class="eyebrow">Um minuto por dia</p><h1 data-split>Pílula do Dia</h1></section>
+<Base title="Pílula do Dia" description="Uma curiosidade por dia, explicada com calma.">
+  <section class="zone-hero compact"><p class="eyebrow">Algo novo todo dia</p><h1 data-split>Pílula do Dia</h1></section>
   <section class="wrap"><Pill pill={latest.pill} date={latest.date} /></section>
   {past.length > 0 && (
     <section class="wrap">

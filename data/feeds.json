@@ -129,27 +129,9 @@
     [
       "Harbingers Daily",
       "https://harbingersdaily.com/feed/"
-    ],
-    [
-      "Gospel Prime",
-      "https://www.gospelprime.com.br/feed/"
-    ]
-  ],
-  "esoterismo": [
-    [
-      "WeMystic",
-      "https://www.wemystic.com.br/feed/"
-    ],
-    [
-      "Eu Sem Fronteiras",
-      "https://www.eusemfronteiras.com.br/feed/"
     ]
   ],
   "teorias": [
-    [
-      "Mistérios do Mundo",
-      "https://misteriosdomundo.org/feed/"
-    ],
     [
       "OVNI Hoje",
       "https://ovnihoje.com/feed/"
@@ -161,6 +143,26 @@
     [
       "The Debrief",
       "https://thedebrief.org/feed/"
+    ],
+    [
+      "Consortium News",
+      "https://consortiumnews.com/feed/"
+    ],
+    [
+      "The Grayzone",
+      "https://thegrayzone.com/feed/"
+    ],
+    [
+      "The Corbett Report",
+      "https://www.corbettreport.com/feed/"
+    ],
+    [
+      "Unlimited Hangout",
+      "https://unlimitedhangout.com/feed/"
+    ],
+    [
+      "The Black Vault",
+      "https://www.theblackvault.com/documentarchive/feed/"
     ]
   ]
 }

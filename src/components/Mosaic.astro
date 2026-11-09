@@ -1,0 +1,41 @@
+---
+import { art } from '../lib/art.js';
+import { BADGES } from '../../lib/taxonomy.mjs';
+const { items } = Astro.props;
+
+/** Cada linha sempre soma 12 colunas: a grade nunca fica com buracos. */
+function shapes(n) {
+  const out = [];
+  let left = n;
+  if (n >= 3) { out.push('lead', 'side', 'side'); left -= 3; }
+  let thirds = true;
+  while (left > 0) {
+    if (left === 1) { out.push('wide'); left -= 1; }
+    else if (left === 2 || left === 4 || !thirds) { out.push(thirds ? 'seven' : 'five', thirds ? 'five' : 'seven'); left -= 2; thirds = !thirds; }
+    else { out.push('third', 'third', 'third'); left -= 3; thirds = false; }
+  }
+  return out;
+}
+const layout = shapes(items.length);
+---
+<div class="mosaic">
+  {items.map((a, i) => (
+    <a class={`tile tile-${layout[i]}`} href={a.url} data-reveal>
+      <div class="tile-media">
+        <Fragment set:html={art(a.id, a.zone)} />
+        {a.photo && <img src={a.photo.image} alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()" />}
+      </div>
+      <div class="tile-shade"></div>
+      <span class="tile-no" aria-hidden="true">{String(i + 1).padStart(2, '0')}</span>
+      <div class="tile-text">
+        <div class="meta">
+          <span class={`badge b-${a.badge.toLowerCase()}`} title={BADGES[a.badge].hint}>{BADGES[a.badge].label}</span>
+          <span class="cat">{a.categoryShort}</span>
+          <span class="mins">{a.minutes} min</span>
+        </div>
+        <h3>{a.title}</h3>
+        <p>{a.dek}</p>
+      </div>
+    </a>
+  ))}
+</div>

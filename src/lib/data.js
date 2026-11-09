@@ -22,11 +22,14 @@ function hydrate(ed, file) {
     categoryShort: CATEGORIES[a.category].short,
     url: href(`/${ZONES[zoneOf(a)].slug}/artigo/${ed.date}-${a.slug}`),
     sourceList: resolve(a.sources),
+    anchorSource: a.anchor ? sources[a.anchor] : null,
+    photo: a.image ? sources[a.image] : null,
     counterSources: resolve(a.counterpoint?.sources),
     quotes: (a.quotes ?? []).map((q) => ({ ...q, from: sources[q.source] })),
-    minutes: Math.max(1, Math.round(a.body.split(/\s+/).length / 200)),
+    minutes: Math.ceil(a.body.split(/\s+/).length / 200),
   }));
-  return { ...ed, articles };
+  const pill = { ...ed.pill, minutes: Math.ceil(ed.pill.body.split(/\s+/).length / 200), photo: sources[ed.pill.wikipediaId]?.image ?? null };
+  return { ...ed, pill, articles };
 }
 
 export const editions = Object.entries(editionFiles)

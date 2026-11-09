@@ -1,6 +1,6 @@
 ---
 import Base from '../../../layouts/Base.astro';
-import Card from '../../../components/Card.astro';
+import ArticleList from '../../../components/ArticleList.astro';
 import { BADGES, ZONES } from '../../../../lib/taxonomy.mjs';
 import { allArticles, prose, longDate, clock, href } from '../../../lib/data.js';
 import { art } from '../../../lib/art.js';
@@ -15,8 +15,15 @@ const related = allArticles.filter((o) => o.zone === a.zone && o.id !== a.id && 
 ---
 <Base title={a.title} description={a.dek} zone={a.zone}>
   <article class="article" data-article>
-    <div class="article-art" set:html={art(a.id, a.zone)}></div>
-    {belief && <p class="veil-banner"><strong>Além do Véu.</strong> Este texto apresenta uma crença ou teoria, não uma notícia verificada.</p>}
+    <figure class="article-figure">
+      <div class="article-art">
+        <Fragment set:html={art(a.id, a.zone)} />
+        {a.photo && <img src={a.photo.image} alt="" referrerpolicy="no-referrer" onerror="this.closest('figure').querySelector('figcaption')?.remove(); this.remove()" />}
+      </div>
+      {a.photo && <figcaption>Imagem: reprodução de <a href={a.photo.url} rel="noopener" target="_blank">{a.photo.source}</a></figcaption>}
+    </figure>
+    {belief && <p class="veil-banner"><strong>Arcanum.</strong> Este texto apresenta teorias, previsões ou crenças ligadas a um fato atual. Não é notícia verificada.</p>}
+    {a.anchorSource && <p class="anchor">Ponto de partida: <a href={a.anchorSource.url} rel="noopener" target="_blank">{a.anchorSource.source}: {a.anchorSource.title}</a></p>}
     <header class="article-head">
       <div class="meta">
         <span class={`badge b-${a.badge.toLowerCase()}`}>{BADGES[a.badge].label}</span>
@@ -43,5 +50,5 @@ const related = allArticles.filter((o) => o.zone === a.zone && o.id !== a.id && 
       <ul>{a.sourceList.map((s) => <li><a href={s.url} rel="noopener" target="_blank">{s.source}: {s.title}</a></li>)}</ul>
     </section>
   </article>
-  {related.length > 0 && <section class="wrap"><header class="section-head"><h2>Na mesma zona, hoje</h2></header><div class="grid">{related.map((r) => <Card a={r} />)}</div></section>}
+  {related.length > 0 && <section class="wrap"><header class="section-head"><h2>Na mesma zona, hoje</h2></header><ArticleList items={related} /></section>}
 </Base>

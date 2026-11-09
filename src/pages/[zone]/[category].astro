@@ -1,6 +1,6 @@
 ---
 import Base from '../../layouts/Base.astro';
-import Card from '../../components/Card.astro';
+import ArticleList from '../../components/ArticleList.astro';
 import { ZONES, CATEGORIES } from '../../../lib/taxonomy.mjs';
 import { allArticles, href } from '../../lib/data.js';
 
@@ -17,6 +17,6 @@ const list = allArticles.filter((a) => a.category === slug);
     <h1 data-split>{c.name}</h1>
   </section>
   <section class="wrap">
-    {list.length ? <div class="grid">{list.map((a, i) => <Card a={a} feature={i === 0} />)}</div> : <p class="empty">Nenhum texto nesta editoria ainda.</p>}
+    {list.length ? <ArticleList items={list} /> : <p class="empty">Nenhum texto nesta editoria ainda.</p>}
   </section>
 </Base>

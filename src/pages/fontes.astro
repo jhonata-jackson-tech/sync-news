@@ -3,13 +3,13 @@ import Base from '../layouts/Base.astro';
 import feeds from '../../data/feeds.json';
 const groups = [
   ['Inteligência Artificial', 'ia', 'Radar'], ['Geopolítica', 'geopolitica', 'Radar'], ['Mundo', 'mundo', 'Radar'], ['Brasil', 'brasil', 'Radar'],
-  ['Checagem de fatos', 'checagem', 'Contrapontos'], ['Escatologia e fé', 'escatologia', 'Além do Véu'], ['Esoterismo', 'esoterismo', 'Além do Véu'], ['Teorias e fenômenos', 'teorias', 'Além do Véu'],
+  ['Checagem de fatos', 'checagem', 'Contrapontos'], ['Escatologia e fé', 'escatologia', 'Arcanum'], ['Teorias e contranarrativas', 'teorias', 'Arcanum'],
 ];
 ---
 <Base title="Fontes" description="Os veículos e publicações que alimentam o levantamento diário.">
   <section class="zone-hero compact"><p class="eyebrow">De onde vem cada texto</p><h1 data-split>Fontes</h1></section>
   <section class="wrap">
-    <p class="intro">O coletor lê estes canais todas as manhãs. Estar na lista significa ser lido, não ser endossado. As fontes do Além do Véu expressam crenças e opiniões dos próprios autores.</p>
+    <p class="intro">O coletor lê estes canais todas as manhãs. Estar na lista significa ser lido, não ser endossado. As fontes do Arcanum expressam crenças e opiniões dos próprios autores.</p>
     <div class="source-grid">
       {groups.map(([name, key, zone]) => <div class="source-box" data-reveal><p class="eyebrow">{zone}</p><h2>{name}</h2><ul>{feeds[key].map(([n]) => <li>{n}</li>)}</ul></div>)}
     </div>
