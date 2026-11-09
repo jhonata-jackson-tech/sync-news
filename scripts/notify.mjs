@@ -13,7 +13,7 @@ const path = `data/editions/${today}/edition.json`;
 if (!existsSync(path)) { console.error(`Sem edição de ${today}.`); process.exit(1); }
 const edition = JSON.parse(readFileSync(path, 'utf8'));
 
-/** UUID fixo por edição e segmento: se o envio repetir, o OneSignal descarta a duplicata. */
+/** UUID fixo por publicação e segmento: se o envio repetir, o OneSignal descarta a duplicata. */
 function uuidFor(text) {
   const h = createHash('sha1').update(text).digest('hex');
   const variant = ((parseInt(h[16], 16) & 3) | 8).toString(16);
@@ -32,7 +32,7 @@ for (const segment of ['Subscribed Users', 'Total Subscriptions']) {
     headings: { en: heading, pt: heading },
     contents: { en: body, pt: body },
     url: 'https://jhonata-jackson-tech.github.io/sync-news/',
-    idempotency_key: uuidFor(`${today}:${segment}`),
+    idempotency_key: uuidFor(`${edition.publishedAt}:${segment}`),
   };
   if (dry) { console.log(JSON.stringify(payload, null, 2)); process.exit(0); }
   const res = await fetch('https://api.onesignal.com/notifications', {
