@@ -1,7 +1,54 @@
 {
  "date": "2026-11-10",
- "collectedAt": "2026-11-10T13:59:23.798Z",
+ "collectedAt": "2026-11-10T14:10:51.767Z",
  "items": [
+  {
+   "id": "s_d10ce5761f29",
+   "category": "ia",
+   "source": "TechCrunch",
+   "title": "Adobe adds more AI to its products and launches an MCP",
+   "link": "https://techcrunch.com/2026/11/10/adobe-adds-more-ai-to-its-products-and-launches-an-mcp/",
+   "publishedAt": "2026-11-10T14:05:10.000Z",
+   "snippet": "Adobe is taking on Figma with a new prototype builder tool in Firefly.",
+   "image": null,
+   "seen": false
+  },
+  {
+   "id": "s_6f3953006a30",
+   "category": "ia",
+   "source": "TechCrunch",
+   "title": "Anthropic sets IPO price range of $70 to $78 per share to reach an implied valuation of $1.404 trillion",
+   "link": "https://techcrunch.com/2026/11/10/anthropic-sets-ipo-price-range-of-70-to-78-per-share-to-reach-an-implied-valuation-of-1-404-trillion/",
+   "publishedAt": "2026-11-10T14:01:39.000Z",
+   "snippet": "The company could end up being worth a hefty $1.404 trillion if its shares list at the top of the price range, on a fully diluted basis.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/06/GettyImages-2278736523.jpeg?resize=1200,798",
+   "seen": false,
+   "priority": [
+    "anthropic"
+   ]
+  },
+  {
+   "id": "s_c8072ec28f74",
+   "category": "ia",
+   "source": "TechCrunch",
+   "title": "Spotify’s AI DJ gets new voices, personalities, and an option for less chatter",
+   "link": "https://techcrunch.com/2026/11/10/spotifys-ai-dj-gets-new-voices-personalities-and-an-option-for-less-chatter/",
+   "publishedAt": "2026-11-10T14:00:00.000Z",
+   "snippet": "Spotify Premium users can now customize their AI DJ with new voices with different personalities, or turn off the commentary between songs.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/05/Spotify-AI-DJ-Header.jpg?w=978",
+   "seen": false
+  },
+  {
+   "id": "s_5cd056a31d5d",
+   "category": "ia",
+   "source": "TechCrunch",
+   "title": "After challenging Google’s Android with Cyanogen, its co-founder takes aim at Windows for AI era",
+   "link": "https://techcrunch.com/2026/11/10/after-challenging-googles-android-with-cyanogen-its-co-founder-takes-aim-at-windows-for-ai-era/",
+   "publishedAt": "2026-11-10T14:00:00.000Z",
+   "snippet": "Kora is set to launch as a free-to-use alternative to Windows, targeting users who rely heavily on AI models and agents.",
+   "image": "https://techcrunch.com/wp-content/uploads/2026/11/kora-os.jpg?resize=1200,800",
+   "seen": false
+  },
   {
    "id": "s_1c52468d7a99",
    "category": "ia",
@@ -95,56 +142,6 @@
    "priority": [
     "anthropic"
    ]
-  },
-  {
-   "id": "s_20ff528b5495",
-   "category": "ia",
-   "source": "TechCrunch",
-   "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
-   "link": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
-   "publishedAt": "2026-11-09T18:09:52.000Z",
-   "snippet": "Jensen Huang’s alleged affair with a suspected Chinese spy threatens to complicate Nvidia’s lobbying efforts to loosen U.S. chip export restrictions and maintain access to China’s lucrative AI market.",
-   "image": "https://techcrunch.com/wp-content/uploads/2025/01/GettyImages-2192223928.jpg?resize=1200,801",
-   "seen": false
-  },
-  {
-   "id": "s_fe9001b06ea6",
-   "category": "ia",
-   "source": "TechCrunch",
-   "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
-   "link": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
-   "publishedAt": "2026-11-09T18:00:00.000Z",
-   "snippet": "At 10 cents per million input tokens, Ember is significantly cheaper than frontier competitors like Haiku and Luna.",
-   "image": "https://techcrunch.com/wp-content/uploads/2026/11/Blog-Header-Visual.png?resize=1200,675",
-   "seen": false,
-   "priority": [
-    "meta-ai"
-   ]
-  },
-  {
-   "id": "s_ea1cff75717b",
-   "category": "ia",
-   "source": "TechCrunch",
-   "title": "Anthropic joins AI’s natural gas frenzy, buys $3.4B worth of turbines",
-   "link": "https://techcrunch.com/2026/11/09/anthropic-joins-ais-natural-gas-frenzy-buys-3-4b-worth-of-turbines/",
-   "publishedAt": "2026-11-09T16:56:54.000Z",
-   "snippet": "Anthropic bought billions of dollars' worth of natural gas turbines in a deal that could give it buyer's remorse.",
-   "image": "https://techcrunch.com/wp-content/uploads/2024/12/GettyImages-155376474.jpeg?resize=1200,800",
-   "seen": false,
-   "priority": [
-    "anthropic"
-   ]
-  },
-  {
-   "id": "s_ad058ec7fa05",
-   "category": "ia",
-   "source": "TechCrunch",
-   "title": "Medium’s new TK app brings AI assistance directly into the writing process",
-   "link": "https://techcrunch.com/2026/11/09/mediums-new-tk-app-brings-ai-assistance-directly-into-the-writing-process/",
-   "publishedAt": "2026-11-09T16:12:28.000Z",
-   "snippet": "Medium's new writing app embraces AI-assisted writing, despite growing controversy over the technology's role in publishing.",
-   "image": null,
-   "seen": false
   },
   {
    "id": "s_707c973eeceb",
@@ -466,37 +463,15 @@
    "seen": false
   },
   {
-   "id": "s_057e22ab69c0",
+   "id": "s_770d27b76e6a",
    "category": "ia",
-   "source": "Hugging Face",
-   "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
-   "link": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
-   "publishedAt": "2026-11-09T15:05:57.000Z",
-   "snippet": "",
-   "image": "https://cdn-uploads.huggingface.co/production/uploads/604ad59e2fad27aca4515dab/-hyd03JaQoRhMbmlw9-uJ.jpeg",
+   "source": "Tecnoblog",
+   "title": "Galaxy S25 Plus (512 GB) cai para metade do preço no mês da Black na Amazon",
+   "link": "https://tecnoblog.net/achados/galaxy-s25-plus-512-gb-cai-para-metade-do-preco-no-mes-da-black-na-amazon/",
+   "publishedAt": "2026-11-10T14:05:26.000Z",
+   "snippet": "Galaxy S25 Plus tem tela AMOLED de 120 Hz e chip Snapdragon; celular premium da Samsung recebe desconto de 52% no Pix em oferta da Black November 2026 Galaxy S25 Plus (512 GB) cai para metade do preço no mês da Black na Amazon",
+   "image": "https://www.youtube.com/embed/A5E0GDs37F8",
    "seen": false
-  },
-  {
-   "id": "s_7b1451fc786c",
-   "category": "ia",
-   "source": "Hugging Face",
-   "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
-   "link": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
-   "publishedAt": "2026-11-09T12:34:29.000Z",
-   "snippet": "",
-   "image": "https://cdn-uploads.huggingface.co/production/uploads/6ab2f79bd8000a811c648a32/xZT8tg4be3bgZIx2EQS_m.png",
-   "seen": true
-  },
-  {
-   "id": "s_be1ba71e55b7",
-   "category": "ia",
-   "source": "Hugging Face",
-   "title": "ToyBlocks: A controlled world for robot learning and evaluation",
-   "link": "https://huggingface.co/blog/allenai/toyblocks",
-   "publishedAt": "2026-11-06T14:00:48.000Z",
-   "snippet": "",
-   "image": "https://cdn-uploads.huggingface.co/production/uploads/638e39b249de7ae552d977b5/OAJMu2jr7i5jVAbmsKdZW.jpeg",
-   "seen": true
   },
   {
    "id": "s_741810532849",
@@ -594,7 +569,7 @@
    "link": "https://tecnoblog.net/especiais/novo-patamar-os-bastidores-de-producao-de-celulares-oppo-na-china/",
    "publishedAt": "2026-11-09T17:25:48.000Z",
    "snippet": "O Tecnoblog viajou a Dongguan para conhecer de perto as operações de pesquisa, desenvolvimento e montagem do próximo smartphone topo de linha da Oppo “Novo patamar”: os bastidores de produção de celulares Oppo na China",
-   "image": "https://files.tecnoblog.net/wp-content/uploads/2026/11/fabrica-oppo-china-1536x864.png",
+   "image": "https://www.youtube.com/embed/Ph1G8nwLGog",
    "seen": false
   },
   {
@@ -620,14 +595,40 @@
    "seen": false
   },
   {
-   "id": "s_9ac5661d92e2",
+   "id": "s_eda08569fb9a",
    "category": "ia",
-   "source": "Tecnoblog",
-   "title": "Linus Torvalds já vê “paz” entre Linux e ferramentas de IA que caçam bugs",
-   "link": "https://tecnoblog.net/noticias/linus-torvalds-ja-ve-paz-entre-linux-e-ferramentas-de-ia-que-cacam-bugs/",
-   "publishedAt": "2026-11-09T15:26:09.000Z",
-   "snippet": "Linus Torvalds relatou que, em alguns pontos do Linux, o número de correções começou a superar os relatórios de bugs gerados por IA. Linus Torvalds já vê “paz” entre Linux e ferramentas de IA que caçam bugs",
-   "image": "https://files.tecnoblog.net/wp-content/uploads/2025/04/linux-linus-torvalds-1536x864.png",
+   "source": "Canaltech",
+   "title": "Galaxy S27 pode decepcionar? Vazamento das câmeras preocupa fãs da Samsung",
+   "link": "https://canaltech.com.br/smartphone/galaxy-s27-pode-decepcionar-vazamento-das-cameras-preocupa-fas-da-samsung/",
+   "publishedAt": "2026-11-10T14:10:17.000Z",
+   "snippet": "A linha Galaxy S27 pode decepcionar quem esperava grandes avan&ccedil;os nas c&acirc;meras dos pr&oacute;ximos celulares da Samsung. Um novo vazamento indica que o Galaxy S27 Pro ter&aacute; uma telefoto de apenas 10 MP com zoom &oacute;ptico de 3x, bem abaixo do que rumores anteriores apontavam para o modelo. A suposta ficha t&eacute;cnica tamb&eacute;m mostra poucas novidades para o Galaxy S27 e S27+, enquanto o S27 Ultra pode abandonar a segunda c&acirc;mera telefoto. As informa&ccedil;&otilde;es j&aacute; causaram cr&iacute;ticas entre f&atilde;s da Samsung nas redes sociais. 📱 Veja as me",
+   "image": "https://tl.ctcdn.com.br/czhvyWGN5vbnMnpt2_0IGtuEoq4=/1200x675/smart/filters:format(webp):quality(85)/bc15df10-74ed-46be-b501-90e9a6df2786.png",
+   "seen": false
+  },
+  {
+   "id": "s_69310809cfa3",
+   "category": "ia",
+   "source": "Canaltech",
+   "title": "Anthropic lança Claude Fable 5.2, supera Opus 5.5 e libera uso extra para assinantes",
+   "link": "https://canaltech.com.br/inteligencia-artificial/anthropic-lanca-claude-fable-52-supera-opus-55-e-libera-uso-extra-para-assinantes/",
+   "publishedAt": "2026-11-10T14:03:10.000Z",
+   "snippet": "A Anthropic anunciou o Claude Fable 5.2 , novo modelo de intelig&ecirc;ncia artificial que supera o Opus 5.5 e concorrentes em testes de programa&ccedil;&atilde;o, engenharia de software, pesquisa cient&iacute;fica e racioc&iacute;nio. A ferramenta j&aacute; est&aacute; dispon&iacute;vel para assinantes de planos pagos e tamb&eacute;m pode ser acessada pelas plataformas Amazon Web Services (AWS), Google Cloud e Microsoft Azure. O modelo alcan&ccedil;ou 49,1% no benchmark FrontierCode 2.0 , que avalia programa&ccedil;&atilde;o com agentes de IA, contra 45,5% do Opus 5.5 e 42,8% do GPT-6 Astra. ",
+   "image": "https://tl.ctcdn.com.br/ripUXv0VzX6ebWMwlHd9WM2GSuY=/1200x675/smart/filters:format(webp):quality(85)/d3616459-925f-42fc-9243-2d651b8689f1.jpg",
+   "seen": false,
+   "priority": [
+    "anthropic",
+    "claude"
+   ]
+  },
+  {
+   "id": "s_7a06139298fe",
+   "category": "ia",
+   "source": "Canaltech",
+   "title": "Caoa Changan promete \"baciada\" de lançamentos e lojas no Brasil em 2027",
+   "link": "https://canaltech.com.br/carros/caoa-changan-promete-baciada-de-lancamentos-e-lojas-no-brasil-em-2027/",
+   "publishedAt": "2026-11-10T14:00:00.000Z",
+   "snippet": "A Caoa Changan , joint-venture formada pela alian&ccedil;a entre a tradicional fabricante brasileira e pela gigante montadora chinesa, est&aacute; completando um ano de Brasil , cheia de raz&otilde;es para comemorar. Al&eacute;m da excelente aceita&ccedil;&atilde;o do consumidor aos primeiros carros lan&ccedil;ados no pa&iacute;s ( Uni-T, CS75 e CS55 ), a empresa est&aacute; empolgada com os resultados dos primeiros 12 meses de opera&ccedil;&atilde;o . E quer alcan&ccedil;ar muito mais em 2027. Durante a apresenta&ccedil;&atilde;o do balan&ccedil;o das opera&ccedil;&otilde;es &agrave; imprensa",
+   "image": "https://tl.ctcdn.com.br/P-JuScgiSR4CjPO9S_keHbS4qfc=/1200x675/smart/filters:format(webp):quality(85)/32074487-968e-4c92-ba2e-7f886b328e28.png",
    "seen": false
   },
   {
@@ -730,37 +731,18 @@
    "seen": false
   },
   {
-   "id": "s_3c5505474c34",
+   "id": "s_58367a5205b5",
    "category": "ia",
-   "source": "Canaltech",
-   "title": "Xiaomi prepara \"top barato\" com bateria absurda de 10.000 mAh",
-   "link": "https://canaltech.com.br/smartphone/xiaomi-prepara-top-barato-com-bateria-absurda-de-10000-mah/",
-   "publishedAt": "2026-11-10T12:22:26.000Z",
-   "snippet": "A Xiaomi pode estar preparando um novo celular topo de linha da Redmi com uma bateria absurda de 10.000 mAh . Apontado como o poss&iacute;vel Redmi K100 Ultra, o aparelho ainda teria carregamento de 100 W e suporte a recarga sem fio de 50 W. As informa&ccedil;&otilde;es foram divulgadas nesta ter&ccedil;a-feira (10) pelo leaker Digital Chat Station, duas semanas depois do lan&ccedil;amento da vers&atilde;o base, o Redmi K100 . Apesar de a fonte ter bom hist&oacute;rico de vazamentos, ela n&atilde;o revelou o nome do celular e cita apenas um topo de linha de uma submarca em fase de testes. 📱 V",
-   "image": "https://tl.ctcdn.com.br/QYVycG2FnHrKDbXjPKNHHJ4yFiU=/1200x675/smart/filters:format(webp):quality(85)/a99be995-f673-4366-833e-391e92909435.jpg",
-   "seen": false
-  },
-  {
-   "id": "s_3cec9b632e65",
-   "category": "ia",
-   "source": "Canaltech",
-   "title": "Nintendo prepara conceitos inéditos e novas formas de jogar para o Switch 2",
-   "link": "https://canaltech.com.br/games/nintendo-prepara-conceitos-ineditos-e-novas-formas-de-jogar-para-o-switch-2/",
-   "publishedAt": "2026-11-10T11:46:49.000Z",
-   "snippet": "A Nintendo declarou, na &uacute;ltima semana, que pensa em criar novas formas de jogar no Switch 2 . Pelas palavras do executivo Shinya Takahashi , a companhia trabalha em conjunto com os desenvolvedores para unir ideias in&eacute;ditas de software para o hardware atual. A grande quest&atilde;o &eacute; que cada videogame da empresa, nas &uacute;ltimas d&eacute;cadas, foi inovador: o DS e seu conceito de duas telas (uma delas touchscreen, antes mesmo da populariza&ccedil;&atilde;o dos smartphones), o controle de movimento do Wii , os recursos do Wii U e o formato h&iacute;brido do primeiro Swi",
-   "image": "https://tl.ctcdn.com.br/jRTwDL7_1g2wTpgCDJtQtWkrvT8=/1200x675/smart/filters:format(webp):quality(85)/6cb076ae-4e0d-42c6-8167-fadf5a7c7638.jpeg",
-   "seen": false
-  },
-  {
-   "id": "s_09d6f2bbedf1",
-   "category": "ia",
-   "source": "Canaltech",
-   "title": "Novo nº 1 da Apple TV: suspense sombrio desbanca Silo e vira febre no streaming",
-   "link": "https://canaltech.com.br/entretenimento/novo-n-1-da-apple-tv-suspense-sombrio-desbanca-silo-e-vira-febre-no-streaming/",
-   "publishedAt": "2026-11-10T11:01:00.000Z",
-   "snippet": "A Apple TV tem um novo sucesso de suspense que promete continuar movimentando o streaming nas pr&oacute;ximas semanas: a s&eacute;rie Noturno , um thriller policial intenso que desbancou t&iacute;tulos consolidados na plataforma com apenas tr&ecirc;s epis&oacute;dios lan&ccedil;ados at&eacute; o momento. Estrelada por Liev Schreiber e Stephen Graham, Noturno chegou ao servi&ccedil;o da Ma&ccedil;&atilde; no final de outubro para contar a hist&oacute;ria de um detetive aposentado que se v&ecirc; obrigado a voltar &agrave; ativa por causa da ca&ccedil;a a um macabro serial killer . O forte apelo",
-   "image": "https://tl.ctcdn.com.br/F1pkuz71wbXwR-g13grmidtd6WA=/1200x675/smart/filters:format(webp):quality(85)/a6195297-f725-4f40-8dd4-f49aa64faa96.jpg",
-   "seen": false
+   "source": "Olhar Digital",
+   "title": "Anthropic inicia IPO histórico com avaliação de até US$ 1,4 trilhão",
+   "link": "https://olhardigital.com.br/2026/11/10/pro/anthropic-inicia-ipo-historico-com-avaliacao-de-ate-us-14-trilhao/",
+   "publishedAt": "2026-11-10T13:32:54.000Z",
+   "snippet": "Anthropic inicia IPO com avaliação de até US$ 1,4 trilhão na Nasdaq e captação global de US$ 90,4 bilhões com gigantes da tecnologia O post Anthropic inicia IPO histórico com avaliação de até US$ 1,4 trilhão apareceu primeiro em Olhar Digital .",
+   "image": "https://olhardigital.com.br/wp-content/uploads/2026/11/anthropic_ipo.jpg",
+   "seen": false,
+   "priority": [
+    "anthropic"
+   ]
   },
   {
    "id": "s_4b6f5717cdf2",
@@ -782,28 +764,6 @@
    "publishedAt": "2026-11-10T12:24:14.000Z",
    "snippet": "Anvisa proíbe suplementos de quatro marcas por falta de registro, propagandas irregulares e lote falso vendido na internet. O post Quatro marcas de suplementos são proibidas pela Anvisa; veja quais apareceu primeiro em Olhar Digital .",
    "image": "https://olhardigital.com.br/wp-content/uploads/2026/11/anvisa.jpg",
-   "seen": false
-  },
-  {
-   "id": "s_1146ba87ba87",
-   "category": "ia",
-   "source": "Olhar Digital",
-   "title": "Partida de Call of Duty no avião é confundida com ameaça de bomba",
-   "link": "https://olhardigital.com.br/2026/11/10/seguranca/partida-de-call-of-duty-no-aviao-e-confundida-com-ameaca-de-bomba/",
-   "publishedAt": "2026-11-10T11:43:58.000Z",
-   "snippet": "Voo da Frontier Airlines é evacuado nos EUA após conversa sobre o jogo Call of Duty ser confundida com ameaça de bomba O post Partida de Call of Duty no avião é confundida com ameaça de bomba apareceu primeiro em Olhar Digital .",
-   "image": "https://olhardigital.com.br/wp-content/uploads/2026/11/Call-of-Duty.jpg",
-   "seen": false
-  },
-  {
-   "id": "s_ca00ce3cabc7",
-   "category": "ia",
-   "source": "Olhar Digital",
-   "title": "Embraer bate recorde com receita de R$ 12,5 bilhões no 3º trimestre",
-   "link": "https://olhardigital.com.br/2026/11/10/pro/embraer-bate-recorde-com-receita-de-r-125-bilhoes-no-3o-trimestre/",
-   "publishedAt": "2026-11-10T11:13:52.000Z",
-   "snippet": "A fabricante entregou 66 aeronaves e encerrou o trimestre com carteira recorde de US$ 35,7 bilhões, 14% maior que um ano antes O post Embraer bate recorde com receita de R$ 12,5 bilhões no 3º trimestre apareceu primeiro em Olhar Digital .",
-   "image": "https://olhardigital.com.br/wp-content/uploads/2026/11/embraer.jpg",
    "seen": false
   },
   {
@@ -1049,6 +1009,50 @@
    "seen": true
   },
   {
+   "id": "s_58911f3bdcba",
+   "category": "geopolitica",
+   "source": "Al Jazeera",
+   "title": "Meta’s AI age-check goes global: Can it protect teens?",
+   "link": "https://www.aljazeera.com/news/2026/11/10/metas-ai-age-check-goes-global-can-it-protect-teens?traffic_source=rss",
+   "publishedAt": "2026-11-10T13:58:37.000Z",
+   "snippet": "The tech giant rolls out age-detection tool for Instagram and Facebook, but experts doubt whether it can help protect teens.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-11-04T165726Z_1266988763_RC2B6OA5BEOF_RTRMADP_3_META-BONDS-EUROPE-1794305365.jpg?resize=1920%2C1440",
+   "seen": false
+  },
+  {
+   "id": "s_cd9bd0e588d5",
+   "category": "geopolitica",
+   "source": "Al Jazeera",
+   "title": "Who is Jean Leonard Teganya, deported by US over Rwanda genocide claims?",
+   "link": "https://www.aljazeera.com/news/2026/11/10/who-is-jean-leonard-teganya-deported-by-us-over-rwanda-genocide-claims?traffic_source=rss",
+   "publishedAt": "2026-11-10T13:54:35.000Z",
+   "snippet": "Teganya, a former medical student, is accused of participating in the 1994 genocide against the Tutsi in Rwanda.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2019-07-01T191241Z_186729567_RC1CFFD4A3B0_RTRMADP_3_MASSACHUSETTS-CRIME-RWANDA-1-1794301786.jpg?resize=1200%2C630",
+   "seen": false
+  },
+  {
+   "id": "s_b49fb99b26f3",
+   "category": "geopolitica",
+   "source": "Al Jazeera",
+   "title": "Attacks escalate between Saudi-led forces and Yemen’s Iran-backed Houthis",
+   "link": "https://www.aljazeera.com/video/newsfeed/2026/11/10/attacks-escalate-between-saudi-led-forces-and-yemens-iran-backed-houthis?traffic_source=rss",
+   "publishedAt": "2026-11-10T13:39:22.000Z",
+   "snippet": "Saudi Arabia says it intercepted missiles fired by the Iran-backed Houthis in Yemen as attacks between them escalate.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/image-1794317873.jpg?resize=1920%2C1080&quality=80",
+   "seen": false
+  },
+  {
+   "id": "s_d4d15f28e58a",
+   "category": "geopolitica",
+   "source": "Al Jazeera",
+   "title": "Israeli soldiers are also settlers in West Bank: Al Jazeera investigation",
+   "link": "https://www.aljazeera.com/news/2026/11/10/israeli-soldiers-are-also-settlers-in-west-bank-al-jazeera-investigation?traffic_source=rss",
+   "publishedAt": "2026-11-10T13:34:33.000Z",
+   "snippet": "Blurred lines between Israeli soldiers and settlers fuel systematic West Bank violence and mass displacement.",
+   "image": "https://www.aljazeera.com/wp-content/uploads/2026/08/reuters_6a8519ae-1787107758.jpg?resize=1920%2C1440",
+   "seen": false
+  },
+  {
    "id": "s_8f0d8102efa3",
    "category": "geopolitica",
    "source": "Al Jazeera",
@@ -1137,50 +1141,6 @@
    "seen": false
   },
   {
-   "id": "s_05b29a14d959",
-   "category": "geopolitica",
-   "source": "Al Jazeera",
-   "title": "Malaysian court clears former PM Najib Razak for house arrest transfer",
-   "link": "https://www.aljazeera.com/news/2026/11/10/malaysian-court-clears-former-pm-najib-razak-for-house-arrest-transfer?traffic_source=rss",
-   "publishedAt": "2026-11-10T11:17:36.000Z",
-   "snippet": "Najib, 73, was jailed for his role in looting the now-defunct sovereign wealth fund 1MDB.",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6af2e8796627-1794304121.jpg?resize=1920%2C1440",
-   "seen": false
-  },
-  {
-   "id": "s_d4b8503cedb2",
-   "category": "geopolitica",
-   "source": "Al Jazeera",
-   "title": "Who moves first in Iran-US diplomacy?",
-   "link": "https://www.aljazeera.com/opinions/2026/11/10/who-moves-first-in-iran-us-diplomacy?traffic_source=rss",
-   "publishedAt": "2026-11-10T11:14:16.000Z",
-   "snippet": "Breaking the deadlock requires coordinated, verifiable concessions, not demands for one side to act first.",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/09/ap_6abd16170fc61-1790776855.jpg?resize=1920%2C1440",
-   "seen": false
-  },
-  {
-   "id": "s_37bc8c85059a",
-   "category": "geopolitica",
-   "source": "Al Jazeera",
-   "title": "Moroccan trio make African Player of Year shortlist as Salah absent",
-   "link": "https://www.aljazeera.com/sports/2026/11/10/moroccan-trio-make-african-player-of-year-shortlist-as-salah-absent?traffic_source=rss",
-   "publishedAt": "2026-11-10T11:05:20.000Z",
-   "snippet": "WAFCON winners Cameroon dominate women’s list after heroics from Monique Ngock, Michaely Bihina and Marie Ngah Manga.",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6af2f1af-1794306479.jpg?resize=1920%2C1440",
-   "seen": false
-  },
-  {
-   "id": "s_167e633aeec1",
-   "category": "geopolitica",
-   "source": "Al Jazeera",
-   "title": "France summons Iran’s ambassador over supermarket fridge ‘sabotage’",
-   "link": "https://www.aljazeera.com/news/2026/11/10/france-summons-irans-ambassador-over-supermarket-fridge-sabotage?traffic_source=rss",
-   "publishedAt": "2026-11-10T10:51:02.000Z",
-   "snippet": "The French government said it is seeking tough sanctions to deter further cyberattacks across Europe.",
-   "image": "https://www.aljazeera.com/wp-content/uploads/2026/11/2026-10-12T154034Z_1680256209_RC2Q1OAAOPIE_RTRMADP_3_FRANCE-CYBERATTACK-1794300050.jpg?resize=1920%2C1440",
-   "seen": false
-  },
-  {
    "id": "s_3dade797e9c6",
    "category": "geopolitica",
    "source": "ONU News",
@@ -1230,7 +1190,7 @@
    "source": "BBC World",
    "title": "Anthropic heads for $1.3 trillion valuation in major stock market listing",
    "link": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
-   "publishedAt": "2026-11-10T13:45:36.000Z",
+   "publishedAt": "2026-11-10T14:04:22.000Z",
    "snippet": "The AI company behind the Claude chatbot will offer its shares at between $70 and $78.",
    "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/151a/live/19e16bc0-dd03-11f1-a701-fddedf244c16.jpg",
    "seen": false
@@ -1283,10 +1243,10 @@
    "id": "s_5643d3d7eb9e",
    "category": "mundo",
    "source": "BBC World",
-   "title": "Police officer dies and another injured after backpack explosion in Oviedo",
+   "title": "Police officer dies and another injured after backpack explosion in northern Spain",
    "link": "https://www.bbc.co.uk/news/articles/cwm262pzezy0o?at_medium=RSS&at_campaign=rss",
    "publishedAt": "2026-11-10T11:25:46.000Z",
-   "snippet": "Officers attended the scene in connection with a separate incident at a residential building in the city.",
+   "snippet": "Officers attended the scene in connection with a separate incident at a residential building in the Spanish city.",
    "image": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/612d/live/a358da40-dcfa-11f1-9ef0-4b5930e2f80e.jpg",
    "seen": false
   },
@@ -1621,25 +1581,14 @@
    "seen": false
   },
   {
-   "id": "s_ead68cd5aa76",
+   "id": "s_884dc13ef223",
    "category": "mundo",
    "source": "The Guardian",
-   "title": "‘Double amputees run marathons,’ says Badenoch as she proposes £36bn cuts to disability and other benefits – UK politics live",
-   "link": "https://www.theguardian.com/politics/live/2026/nov/10/badenoch-conservative-welfare-cuts-disability-benefits-burnham-politics-latest-news-updates",
-   "publishedAt": "2026-11-10T13:44:15.000Z",
-   "snippet": "Conservative leader launches Welfare That Works policy document Badenoch and Whately are now taking questions. Q: [From Rob Powell from Sky News] We are running a report on the Netherlands, where youth unemployment is much lower than in the UK, but the amount they spend on getting people into work is much higher. Do you want to spend more on job training and support? Continue reading...",
-   "image": "https://i.guim.co.uk/img/media/fd4ac543ecc001e3687386d0783003e964a14e4b/128_165_3091_2473/master/3091.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=8daf6f6bed1a1f00d61d75508544de11",
-   "seen": false
-  },
-  {
-   "id": "s_bf15bf06a44a",
-   "category": "mundo",
-   "source": "The Guardian",
-   "title": "Russia launched deadly Ukraine attacks hours before start of Abu Dhabi talks – Europe live",
-   "link": "https://www.theguardian.com/world/live/2026/nov/10/ukraine-russia-war-us-talks-abu-dhabi-europe-latest-news-updates",
-   "publishedAt": "2026-11-10T13:39:53.000Z",
-   "snippet": "US-led talks in Abu Dhabi are first substantive negotiations in months focusing on ending the conflict which has raged for more than four years US officials seek ‘final end’ to Russia-Ukraine war as talks begin The EU has said it stands ready “to come with a swift and united response” after France blamed Iran for a spate of cyber-attacks on supermarket freezers and chillers that caused millions of euros of damage. Speaking to journalists on Monday, French foreign minister Jean-Noël Barrot said “ Europe-wide sanctions ” would be imposed against those responsible as he announced France believed ",
-   "image": "https://i.guim.co.uk/img/media/107e559a07afa91b8a10b4e3226ef062b4051e0e/63_0_1706_1365/master/1706.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=4954e0a57e931306832c7a46a8ca2361",
+   "title": "Cop31 live: host Turkey celebrates new oilfields as climate summit enters second day",
+   "link": "https://www.theguardian.com/environment/live/2026/nov/10/cop31-live-fossil-fuel-carbon-emissions-climate-crisis-latest-news-updates",
+   "publishedAt": "2026-11-10T13:57:35.000Z",
+   "snippet": "UN climate summit prepares to host world leaders from more than 90 countries as scientists find global carbon emissions flatlined this year We’ve just heard from Patricia Espinosa , the former UN climate boss (succeeded by Simon Stiell) and now we are hearing from former US secretary of state and climate ambassador, John Kerry. Kerry has congratulated Brazil for keeping the fossil fuel transition issue alive, and the room has erupted in cheers. Continue reading...",
+   "image": "https://i.guim.co.uk/img/media/b93d3307e0484de02281c9b34fd73467568202f1/207_0_4813_3853/master/4813.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=5180653f67759377f5eff109f37f608a",
    "seen": false
   },
   {
@@ -1648,9 +1597,31 @@
    "source": "The Guardian",
    "title": "Pete Hegseth dismisses Republican’s impeachment effort against him as ‘a political spectacle’ – US politics live",
    "link": "https://www.theguardian.com/us-news/live/2026/nov/10/donald-trump-pete-hegseth-thomas-massie-republicans-iran-war-impeachment-midterms-latest-news-updates",
-   "publishedAt": "2026-11-10T13:38:05.000Z",
+   "publishedAt": "2026-11-10T13:49:48.000Z",
    "snippet": "Trump’s defense secretary calls impeachment effort from congressman Thomas Massie ‘a personal manifesto driven by ego’ as he faces scrutiny for prolonged Iran war Sign up for the US Breaking News email During his press conference, Hegseth was resolute that the articles of impeachment are baseless, and that all attacks were carried out legally. “As for the articles themselves, Iran, the cartels, Maduro, Yemen, everyone was a lawful operation ordered by the commander-in-chief, then ordered by myself, notified to Congress and executed by American warriors who did their jobs,” he said. “We destroy",
    "image": "https://i.guim.co.uk/img/media/cfacb3a0788280a626230564a0712ec43525aabe/125_0_3405_2724/master/3405.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=0fd6c3b614008a7f4711d3e598f75f96",
+   "seen": false
+  },
+  {
+   "id": "s_ead68cd5aa76",
+   "category": "mundo",
+   "source": "The Guardian",
+   "title": "Planned Tory welfare cuts ‘a charter for human misery,’ says Labour – UK politics live",
+   "link": "https://www.theguardian.com/politics/live/2026/nov/10/badenoch-conservative-welfare-cuts-disability-benefits-burnham-politics-latest-news-updates",
+   "publishedAt": "2026-11-10T13:44:15.000Z",
+   "snippet": "Conservative leader launches Welfare That Works policy document outlining benefit reductions of £36bn Badenoch and Whately are now taking questions. Q: [From Rob Powell from Sky News] We are running a report on the Netherlands, where youth unemployment is much lower than in the UK, but the amount they spend on getting people into work is much higher. Do you want to spend more on job training and support? Continue reading...",
+   "image": "https://i.guim.co.uk/img/media/fd4ac543ecc001e3687386d0783003e964a14e4b/128_165_3091_2473/master/3091.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=8daf6f6bed1a1f00d61d75508544de11",
+   "seen": false
+  },
+  {
+   "id": "s_bf15bf06a44a",
+   "category": "mundo",
+   "source": "The Guardian",
+   "title": "Russia-Ukraine talks ‘very productive’ says US’s Rubio – Europe live",
+   "link": "https://www.theguardian.com/world/live/2026/nov/10/ukraine-russia-war-us-talks-abu-dhabi-europe-latest-news-updates",
+   "publishedAt": "2026-11-10T13:39:53.000Z",
+   "snippet": "US-led talks in Abu Dhabi break up after four hours but are expected to resume tomorrow US officials seek ‘final end’ to Russia-Ukraine war as talks begin The EU has said it stands ready “to come with a swift and united response” after France blamed Iran for a spate of cyber-attacks on supermarket freezers and chillers that caused millions of euros of damage. Speaking to journalists on Monday, French foreign minister Jean-Noël Barrot said “ Europe-wide sanctions ” would be imposed against those responsible as he announced France believed that Iran’s Revolutionary Guards were “responsible for t",
+   "image": "https://i.guim.co.uk/img/media/774a5dca29c43ddae2d2e6ed0635d0a715d82ac7/1079_0_6831_5465/master/6831.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=f485fd07c428544a03eef412b58b3a57",
    "seen": false
   },
   {
@@ -1660,7 +1631,7 @@
    "title": "US inflation rose 0.4% in October as price increases cooled and gas costs dipped",
    "link": "https://www.theguardian.com/business/2026/nov/10/october-inflation-report",
    "publishedAt": "2026-11-10T13:36:16.000Z",
-   "snippet": "New data comes after Republicans’ midterms losses – which were largely seen as a rebuke of the party over high prices US inflation rose 0.4% from September to October, a cooldown in price increases as the cost of gas dipped during the month. The Bureau of Labor Statistics did not release the usual year-over-year inflation figure as part of the consumer price index (CPI), which measures the price of a basket of goods and services, as data was not collected in October 2025 during the government shutdown. Continue reading...",
+   "snippet": "New data comes after Republicans’ midterms losses – which were largely seen as a rebuke of the party over high prices US inflation rose 0.4% from September to October, slightly above expectations but still a cooldown in price increases as the cost of gas dipped during the month. The Bureau of Labor Statistics did not release the usual year-over-year inflation figure as part of the consumer price index (CPI), which measures the price of a basket of goods and services, as data was not collected in October 2025 during the government shutdown. Continue reading...",
    "image": "https://i.guim.co.uk/img/media/edd11372dd6a075792b3425571de06722515ec38/886_0_6138_4911/master/6138.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=6275bce8c920adf843ded781fb782be7",
    "seen": false
   },
@@ -1695,17 +1666,6 @@
    "publishedAt": "2026-11-10T13:15:43.000Z",
    "snippet": "If data from device is recovered, it could give crucial details about what pilots said as they lost control of aircraft Investigators said Monday they have recovered the cockpit voice recorder from a business jet that plummeted from the sky amid severe weather in Florida eight days earlier, killing all nine people on board. The recorder was found at the site where the Bahamas-bound Learjet slammed into the ground in Palm Beach county, Florida , and erupted in a fireball 1 November, the National Transportation Safety Board said in a statement posted to social media. Continue reading...",
    "image": "https://i.guim.co.uk/img/media/c6396288f939296b08b15b85011fb7f735b971d9/364_0_1813_1451/master/1813.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=2e311397463e1fa2ecabb88ebc0a3b41",
-   "seen": false
-  },
-  {
-   "id": "s_884dc13ef223",
-   "category": "mundo",
-   "source": "The Guardian",
-   "title": "Cop31 live: host Turkey celebrates new oilfields as climate summit enters second day",
-   "link": "https://www.theguardian.com/environment/live/2026/nov/10/cop31-live-fossil-fuel-carbon-emissions-climate-crisis-latest-news-updates",
-   "publishedAt": "2026-11-10T13:13:44.000Z",
-   "snippet": "UN climate summit prepares to host world leaders from more than 90 countries as scientists find global carbon emissions flatlined this year We’ve just heard from Patricia Espinosa , the former UN climate boss (succeeded by Simon Stiell) and now we are hearing from former US secretary of state and climate ambassador, John Kerry. Kerry has congratulated Brazil for keeping the fossil fuel transition issue alive, and the room has erupted in cheers. Continue reading...",
-   "image": "https://i.guim.co.uk/img/media/b93d3307e0484de02281c9b34fd73467568202f1/207_0_4813_3853/master/4813.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctbGl2ZS5wbmc&enable=upscale&s=5180653f67759377f5eff109f37f608a",
    "seen": false
   },
   {
@@ -1863,6 +1823,94 @@
    "seen": false
   },
   {
+   "id": "s_f83a59334a1d",
+   "category": "brasil",
+   "source": "G1",
+   "title": "VÍDEO: dupla suspeita de matar homem a facadas é presa em José Bonifácio",
+   "link": "https://g1.globo.com/sp/sao-jose-do-rio-preto-aracatuba/noticia/2026/11/10/video-dupla-suspeita-de-matar-homem-a-facadas-e-presa-em-jose-bonifacio.ghtml",
+   "publishedAt": "2026-11-10T14:04:10.000Z",
+   "snippet": "Dupla suspeita de matar homem a facadas é presa em José Bonifácio Dois homens foram presos na manhã de segunda-feira (9) suspeitos de envolvimento no assassinato de um homem de 28 anos a facadas na Rua 13 de Maio, em José Bonifácio (SP). Uma imagem de câmera de segurança registrou os momentos após o ataque. No vídeo, é possível ver o homem, identificado pela polícia como Ricardo da Silva Soares, com manchas de sangue na camiseta. Ele cai na calçada, levanta e caminha até o comércio, onde morreu. Assista ao vídeo acima. 📲 Participe do canal do g1 Rio Preto e Araçatuba no WhatsApp Dupla suspeit",
+   "image": "https://s2-g1.glbimg.com/KCWLz14sEHiHvmNOvz5tKZPLVlI=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/e/k/rDbs3cSiCFDfY76WNzTw/g1-29-.jpg",
+   "seen": false
+  },
+  {
+   "id": "s_5ae03ae89af5",
+   "category": "brasil",
+   "source": "G1",
+   "title": "Ave ameaçada constrói cinco ninhos em campus universitário no sul da BA",
+   "link": "https://g1.globo.com/sp/campinas-regiao/terra-da-gente/noticia/2026/11/10/ave-ameacada-constroi-cinco-ninhos-em-campus-universitario-no-sul-da-ba.ghtml",
+   "publishedAt": "2026-11-10T14:02:02.000Z",
+   "snippet": "Cinco ninhos de acrobata são monitorados por pesquisadores no campus da UESC, em Ilhéus (BA) Jordalton Oliveira Imagine caminhar pelos arredores de salas de aula, laboratórios e estacionamentos movimentados e descobrir que, a dezenas de metros de altura, uma das aves mais ameaçadas e peculiares da Mata Atlântica tem ninhos instalados ali. Foi o que aconteceu no campus Professor Soane Nazaré de Andrade da Universidade Estadual de Santa Cruz (UESC), em Ilhéus(BA). 📱 Acompanhe o Terra da Gente também no Instagram Um estudo recente liderado por pesquisadores da instituição registrou a presença e ",
+   "image": "https://s2-g1.glbimg.com/unGTid7uTAkHg-c5jHHqTg1br_U=/1427x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/G/T/MgNB1TTveYecEnIAMsow/breno-vitorio-de-sousa-acrobata-1.jpeg",
+   "seen": false
+  },
+  {
+   "id": "s_bff75cde4f89",
+   "category": "brasil",
+   "source": "G1",
+   "title": "Polícia prende quarto suspeito de atentado ao bicheiro Vinícius Drumond",
+   "link": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/11/10/policia-prende-suspeito-atentado-bicheiro-vinicius-drumond.ghtml",
+   "publishedAt": "2026-11-10T14:01:24.000Z",
+   "snippet": "Jorge Affonso foi preso por policiais da 50ª DP (Itaguaí) Reprodução A 50ª DP (Itaguaí) prendeu nesta terça-feira (10) mais um suspeito de envolvimento no atentado contra o bicheiro Vinícius Drumond. Jorge Affonso Marins de Assis foi o quarto identificado por participação no crime, ocorrido no ano passado, e estava foragido há mais de um ano. Segundo as investigações, ele auxiliou no monitoramento a Vinícius Drumond antes da tentativa dos executores para matar o bicheiro na Avenida das Américas. Vídeo mostra momento do atentado contra o bicheiro Vinicius Drumond no Rio Jorge Affonso Marins de ",
+   "image": "https://s2-g1.glbimg.com/vco9yu2bbMrWY3D_nOgkolW52LU=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/b/W/BDsmWjRNCdgNI1JJmkdw/imagem-cortada-2026-11-10t105418.454.jpg",
+   "seen": false
+  },
+  {
+   "id": "s_401bcd1a63c2",
+   "category": "brasil",
+   "source": "G1",
+   "title": "Incêndio de grandes proporções atinge ônibus e caminhões em oficina mecânica em Montes Claros",
+   "link": "https://g1.globo.com/mg/grande-minas/noticia/2026/11/10/incendio-de-grandes-proporcoes-atinge-onibus-e-caminhoes-em-oficina-mecanica-em-montes-claros.ghtml",
+   "publishedAt": "2026-11-10T14:00:39.000Z",
+   "snippet": "Incêndio atingiu veículos em oficina Corpo de Bombeiros/Divulgação O Corpo de Bombeiros combateu um incêndio de grandes proporções que atingiu uma oficina mecânica em Montes Claros, na noite desta segunda-feira (9). Ao chegarem ao local, os militares constataram que as chamas atingiam veículos estacionados no interior do estabelecimento. Após avaliar os riscos e analisar a situação, as equipes iniciaram o combate ao fogo, com o objetivo de controlar as chamas e evitar que se espalhassem para outros veículos e áreas da oficina. 📲Clique aqui para seguir o canal do g1 Grande Minas no WhatsApp O ",
+   "image": "https://s2-g1.glbimg.com/Phs8cFZj2Rh14aQX4r4dkmHb2uU=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/N/J/wA39BDQEqyDqYj8Qo9YQ/onibus1.jpeg",
+   "seen": false
+  },
+  {
+   "id": "s_0e3291b20cb3",
+   "category": "brasil",
+   "source": "G1",
+   "title": "Tarcísio de Freitas participa do FOMENTA 2026",
+   "link": "https://g1.globo.com/sp/campinas-regiao/especial-publicitario/amppesp-amppesp-fomenta/noticia/2026/11/10/tarcisio-de-freitas-participa-do-fomenta-2026.ghtml",
+   "publishedAt": "2026-11-10T14:00:03.000Z",
+   "snippet": "Tarcísio de Freitas participa do FOMENTA 2026 Crédito: Divulgação. O governador de São Paulo, Tarcísio de Freitas, confirmou presença no FOMENTA 2026, encontro de gestão pública promovido pela Associação de Municípios de Médio e Pequeno Porte do Estado de São Paulo (AMPPESP), de 10 a 12 de novembro, no Grande Hotel São Pedro, em Águas de São Pedro (SP). Segundo a organização, é o maior encontro de gestão pública voltado aos municípios de médio e pequeno porte do estado. A expectativa para a recepção dos gestores e a programação foram destacadas pelo prefeito de Águas de São Pedro, João Victor ",
+   "image": "https://s2-g1.glbimg.com/kzw7Q94rFWmM0q8u_c11c1PZ-vk=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/w/0/hmrDzFTCe4ydEsmfjSSQ/foto-1-10-.png",
+   "seen": false
+  },
+  {
+   "id": "s_19e0a9eef40c",
+   "category": "brasil",
+   "source": "G1",
+   "title": "MP investiga três contratações do governo de RO que somam R$ 143 milhões",
+   "link": "https://g1.globo.com/ro/rondonia/noticia/2026/11/10/mp-investiga-tres-contratacoes-do-governo-de-ro-que-somam-r-143-milhoes.ghtml",
+   "publishedAt": "2026-11-10T13:59:25.000Z",
+   "snippet": "Ministério Público do Estado de Rondônia (MPRO) MPRO O Ministério Público de Rondônia (MPRO) analisa três procedimentos de contratação do Governo de Rondônia que, juntos, somam R$ 143,3 milhões. Os casos envolvem a instalação de 63 totens de monitoramento de trânsito, a contratação de uma plataforma educacional com materiais didáticos e um pregão para compra de uma solução de firewall para proteger os sistemas da Secretaria de Estado da Educação (Seduc). Os procedimentos envolvem o Departamento Estadual de Trânsito (Detran) e a Seduc. O valor total considera um contrato já celebrado pelo Detra",
+   "image": "https://s2-g1.glbimg.com/ceKJpsRQgjdmtQ092i-HPcdrgcM=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/f/W/ceiBEbTauPoL2NedAVKg/img-93751941-e0c0-4a13-824b-e4df3ba252a7-capa-porto-velho-04.jpg",
+   "seen": false
+  },
+  {
+   "id": "s_6b92bc130f6b",
+   "category": "brasil",
+   "source": "G1",
+   "title": "Servidores de Natal são afastados suspeitos de exigir pagamentos de contribuintes para a realização de serviços públicos gratuitos",
+   "link": "https://g1.globo.com/rn/rio-grande-do-norte/noticia/2026/11/10/servidores-de-natal-sao-afastados-suspeitos-de-exigir-pagamentos-de-contribuintes-para-a-realizacao-de-servicos-publicos-gratuitos.ghtml",
+   "publishedAt": "2026-11-10T13:58:23.000Z",
+   "snippet": "Polícia Civil investiga cobrança ilegal por serviços gratuitos na Prefeitura de Natal Divulgação/Polícia Civil A Polícia Civil do Rio Grande do Norte deflagrou, nesta terça-feira (10), a Operação Deceptor para investigar a suspeita de cobrança de vantagens indevidas por servidores e colaboradores da antiga Secretaria Municipal de Tributação de Natal (SEMUT), atualmente Secretaria Municipal de Finanças (SEFIN). Segundo a investigação, contribuintes teriam sido cobrados para obter serviços públicos que deveriam ser gratuitos, como alteração de titularidade de imóveis, parcelamento de débitos tri",
+   "image": "https://s2-g1.glbimg.com/FzZQiPr4Z-mPosPTmfZxfbHrtTc=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/3/C/58egIKQhKjxtLOMms0ug/whatsapp-image-2026-02-27-at-17.27.07.jpeg",
+   "seen": false
+  },
+  {
+   "id": "s_74aff856a72f",
+   "category": "brasil",
+   "source": "G1",
+   "title": "VÍDEOS: Bom Dia Amazonas desta terça-feira, 10 de novembro de 2026",
+   "link": "https://g1.globo.com/am/amazonas/playlist/videos-bom-dia-amazonas-desta-terca-feira-10-de-novembro-de-2026.ghtml",
+   "publishedAt": "2026-11-10T13:57:51.000Z",
+   "snippet": "O telejornal é veiculado na Rede Amazônica.",
+   "image": "https://s.glbimg.com/jo/g1/static/live/imagens/img_facebook.png?g1",
+   "seen": false
+  },
+  {
    "id": "s_c6995605a5cf",
    "category": "brasil",
    "source": "G1",
@@ -1902,96 +1950,19 @@
    "title": "Advogado e jornalista, Sidnei Carvalho morre após complicações de dengue",
    "link": "https://g1.globo.com/go/goias/noticia/2026/11/10/advogado-e-jornalista-sidnei-carvalho-morre-apos-complicacoes-de-dengue.ghtml",
    "publishedAt": "2026-11-10T13:55:21.000Z",
-   "snippet": "Advogado e jornalista em Goiás, Sidnei Carvalho morre após complicações de dengue Arquivo pessoal de Sidnei Carvalho O advogado e jornalista Sidnei Carvalho Pimentel morreu na madrugada nesta terça-feira (10) após complicações de dengue em São Paulo (SP). Matéria em atualização.",
+   "snippet": "Advogado e jornalista em Goiás, Sidnei Carvalho morre após complicações de dengue Arquivo pessoal de Sidnei Carvalho O advogado e jornalista Sidnei Carvalho Pimentel morreu na madrugada nesta terça-feira (10) após complicações de dengue em São Paulo (SP). Sidnei estava na capital paulista para cumprir uma agenda de trabalho junto com a esposa Nubya Cirqueira, quando foi internado com sintomas da doença. Matéria em atualização.",
    "image": "https://s2-g1.glbimg.com/F_eXWDd6imZMrXMLZMw6kY36tko=/1700x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/0/0/UHAIXqRDeWWcecX1REnA/g1-foto-6-.jpg",
    "seen": false
   },
   {
-   "id": "s_d8ab96cd9654",
+   "id": "s_a3af56fd4d21",
    "category": "brasil",
-   "source": "G1",
-   "title": "Dois homens são presos com pistola dentro de BMW em Salvador",
-   "link": "https://g1.globo.com/ba/bahia/noticia/2026/11/10/dois-homens-sao-presos-com-pistola-dentro-de-bmw-em-salvador.ghtml",
-   "publishedAt": "2026-11-10T13:53:39.000Z",
-   "snippet": "Dois homens foram presos na manhã desta terça-feira (10), após serem flagrados com uma pistola calibre 9 mm dentro de uma BMW X5, no bairro do Nordeste de Amaralina, em Salvador. Segundo a Polícia Militar, a arma estava carregada e municiada. De acordo com a PM, a abordagem aconteceu por volta das 8h50, na Rua Onze de Novembro, na subida da Santa Cruz, durante a Operação Dominus Areae. Policiais do Batalhão Apolo identificaram o veículo, que estava com os vidros escurecidos. Conforme a corporação, o motorista apresentou atitude considerada suspeita ao perceber a aproximação da viatura. Durante",
-   "image": null,
-   "seen": false
-  },
-  {
-   "id": "s_0e2d2e5e1949",
-   "category": "brasil",
-   "source": "G1",
-   "title": "Motociclista morre em acidente na Rodovia Floriano Rodrigues Pinheiro, em Tremembé",
-   "link": "https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2026/11/10/motociclista-morre-em-acidente-na-rodovia-floriano-rodrigues-pinheiro-em-tremembe.ghtml",
-   "publishedAt": "2026-11-10T13:53:17.000Z",
-   "snippet": "Motociclista morre em acidente na Rodovia Floriano Rodrigues Pinheiro, em Tremembé Reprodução Um motociclista de 24 anos morreu após um acidente de moto nesta segunda-feira (9), na rodovia Floriano Rodrigues Pinheiro (SP-123), em Tremembé (SP). Ele estava na garupa da moto, que bateu contra uma barreira metálica no trecho do km 21,4. Segundo a apuração, a moto seguia no sentido Campos do Jordão quando o condutor perdeu o controle em uma curva à esquerda. O veículo tombou e atingiu a estrutura de proteção às margens da pista. O passageiro morreu no local, sendo que o médico da equipe do helicóp",
-   "image": "https://s2-g1.glbimg.com/mnzA4ozqEHJ97VO3nScrJXrtjIo=/1200x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/7/B/VbbSDnRLmS8Njfu8tQIA/ft-g1-26-.png",
-   "seen": false
-  },
-  {
-   "id": "s_96caf5bcd6fe",
-   "category": "brasil",
-   "source": "G1",
-   "title": "VÍDEOS: Bom Dia Amazônia desta terça-feira, 10 de novembro de 2026",
-   "link": "https://g1.globo.com/am/amazonas/playlist/videos-bom-dia-amazonia-desta-terca-feira-10-de-novembro-de-2026.ghtml",
-   "publishedAt": "2026-11-10T13:53:03.000Z",
-   "snippet": "O telejornal é veiculado na Rede Amazônica.",
-   "image": "https://s.glbimg.com/jo/g1/static/live/imagens/img_facebook.png?g1",
-   "seen": false
-  },
-  {
-   "id": "s_5748a81f9e37",
-   "category": "brasil",
-   "source": "G1",
-   "title": "PF faz operação para apurar irregularidades em registros de armas em Ipatinga",
-   "link": "https://g1.globo.com/mg/vales-mg/noticia/2026/11/10/pf-faz-operacao-para-apurar-irregularidades-em-registros-de-armas-em-ipatinga.ghtml",
-   "publishedAt": "2026-11-10T13:52:16.000Z",
-   "snippet": "PF faz operação para apurar irregularidades em registros de armas em Ipatinga Polícia Federal A Polícia Federal deflagrou, nesta terça-feira (10), a Operação Argos, com o objetivo de apurar possíveis irregularidades relacionadas à concessão de Certificados de Registro de Colecionador, Atirador Desportivo e Caçador (CAC), além do cumprimento das normas de controle e fiscalização de armas de fogo. A ação foi realizada em Ipatinga, no Leste de Minas. Durante a operação, foram cumpridos dois mandados de busca e apreensão em endereços da cidade. As ordens judiciais foram expedidas pela Justiça Fede",
-   "image": "https://s2-g1.glbimg.com/QyeSe1OwNsjxbJ2iFmKNzLOGsmQ=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/r/q/6tjVsrSMOybQavSSMX2A/carol-2026-11-10t105034.226.jpg",
-   "seen": false
-  },
-  {
-   "id": "s_32b37de3c44d",
-   "category": "brasil",
-   "source": "G1",
-   "title": "Rodrigo Bacellar é transferido de presídio federal para o Rio, após determinação do STF",
-   "link": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/11/10/rodrigo-bacellar-e-transferido.ghtml",
-   "publishedAt": "2026-11-10T13:51:47.000Z",
-   "snippet": "Ex-presidente da Alerj Rodrigo Bacellar será transferido de Mossoró para o Rio O ex-presidente da Assembleia Legislativa do Rio de Janeiro (Alerj) Rodrigo Bacellar foi transferido da Penitenciária Federal de Mossoró, no Rio Grande do Norte, para um presídio no estado do Rio de Janeiro, na madrugada desta terça-feira (10). Ele ficará preso no Instituto Penal Coronel PM Francisco Spargoli Rocha, no Fonseca, em Niterói, na Região Metropolitana do RJ. A transferência foi autorizada pelo ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), no dia 30 de outubro. Bacellar deixou o RJ, em ",
-   "image": "https://s2-g1.glbimg.com/90ytUOWBk61dKer-XZc_MVSptnU=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/q/9/ueMQrkQcGUFAbA1qHDiA/02pf3.jpeg",
-   "seen": false
-  },
-  {
-   "id": "s_f8a5ef6912ae",
-   "category": "brasil",
-   "source": "G1",
-   "title": "O Cava, espumante símbolo da Espanha",
-   "link": "https://g1.globo.com/pr/parana/especial-publicitario/porto-a-porto/guia-do-vinho-e-da-gastronomia/noticia/2026/11/10/o-cava-espumante-simbolo-da-espanha.ghtml",
-   "publishedAt": "2026-11-10T13:51:37.000Z",
-   "snippet": "Quanto o assunto é Cava é comum ouvir que o espumante é a resposta da Espanha ao champanhe da França. Porém, mais do que buscar qualquer tipo de equivalência, os produtores desse fantástico espumante buscam refletir a autenticidade e a tipicidade de uma das mais belas regiões vitivinícolas do mundo, no sul da Espanha. O cava é o espumante espanhol por excelência. A Denominação de Origem (DO) Cava compreende cinco regiões vinícolas diferentes, entre elas a DO Penedès, área geográfica à oeste de Barcelona onde 90% do cava espanhol é produzido. Sant Sadurní d’Anoia, um município da comunidade da ",
-   "image": "https://s2-g1.glbimg.com/1Cg2t2hK5Kr7PhNB2J_dvRDttJk=/1400x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/k/r/rR19JnSiCRBHVPpJkg9w/capa-cava-don-roman-brut-casamento-1400px.jpg",
-   "seen": false
-  },
-  {
-   "id": "s_14341a036284",
-   "category": "brasil",
-   "source": "G1",
-   "title": "VÍDEO: Motorista é preso após mais de R$ 125 mil serem encontrados em fundo falso no painel de carro em MG",
-   "link": "https://g1.globo.com/mg/triangulo-mineiro/noticia/2026/11/10/video-motorista-e-preso-apos-mais-de-r-125-mil-serem-encontrados-em-fundo-falso-no-painel-de-carro-em-mg.ghtml",
-   "publishedAt": "2026-11-10T13:51:11.000Z",
-   "snippet": "Motorista é preso após R$ 125 mil serem encontrados em fundo falso em Delta, MG Um motorista de 36 anos foi preso em flagrante por suspeita de lavagem de dinheiro e falsidade ideológica após mais de R$ 125 mil serem encontrados em um fundo falso no painel do carro que ele dirigia em Delta, no Triângulo Mineiro. Segundo a Polícia Rodoviária Federal (PRF), a abordagem ocorreu na tarde de segunda-feira (9), na BR-050. O nome dele não foi divulgado. Imagens gravadas pela PRF mostram os policiais retirando pacotes de dinheiro de um compartimento oculto atrás do painel eletrônico do automóvel. Assis",
-   "image": "https://s2-g1.glbimg.com/BhHzDOxEF-wXK1V3-JTXo8V_r98=/1920x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/G/L/35QecwT8G5dRgt03aMhA/design-sem-nome-2026-11-10t100344.853.png",
-   "seen": false
-  },
-  {
-   "id": "s_9185679263ea",
-   "category": "brasil",
-   "source": "G1",
-   "title": "Moradores recorrem à água de hidrante após ficarem quatro dias sem abastecimento na Zona Sul de Teresina",
-   "link": "https://g1.globo.com/pi/piaui/noticia/2026/11/10/moradores-sem-abastecimento-de-agua-zona-sul-teresina.ghtml",
-   "publishedAt": "2026-11-10T13:47:31.000Z",
-   "snippet": "Moradores recorrem a hidrante após ficarem quatro dias sem água na Zona Sul de Teresina Moradores do bairro Cristo Rei, na Zona Sul de Teresina, recorreram a um hidrante para conseguir água após ficarem cerca de quatro dias sem abastecimento. Eles relatam dificuldades para realizar tarefas básicas, como tomar banho, lavar roupas e lavar louça. Em nota, a Águas de Teresina, informou que o problema foi causado por uma intervenção em uma rede de grande porte. Segundo a empresa o fornecimento de água deve ser normalizado gradativamente após a conclusão dos serviços, prevista para esta terça-feira ",
-   "image": "https://s2-g1.glbimg.com/8ZDmJbws0uWT-G93PZzuSYzqO_g=/1600x0/filters:format(jpeg)/https://i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2026/z/A/iLl7TmQq2zPWXJ9ypRRg/edicao-imagens-g1-2026-11-10t103926.081.jpg",
+   "source": "Poder360",
+   "title": "Inflação nos EUA sobe 0,4% em outubro e supera expectativas",
+   "link": "https://www.poder360.com.br/poder-economia/inflacao-nos-eua-sobe-04-em-outubro-e-supera-expectativas/",
+   "publishedAt": "2026-11-10T14:05:30.000Z",
+   "snippet": "Índice desacelera ante setembro, mas fica acima da projeção de 0,3%; resultado aumenta pressão por alta dos juros nos EUA",
+   "image": "https://static.poder360.com.br/uploads/2026/10/bandeira-eua-unsplash-1200x675.jpg",
    "seen": false
   },
   {
@@ -2094,14 +2065,36 @@
    "seen": false
   },
   {
-   "id": "s_320da58ff4c6",
+   "id": "s_a492cbce0da7",
    "category": "brasil",
-   "source": "Poder360",
-   "title": "BC vê fim da escala 6 X 1 como fator de pressão sobre a inflação",
-   "link": "https://www.poder360.com.br/poder-economia/bc-ve-fim-da-escala-6-x-1-como-fator-de-pressao-sobre-a-inflacao/",
-   "publishedAt": "2026-11-10T11:33:22.000Z",
-   "snippet": "Ata do Copom inclui mudança na jornada de trabalho entre 4 choques de oferta que dificultam o controle dos preços",
-   "image": "https://static.poder360.com.br/uploads/2026/01/carteira-de-trabalho-foto.jpg",
+   "source": "Folha de S.Paulo",
+   "title": "Ramon Dino 'precisa competir mais vezes', opina psicólogo do esporte",
+   "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/blogs/musculo/2026/11/ramon-dino-precisa-competir-mais-vezes-opina-psicologo-do-esporte.shtml",
+   "publishedAt": "2026-11-10T14:00:00.000Z",
+   "snippet": "Para diversos fãs e especialistas do fisiculturismo brasileiro, um dos fatores que impediram a manutenção do título de Ramon Dino no Olympia foi sua postura no palco. Formado em psicologia na Univale (Universidade Vale do Rio Doce) e pós-graduado em psicologia do esporte, comportamento humano e farmacologia na Faveni (Faculdade Venda Nova do Imigrante), Rodrigo Bravim acredita que o atleta da categoria Classic Physique \"precisa competir mais vezes\". Leia mais (11/10/2026 - 11h00)",
+   "image": "https://f.i.uol.com.br/fotografia/2026/11/09/17942487486af2102c42819_1794248748_3x2_lg.jpg",
+   "seen": false
+  },
+  {
+   "id": "s_bb6078e5cf21",
+   "category": "brasil",
+   "source": "Folha de S.Paulo",
+   "title": "Editora lança concurso para publicar e premiar autores de ficção cristã",
+   "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/blogs/evangelicos/2026/11/editora-lanca-concurso-para-publicar-e-premiar-autores-de-ficcao-crista.shtml",
+   "publishedAt": "2026-11-10T14:00:00.000Z",
+   "snippet": "De olho em uma nova fatia do mercado, a Editora Vida quer englobar a ficção cristã em seu catálogo de publicação. Para atrair esses autores, a empresa lançou o 1º Prêmio Brasileiro de Ficção Cristã . Leia mais (11/10/2026 - 11h00)",
+   "image": "https://f.i.uol.com.br/fotografia/2026/11/09/17942497426af2140e04295_1794249742_3x2_rt.jpg",
+   "seen": false
+  },
+  {
+   "id": "s_09bd3b29f9dd",
+   "category": "brasil",
+   "source": "Folha de S.Paulo",
+   "title": "Espetáculo investiga a solidão e os excessos do amor moderno",
+   "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/blogs/mise-en-scene/2026/11/espetaculo-investiga-a-solidao-e-os-excessos-do-amor-moderno.shtml",
+   "publishedAt": "2026-11-10T14:00:00.000Z",
+   "snippet": "O amor romântico colocou tudo no peito: o coração virou motor e algoz de qualquer paixão. Em \"Amália\" , conto de Newton Moreno que Ivan Andrade leva ao Teatro Estúdio , essa ideia desmorona logo no começo. A protagonista quer injetar um sedativo letal no próprio coração para parar de se apaixonar por qualquer um que cruza o caminho. É interceptada no segundo exato em que a agulha furaria a carne, e percebe o erro da sua autópsia existencial: o coração é só um operário inocente. Quem manda na tirania do desejo são os olhos. Leia mais (11/10/2026 - 11h00)",
+   "image": "https://f.i.uol.com.br/fotografia/2026/11/09/17942589786af23822d0649_1794258978_3x2_rt.jpg",
    "seen": false
   },
   {
@@ -2204,36 +2197,36 @@
    "seen": false
   },
   {
-   "id": "s_6bdb97b12a4a",
+   "id": "s_c5907748ed2a",
    "category": "brasil",
-   "source": "Folha de S.Paulo",
-   "title": "Dólar abre em alta com ata do Copom e expectativa por dados de inflação nos EUA",
-   "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://www1.folha.uol.com.br/mercado/2026/11/dolar-abre-em-alta-com-ata-do-copom-e-expectativa-por-dados-de-inflacao-nos-eua.shtml",
-   "publishedAt": "2026-11-10T12:55:00.000Z",
-   "snippet": "O dólar abriu em alta firme de 0,83% nesta terça-feira (10), cotado a R$ 5,551, com os investidores avaliando a divulgação da ata da última reunião do Copom (Comitê de Política Monetária), publicada nesta manhã pelo BC ( Banco Central ). Leia mais (11/10/2026 - 09h55)",
-   "image": "https://f.i.uol.com.br/fotografia/2026/06/17/17817041886a32a5fc49f5b_1781704188_3x2_rt.jpg",
+   "source": "Gazeta do Povo",
+   "title": "Pilares do Estado de Direito foram corroídos por quem deveria cuidar deles",
+   "link": "https://www.gazetadopovo.com.br/vozes/alexandre-garcia/inquerito-fake-news-pilares-estado-de-direito-corroidos/",
+   "publishedAt": "2026-11-10T14:00:00.000Z",
+   "snippet": "Ao longo de sete anos e oito meses, perpetraram-se arbitrariedades que eliminaram o devido processo legal no inquérito das fake news.",
+   "image": "https://media.gazetadopovo.com.br/2026/09/10214506/stf-1.jpg",
    "seen": false
   },
   {
-   "id": "s_9d6e2fd3bf2e",
+   "id": "s_970a5a2e15d6",
    "category": "brasil",
-   "source": "Folha de S.Paulo",
-   "title": "Magalu surfa crise da Casas Bahia e fala em 'oportunidade histórica' de ganho de mercado",
-   "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://c-level.folha.uol.com.br/negocios/2026/11/magalu-surfa-crise-da-casas-bahia-e-fala-em-oportunidade-historica-de-ganho-de-mercado.shtml",
-   "publishedAt": "2026-11-10T12:54:00.000Z",
-   "snippet": "A Magazine Luiza começou a abocanhar fatias de mercado que antes pertenciam ao Grupo Casas Bahia , cujo processo de recuperação judicial em agosto fechou quase 300 lojas no início do terceiro trimestre. Leia mais (11/10/2026 - 09h54)",
-   "image": "https://f.i.uol.com.br/fotografia/2025/12/08/176522352669372c662ddaf_1765223526_3x2_rt.jpg",
+   "source": "Gazeta do Povo",
+   "title": "Mudança na presidência do Paraguai é novo entrave para renovação do Tratado de Itaipu",
+   "link": "https://www.gazetadopovo.com.br/brasil/mudanca-presidencia-paraguai-entrave-renovacao-tratado-de-itaipu/",
+   "publishedAt": "2026-11-10T13:57:32.000Z",
+   "snippet": "Escândalo provoca troca de governo no Paraguai e influencia negociações para revisão do Tratado de Itaipu. Leia na Gazeta do Povo.",
+   "image": "https://media.gazetadopovo.com.br/2026/11/10103317/Troca-presidente-Paraguai.jpg",
    "seen": false
   },
   {
-   "id": "s_319e2d99a335",
+   "id": "s_c46f3c6c03e3",
    "category": "brasil",
-   "source": "Folha de S.Paulo",
-   "title": "Porto de Santos tem sistemas fora do ar; clientes apontam lentidão e acusam ataque hacker",
-   "link": "https://redir.folha.com.br/redir/online/emcimadahora/rss091/*https://c-level.folha.uol.com.br/infraestrutura/2026/11/porto-de-santos-tem-sistemas-fora-do-ar-autoridade-portuaria-investiga-causas.shtml",
-   "publishedAt": "2026-11-10T12:51:00.000Z",
-   "snippet": "A Autoridade Portuária de Santos (APS), responsável pela administração do maior porto do Brasil em Santos, no litoral paulista, informou que seu site e seus sistemas online estão indisponíveis. A empresa ainda investiga as causas do problema, segundo comunicado. Leia mais (11/10/2026 - 09h51)",
-   "image": "https://f.i.uol.com.br/fotografia/2026/08/22/17874143366a89c7406dbee_1787414336_3x2_rt.jpg",
+   "source": "Gazeta do Povo",
+   "title": "Lula indica chefe do cerimonial do Planalto para embaixada na Itália",
+   "link": "https://www.gazetadopovo.com.br/republica/lula-indica-chefe-do-cerimonial-do-planalto-para-embaixada-na-italia/",
+   "publishedAt": "2026-11-10T13:55:41.000Z",
+   "snippet": "Nome indicado por Lula para a embaixada na Itália ainda depende de aprovação do Senado após sabatina na Comissão de Relações Exteriores.",
+   "image": "https://media.gazetadopovo.com.br/2026/11/10104318/ccbb_jfcrz_abr_0712222691.jpg",
    "seen": false
   },
   {
@@ -2336,36 +2329,25 @@
    "seen": false
   },
   {
-   "id": "s_359a6ef8706d",
+   "id": "s_5f9df3ad3d42",
    "category": "brasil",
-   "source": "Gazeta do Povo",
-   "title": "EUA retiram aviões de segunda base militar no Reino Unido após ameaças do Irã",
-   "link": "https://www.gazetadopovo.com.br/mundo/eua-retiram-avioes-segunda-base-militar-reino-unido-apos-ameacas-ira/",
-   "publishedAt": "2026-11-10T11:50:07.000Z",
-   "snippet": "Base da RAF em Mildenhall, localizada no leste da Inglaterra e utilizada pelas forças dos EUA, teria sido alvo de ameaças, segundo o WSJ",
-   "image": "https://media.gazetadopovo.com.br/2026/11/10084919/uk.segunda.base_.eua_.ira_.jpg",
+   "source": "Revista Oeste",
+   "title": "PF prende 6 policiais penais em operação contra tráfico em presídios",
+   "link": "https://revistaoeste.com/brasil/pf-prende-6-policiais-penais-em-operacao-contra-trafico-em-presidios/",
+   "publishedAt": "2026-11-10T14:09:04.000Z",
+   "snippet": "A Polícia Federal (PF) prendeu seis policiais penais nesta terça-feira, 10, em uma operação contra uma organização criminosa na Grande São Paulo. Segundo a investigação, o grupo introduz drogas, celulares e outros materiais ilícitos em presídios de Guarulhos (SP). A Força Integrada de Combate ao Crime Organizado em São Paulo (Ficco) coordena a ação, em conjunto com o Grupo de Atuação Especial de Combate ao Crime Organizado (Gaeco) . As equipes cumprem 16 mandados de prisão e 21 de busca e apreensão. + Saiba tudo o que acontece no Brasil em Oeste As ordens judiciais abrangem São Paulo, Guarulho",
+   "image": "https://medias-r2.revistaoeste.com/wp-content/uploads/2026/11/operacao-pf-1-910x568.jpg.webp",
    "seen": false
   },
   {
-   "id": "s_4f314d578298",
+   "id": "s_051d8edb5df7",
    "category": "brasil",
-   "source": "Gazeta do Povo",
-   "title": "PF prende ex-servidor do STJ suspeito de vazamentos a Willer Tomaz",
-   "link": "https://www.gazetadopovo.com.br/republica/pf-prende-ex-servidor-do-stj-acusado-de-vazamentos-a-advogado-ligado-a-flavio/",
-   "publishedAt": "2026-11-10T11:27:54.000Z",
-   "snippet": "Humberto Pradera teria direcionado informações protegidas ao advogado. Mandado veio do Supremo. Leia na Gazeta do Povo.",
-   "image": "https://media.gazetadopovo.com.br/2026/11/10082721/ASPA-GRANDE-2026-11-10T082728.372.jpg",
-   "seen": false
-  },
-  {
-   "id": "s_7b52cf7c83e7",
-   "category": "brasil",
-   "source": "Gazeta do Povo",
-   "title": "Lula já começou a lotear ministérios do próximo governo entre partidos aliados",
-   "link": "https://www.gazetadopovo.com.br/vozes/coluna-esplanada/lula-ja-comecou-a-lotear-ministerios-do-proximo-governo-entre-partidos-aliados/",
-   "publishedAt": "2026-11-10T11:24:33.000Z",
-   "snippet": "Novos ministros são aposta de Lula para governabilidade e para manter Alcolumbre na presidência do Senado. Leia na Gazeta do Povo.",
-   "image": "https://media.gazetadopovo.com.br/2026/11/10081520/lula-alcolumbre.jpg",
+   "source": "Revista Oeste",
+   "title": "Meghan Markle cancela discurso no Parlamento Europeu",
+   "link": "https://revistaoeste.com/mundo/meghan-markle-cancela-discurso-no-parlamento-europeu/",
+   "publishedAt": "2026-11-10T14:01:53.000Z",
+   "snippet": "Meghan Markle, mulher do príncipe Harry, cancelou sua participação como palestrante em um evento do Parlamento Europeu sobre segurança infantil na internet, nesta terça-feira 10. A decisão ocorreu depois que autoridades dos Estados Unidos acusaram seu pai, Thomas Markle, de possuir imagens de abuso sexual infantil. + Leia mais notícias de Mundo em Oeste A presença de Meghan seria sua primeira aparição pública desde que as acusações vieram a público. Segundo o jornal The Daily Telegraph , ela não se sentia emocionalmente preparada para discursar. No mês passado, a duquesa afirmou estar “profund",
+   "image": "https://medias.revistaoeste.com/wp-content/uploads/2022/12/08-2.jpg.webp",
    "seen": false
   },
   {
@@ -2431,7 +2413,7 @@
    "link": "https://revistaoeste.com/videos/oeste-com-elas/oeste-com-elas-assista-ao-programa-de-10-11-2026/",
    "publishedAt": "2026-11-10T13:00:00.000Z",
    "snippet": "O Oeste com Elas vê com olhar afiado os principais fatos do Brasil e do mundo. Apresentado por Adriana Reid, Paula Camacho, Bianca Pagliarin e Ludmila Lins Grilo, o programa é transmitido de segunda a sexta-feira, ao vivo, das 10h às 12h. Assista ao Oeste com Elas: https://www.youtube.com/watch?v=GzspfwIRQh0 + Clique aqui para ver todas as edições do Oeste com Elas O post Oeste com Elas: assista ao programa de 10/11/2026 apareceu primeiro em Revista Oeste .",
-   "image": "https://medias-r2.revistaoeste.com/wp-content/uploads/2026/11/Oeste-com-elas-dia-10-de-novembro-.jpg",
+   "image": "https://medias-r2.revistaoeste.com/wp-content/uploads/2026/11/Oeste-com-elas-dia-10-de-novembro-.jpg.webp",
    "seen": false
   },
   {
@@ -2457,25 +2439,36 @@
    "seen": false
   },
   {
-   "id": "s_0be4fdce6ace",
+   "id": "s_6229d9423220",
    "category": "brasil",
-   "source": "Revista Oeste",
-   "title": "TSE mantém sem data julgamento da candidatura de Dallagnol ao Senado",
-   "link": "https://revistaoeste.com/politica/tse-mantem-sem-data-julgamento-da-candidatura-de-dallagnol-ao-senado/",
-   "publishedAt": "2026-11-10T12:25:57.000Z",
-   "snippet": "O Tribunal Superior Eleitoral (TSE) mantém fora da pauta o julgamento da candidatura de Deltan Dallagnol (Novo) ao Senado pelo Paraná. A Corte retirou o processo da sessão de 8 de outubro, quatro dias depois da eleição do ex-procurador com 2,9 milhões de votos. O TSE já realizou as duas primeiras sessões de novembro, depois do segundo turno, mas o caso segue sem data para julgamento. + Entenda o que é Política em Oeste O PT e aliados cobram uma decisão antes da diplomação de Dallagnol. A Justiça Eleitoral tem até 18 de dezembro para diplomar os eleitos. O partido fundamenta o recurso na perda ",
-   "image": "https://medias.revistaoeste.com/wp-content/uploads/2026/09/parana_pesquisa.jpeg.webp",
+   "source": "CartaCapital",
+   "title": "PF faz operação na Bahia contra desvio de emendas Pix e lavagem de dinheiro",
+   "link": "https://www.cartacapital.com.br/cartaexpressa/pf-faz-operacao-na-bahia-contra-desvio-de-emendas-pix-e-lavagem-de-dinheiro/",
+   "publishedAt": "2026-11-10T13:47:36.000Z",
+   "snippet": "Entre as emendas sob apuração, uma foi apresentada pelo deputado federal Neto Carletto (Avante-BA), que não é alvo da operação",
+   "image": "https://www.cartacapital.com.br/wp-content/uploads/2026/11/PF-deflagra-Operação-Fluxo-Paralelo.jpeg",
    "seen": false
   },
   {
-   "id": "s_33624a779734",
+   "id": "s_6603bd1d6f3e",
    "category": "brasil",
-   "source": "Revista Oeste",
-   "title": "Judiciário e MP pressionam governo por R$ 533 milhões em penduricalhos",
-   "link": "https://revistaoeste.com/politica/judiciario-e-mp-pressionam-governo-por-r-533-milhoes-em-penduricalhos/",
-   "publishedAt": "2026-11-10T12:13:10.000Z",
-   "snippet": "O Ministério do Planejamento barrou a tentativa de furar as regras fiscais com o pagamento de R$ 533 milhões em penduricalhos salariais retroativos. A equipe econômica rejeitou a alegação de urgência para cobrir as benesses recém-concedidas pelo Supremo Tribunal Federal (STF) a magistrados e promotores. + Entenda o que é Política em Oeste O próprio tribunal gerou a fatura milionária ao restabelecer o quinquênio em decisões recentes. Os ministros fixaram a aplicação automática de até 35% de acréscimo por tempo de carreira nos contracheques da ativa e de pensionistas, sem consulta prévia ao caix",
-   "image": "https://medias.revistaoeste.com/wp-content/uploads/2025/10/Penduricalhos-para-promotores.jpg.webp",
+   "source": "CartaCapital",
+   "title": "Vídeo de estudantes em chamas leva universidade dos EUA a barrar fraternidade",
+   "link": "https://www.cartacapital.com.br/mundo/video-de-estudantes-em-chamas-leva-universidade-dos-eua-a-barrar-fraternidade/",
+   "publishedAt": "2026-11-10T13:32:43.000Z",
+   "snippet": "O caso na Universidade Estadual de Ohio ganhou ampla repercussão nas redes sociais",
+   "image": "https://www.cartacapital.com.br/wp-content/uploads/2026/11/EUA-1.jpg",
+   "seen": false
+  },
+  {
+   "id": "s_1c9d7339df7d",
+   "category": "brasil",
+   "source": "CartaCapital",
+   "title": "Padre Júlio Lancellotti volta às redes sociais após quase um ano de suspensão",
+   "link": "https://www.cartacapital.com.br/cartaexpressa/padre-julio-lancellotti-volta-as-redes-sociais-apos-quase-um-ano-de-suspensao/",
+   "publishedAt": "2026-11-10T13:07:00.000Z",
+   "snippet": "O religioso cumpria um afastamento das plataformas sociais determinado pelo arcebispo de São Paulo, o cardeal Dom Odilo Scherer",
+   "image": "https://www.cartacapital.com.br/wp-content/uploads/2020/02/Padre-Júlio-Lancelotti-Foto-Reprodução-Facebook.png",
    "seen": false
   },
   {
@@ -2498,6 +2491,17 @@
    "publishedAt": "2026-11-10T12:22:06.000Z",
    "snippet": "A ação cumpre cinco mandados de busca e apreensão nas cidades do Rio de Janeiro, São Paulo e Diadema/SP",
    "image": "https://www.cartacapital.com.br/wp-content/uploads/2026/11/policia_federal_rio.jpg",
+   "seen": false
+  },
+  {
+   "id": "s_cb2d55301895",
+   "category": "brasil",
+   "source": "CartaCapital",
+   "title": "Ancelotti preserva quatro jogadores em treino da Seleção em Singapura",
+   "link": "https://www.cartacapital.com.br/esporte/ancelotti-preserva-quatro-jogadores-em-treino-da-selecao-em-singapura/",
+   "publishedAt": "2026-11-10T12:03:56.000Z",
+   "snippet": "Treinador comandou o segundo treino do Brasil em Singapura sem Raphinha, Bruno Guimarães, Gabriel Magalhães e Vanderson, que realizaram atividades na academia",
+   "image": "https://www.cartacapital.com.br/wp-content/uploads/2026/11/estevao-e-andrey-santos-treino-selecao-brasileira-singapura-10-de-novembro-de-2026-1024x576.jpg",
    "seen": false
   },
   {
@@ -2564,50 +2568,6 @@
    "publishedAt": "2026-11-10T10:34:53.000Z",
    "snippet": "Atacante reconhece disputa com Mbappé, não descarta mudanças em janeiro e destaca motivação extra ao defender a Seleção Brasileira",
    "image": "https://www.cartacapital.com.br/wp-content/uploads/2026/11/Screenshot_23.png",
-   "seen": false
-  },
-  {
-   "id": "s_ce8b018e7998",
-   "category": "brasil",
-   "source": "CartaCapital",
-   "title": "Gestão Bap e Boto supera R$ 1 bilhão em contratações no Flamengo",
-   "link": "https://www.cartacapital.com.br/esporte/gestao-bap-e-boto-supera-r-1-bilhao-em-contratacoes-no-flamengo/",
-   "publishedAt": "2026-11-10T10:04:00.000Z",
-   "snippet": "Rubro-Negro investiu R$ 667,7 milhões em reforços em 2026, alcançou marca histórica no mercado e prevê déficit financeiro ao fim da temporada.",
-   "image": "https://www.cartacapital.com.br/wp-content/uploads/2026/11/54796012069_be1809dc95_o-1-1024x683.jpg",
-   "seen": false
-  },
-  {
-   "id": "s_343f96cd16f6",
-   "category": "brasil",
-   "source": "CartaCapital",
-   "title": "Costuma segurar o xixi quando está fora de casa? Entenda os riscos desse hábito",
-   "link": "https://www.cartacapital.com.br/bem-estar/costuma-segurar-o-xixi-quando-esta-fora-de-casa-entenda-os-riscos-desse-habito/",
-   "publishedAt": "2026-11-10T10:02:59.000Z",
-   "snippet": "Durante viagens, passeios ou até mesmo no trabalho, muitas pessoas evitam utilizar banheiros públicos e acabam adiando a vontade de urinar. Embora segurar o xixi ocasionalmente não costume representar um problema para pessoas saudáveis, transformar essa prática em um hábito pode trazer desconfortos e prejudicar […]",
-   "image": "https://www.cartacapital.com.br/wp-content/uploads/2026/11/mulher-tomando-agua-1024x683.png",
-   "seen": false
-  },
-  {
-   "id": "s_bf8dd2f63023",
-   "category": "brasil",
-   "source": "CartaCapital",
-   "title": "Quando a grávida deve tomar ácido fólico? Saiba em que momento iniciar a suplementação",
-   "link": "https://www.cartacapital.com.br/bem-estar/quando-a-gravida-deve-tomar-acido-folico-saiba-em-que-momento-iniciar-a-suplementacao/",
-   "publishedAt": "2026-11-10T10:02:53.000Z",
-   "snippet": "Planejar uma gravidez envolve uma série de cuidados que devem começar antes mesmo da concepção, com o objetivo de favorecer a saúde da mulher e o desenvolvimento saudável do bebê. Entre eles, destaca-se a suplementação de ácido fólico, também conhecido como vitamina B9, nutriente essencial […]",
-   "image": "https://www.cartacapital.com.br/wp-content/uploads/2026/11/mulhergravidaemconsultaprenatal-1024x683.png",
-   "seen": false
-  },
-  {
-   "id": "s_97fc57c394b8",
-   "category": "brasil",
-   "source": "CartaCapital",
-   "title": "Horóscopo do dia: previsão para os 12 signos em 10/11/2026",
-   "link": "https://www.cartacapital.com.br/astrologia/horoscopo-do-dia-previsao-para-os-12-signos-em-10-11-2026/",
-   "publishedAt": "2026-11-10T10:02:46.000Z",
-   "snippet": "As energias desta terça-feira poderão trazer mudanças inesperadas, incentivando os nativos a rever planos, expectativas e prioridades. Apesar dos possíveis imprevistos, haverá a chance de buscar novos conhecimentos, organizar as finanças, melhorar a rotina e encontrar soluções para questões pendentes. Com flexibilidade, paciência e atenção […]",
-   "image": "https://www.cartacapital.com.br/wp-content/uploads/2026/11/01_aries-4.png",
    "seen": false
   },
   {
@@ -2794,7 +2754,7 @@
    "link": "https://pleno.news/opiniao/marco-feliciano/enem-2026-o-passado-religioso-sob-questionamento.html",
    "publishedAt": "2026-11-09T20:15:29.000Z",
    "snippet": "A prova do Enem, neste domingo (8), abordou o tema misoginia; o que acabou gerando muitos debates negativos nas redes sociais. O texto da questão 62, do caderno azul, apontou para discursos e sermões da Igreja na Idade Média, trazendo uma análise de como os sermões medievais funcionavam como veículos de uma misoginia de base […]",
-   "image": "https://static.cdn.pleno.news/2026/11/bd598933bf190a0ee883aaaf44bd9705_1748889.png",
+   "image": null,
    "seen": false
   },
   {
@@ -2805,7 +2765,7 @@
    "link": "https://pleno.news/opiniao/juliana-leite/o-supremo-e-a-erosao-silenciosa-da-democracia.html",
    "publishedAt": "2026-11-09T15:40:28.000Z",
    "snippet": "O Brasil vive uma crise profunda de segurança jurídica. O Supremo Tribunal Federal, instituição criada para proteger a Constituição, tornou-se protagonista de controvérsias que colocam em dúvida os limites do próprio poder. Decisões monocráticas de enorme alcance, mudanças de jurisprudência, investigações prolongadas e medidas restritivas de direitos alimentam uma inquietação legítima: quem protege o cidadão […]",
-   "image": "https://static.cdn.pleno.news/2026/11/6c7d704535eb046e5e4001eacfc7eef5_1748724.png",
+   "image": null,
    "seen": false
   },
   {
@@ -2816,7 +2776,7 @@
    "link": "https://pleno.news/opiniao/andre-marsiglia/lula-pode-sofrer-impeachment-antes-de-moraes.html",
    "publishedAt": "2026-11-09T12:30:56.000Z",
    "snippet": "Se Lula continuar tratando o dinheiro público como se fosse o Silvio Santos distribuindo aviõezinhos num programa de auditório, seu governo não vai durar. Se continuar ouvindo pessoas como Fernando Haddad, que não entende nada de economia, ou Guilherme Boulos, que afirmou na semana passada que ajuste fiscal é uma chantagem do mercado, o país […]",
-   "image": "https://static.cdn.pleno.news/2026/11/8e0bcbb03f4e1d6cbeb3d3f54a20f0a3_1748609.png",
+   "image": null,
    "seen": true
   },
   {
@@ -3299,7 +3259,7 @@
    "title": "Chris Hedges Report: Will Democrats Betray Voters Again?",
    "link": "https://consortiumnews.com/2026/11/10/chris-hedges-report-will-democrats-betray-voters-again/",
    "publishedAt": "2026-11-10T07:00:19.000Z",
-   "snippet": "Ralph Nader warns that the “Blue Tsunami” has inspired hope across the nation as Americans have repudiated Trumpism. But he questions whether the Democrats will stand up to the donor class and deliver for their constituents. By Joshua Scheer ScheerPost… Read more →",
+   "snippet": "Ralph Nader warns that the “Blue Tsunami” has inspired hope across the nation as Americans have repudiated Trumpism. But he questions whether the Democrats stand up to the donor class and deliver for their constituents. By Joshua Scheer ScheerPost Defeating… Read more →",
    "image": "https://consortiumnews.com/wp-content/uploads/2026/11/Screenshot-218.png",
    "seen": false
   },
@@ -3474,6 +3434,7 @@
     "url": "https://pt.wikipedia.org/wiki/Conclave",
     "year": 1549,
     "text": "É convocado o conclave que escolheu o Papa Júlio III.",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Sede_vacante.svg/langpt-500px-Sede_vacante.svg.png?utm_source=pt.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "extract": ""
    }
   ]
@@ -3536,8 +3497,8 @@
   },
   {
    "source": "Hugging Face",
-   "ok": true,
-   "items": 3
+   "ok": false,
+   "error": "HTTP 429"
   },
   {
    "source": "Tecnoblog",
@@ -3552,7 +3513,7 @@
   {
    "source": "Olhar Digital",
    "ok": true,
-   "items": 4
+   "items": 3
   },
   {
    "source": "Foreign Policy",
