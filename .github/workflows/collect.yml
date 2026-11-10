@@ -7,11 +7,23 @@ on:
     - cron: '17 9 * * *' # 06:17
     - cron: '47 9 * * *' # 06:47
   workflow_dispatch:
+  # O Jack pede a coleta abrindo um PR vazio, pois o agendamento do GitHub pode falhar por horas.
+  # pull_request_target roda a versão da main: nada do PR é executado.
+  pull_request_target:
+    types: [opened]
+    branches: [main]
 permissions:
   contents: write
+  pull-requests: write
 concurrency: collect
 jobs:
   collect:
+    if: >-
+      github.event_name != 'pull_request_target' || (
+        github.event.pull_request.head.repo.full_name == github.repository &&
+        startsWith(github.event.pull_request.head.ref, 'claude/collect-') &&
+        github.event.pull_request.user.login == github.repository_owner
+      )
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
@@ -53,3 +65,8 @@ jobs:
           git add -A -f data/inbox
           git commit -qm "Inbox $(TZ=America/Sao_Paulo date +%F)" || exit 0
           git push origin inbox
+      - name: Encerrar o pedido de coleta
+        if: always() && github.event_name == 'pull_request_target'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh pr close "${{ github.event.pull_request.number }}" --repo "$GITHUB_REPOSITORY" --delete-branch
