@@ -1,0 +1,233 @@
+{
+  "date": "2026-11-18",
+  "publishedAt": "2026-11-18T07:26:57-03:00",
+  "overview": {
+    "title": "Anthropic revela quem será dona de quase 30% da empresa, a Nvidia deixa a China e Trump desembarca em Shenzhen",
+    "body": "A quarta-feira, 18, tem como pano de fundo a mesma tensão entre dinheiro, poder e tecnologia. Em Wall Street, a Anthropic detalhou à SEC quem será dona da empresa depois da abertura de capital: Amazon e Google ficam, juntas, com 28,4% do capital, mas em ações sem direito a voto, enquanto os sete cofundadores mantêm 50,1% do poder de decisão. É um desenho que tenta conciliar investidores gigantes e a promessa de uma IA desenvolvida com cautela.\n\nNa Nvidia, a primeira divulgação de resultados sem Jensen Huang trouxe receita de 115,8 bilhões de dólares e a decisão de parar de vender chips H200 à China. Na Ásia, Donald Trump pousou em Shenzhen para a cúpula da Apec, onde encontra Xi Jinping e, pela primeira vez, senta numa conversa a três com Vladimir Putin, com expectativa baixa de avanços concretos.\n\nNo Brasil, o Senado adiou para hoje a votação dos destaques do projeto de ajuste fiscal, depois de o governo e a oposição não chegarem a acordo. Nos Estados Unidos, a democrata Mary Peltola venceu no Alaska e levou o partido a 56 cadeiras no Senado. No Arcanum, olhamos para o encontro dos três líderes pela lente da profecia, para a corrida dos agentes de IA pela lente da singularidade, para a Voyager 1 e a caça aos OVNIs e para a velha mania de decifrar capas de revista como se fossem oráculos.",
+    "highlights": [
+      "Amazon (14,7%) e Google (13,7%) terão quase 30% da Anthropic após o IPO, em ações sem voto.",
+      "Nvidia faturou 115,8 bilhões de dólares no trimestre e encerra as vendas do chip H200 à China.",
+      "Google abre o modo Tasks do Gemini de graça e passa a guardar conversas temporárias por dois meses.",
+      "Trump e Xi se reúnem em Shenzhen, com Putin na mesa, mas analistas esperam poucos resultados.",
+      "Senado adia para hoje a votação dos destaques do ajuste fiscal do governo Lula.",
+      "Mary Peltola vence no Alaska e Democratas chegam a 56 cadeiras no Senado americano."
+    ]
+  },
+  "articles": [
+    {
+      "slug": "anthropic-amazon-google-quase-30-por-cento-apos-ipo",
+      "category": "ia",
+      "badge": "FATO",
+      "title": "Amazon e Google ficarão com quase 30% da Anthropic após o IPO, mas sem direito a voto",
+      "dek": "Documento enviado à SEC detalha quem vai mandar na empresa que desenvolve o Claude e quanto a Amazon deixou de converter.",
+      "image": "s_6908e71926e8",
+      "body": "A Anthropic divulgou na terça-feira, 17, novos detalhes sobre os acordos com Amazon e Google, às vésperas da estreia das ações na Nasdaq. De acordo com a TechCrunch e o Olhar Digital, que citam o documento atualizado enviado à Comissão de Valores Mobiliários dos Estados Unidos (SEC), as duas gigantes terão juntas 28,4% do capital depois da oferta pública inicial: 14,7% para a Amazon e 13,7% para o Google.\n\nO ponto central é o tipo de ação. Tanto Amazon quanto Google receberão papéis de uma classe sem direito a voto. Na prática, ficam com uma fatia expressiva do valor econômico da empresa, mas não participam das votações comuns de acionistas. Segundo a TechCrunch, esses papéis podem receber dividendos e se convertem em ações comuns de classe A quando forem vendidos.\n\nA Amazon poderia ter ido além. Quando investiu bilhões na Anthropic, em 2023 e 2024, recebeu notas promissórias conversíveis em ações, com preços de conversão de cerca de 2,09 ou 5,05 dólares por papel, conforme o ano do aporte. Parte delas foi convertida no IPO; outra parte foi mantida. Se tivesse convertido tudo agora, a participação chegaria a 23,8%. O Olhar Digital acrescenta que a decisão também tem relação com um limite de participação previsto nos acordos entre as empresas, do qual a Amazon não abriu mão.\n\nO Google chega aos 13,7% por duas vias: a conversão de notas e a compra de ações na chamada colocação privada. Um grupo de empresas de tecnologia, entre elas AMD, Broadcom, Google, Micron, Microsoft, Nvidia e TSMC, concordou em comprar 26 bilhões de dólares em ações sem voto. Google e Nvidia entram com 10 bilhões de dólares cada, segundo a TechCrunch.\n\nHá também a relação comercial. Em acordo de abril de 2026, a Anthropic se comprometeu a gastar ao menos 110 bilhões de dólares em serviços da Amazon entre maio de 2026 e abril de 2036, independentemente do uso efetivo da capacidade contratada, conforme o registro citado pelo Olhar Digital. A TechCrunch fala em mais de 100 bilhões de dólares em gastos com a AWS na década. O Google, além de acionista, fornece capacidade de computação, inclusive por seus chips especializados. Ou seja, cada uma das duas empresas é, ao mesmo tempo, sócia, fornecedora e beneficiária do crescimento da Anthropic.\n\nQuem decide, afinal? Os sete cofundadores manterão, por meio de uma classe especial de ações, 50,1% do poder de voto nas deliberações gerais. Além disso, a empresa tem um fundo de benefício de longo prazo, o Long-Term Benefit Trust, com poder para eleger e remover os integrantes de uma classe de diretores que formará a maioria do conselho. A estrutura busca preservar a missão declarada de desenvolver IA de forma responsável sem abrir mão do apetite de investidores.\n\nA oferta prevê ações entre 70 e 78 dólares, e a empresa foi aprovada para negociar na Nasdaq com o código ANT. Os relatos divergem sobre a data exata da estreia: o texto do Olhar Digital fala em quarta-feira, enquanto o título do mesmo veículo menciona quinta-feira.\n\nO que observar a seguir: a primeira reação do mercado, o comportamento das notas que a Amazon ainda não converteu e se o modelo de ações sem voto para sócios estratégicos vira referência para outras empresas de IA que pensam em abrir o capital.",
+      "sources": [
+        "s_6908e71926e8",
+        "s_64055b04ef5d"
+      ]
+    },
+    {
+      "slug": "nvidia-deixa-a-china-e-fatura-115-bilhoes",
+      "category": "ia",
+      "badge": "FATO",
+      "title": "Nvidia fatura 115,8 bilhões de dólares, mas abandona as vendas do H200 à China",
+      "dek": "Primeiro balanço sem Jensen Huang combina números fortes, novas regras de exportação e um comitê de segurança nacional no conselho.",
+      "image": "s_28509d8a3a74",
+      "body": "A Nvidia apresentou na terça-feira, 17, o primeiro balanço depois da saída de Jensen Huang do comando, e o recado foi duplo: os números seguem muito fortes, e a empresa vai se afastar de um dos mercados mais polêmicos de sua história recente. Segundo a TechCrunch, a presidente interina Colette Kress, antes diretora financeira, informou que a Nvidia não venderá mais chips H200 na China.\n\nOs números primeiro. Conforme a TechCrunch, a receita do trimestre chegou a 115,8 bilhões de dólares, alta de 103% sobre o mesmo período do ano anterior e acima dos 108 bilhões que a própria empresa havia indicado. Para o trimestre seguinte, a projeção é de 130 bilhões de dólares, com margem de 3% para mais ou menos. Kress também elevou a perspectiva para o ano fiscal de 2028, com crescimento esperado de cerca de 75%, ante 70% antes. A empresa recomprou 28,1 bilhões de dólares em ações no período e ainda tem 227,3 bilhões autorizados. As ações caíram cerca de 10% desde a saída de Huang e subiram cerca de 4% no after-hours com o resultado.\n\nO H200 era peça de um arranjo controverso. A venda à China foi negociada por Huang com o presidente Donald Trump e exigia que os chips passassem pelos Estados Unidos, o que permitia ao governo cobrar uma tarifa de 25%. Falcões da China criticavam o caminho, enquanto Huang argumentava que abrir mão do mercado seria um desserviço ao país. Em abril, ele disse isso ao podcaster Dwarkesh Patel.\n\nO fim das vendas vem junto de novas regras anunciadas na segunda-feira, que barram chips avançados em data centers estrangeiros que atendam clientes chineses remotamente. O banco Jefferies calculou que essas regras poderiam tirar entre 44 e 62 bilhões de dólares da receita de data centers da Nvidia no próximo ano, mas Kress afirmou que a demanda acumulada por chips como o Vera Rubin faz com que o efeito sobre o faturamento seja nulo. No longo prazo, a empresa pode perder clientes em Singapura, Malásia, Tailândia e Indonésia, segundo a reportagem.\n\nHá ainda a versão de que a China já recusava parte dos H200. De acordo com Jacob Feldgoise, pesquisador da Universidade de Georgetown, o governo chinês prefere gerar demanda para a indústria doméstica de chips. A TechCrunch também registra que os principais modelos de IA chineses mostram sinais de treinamento com chips Grace Blackwell, proibidos de exportação, possivelmente em data centers fora do país. O advogado Dan Fisher-Owens disse que, com as novas regras, quem comprar esses chips para treinar modelos grandes terá de certificar que não atende clientes chineses.\n\nNo mesmo dia, a Nvidia anunciou um comitê no conselho para supervisionar política de segurança nacional, controle de exportações e riscos de comércio global.\n\nO que observar: se a promessa de negócios como de costume resiste à saída do fundador, o efeito das regras para fornecedores asiáticos e o tom que Trump adotará com Xi, cuja visita à China coincide com o escândalo.",
+      "sources": [
+        "s_28509d8a3a74",
+        "s_83a48772429a"
+      ]
+    },
+    {
+      "slug": "google-gemini-tasks-gratis-e-chats-guardados-por-dois-meses",
+      "category": "ia",
+      "badge": "FATO",
+      "title": "Google libera o Gemini Tasks de graça e passa a guardar conversas temporárias por dois meses",
+      "dek": "Assistente que liga para empresas e paga contas ganha escala, mas a retenção de dados sobe de 72 horas para cerca de 60 dias.",
+      "image": "s_0fc744e43d60",
+      "body": "O Google fez duas mudanças no Gemini nesta semana que, juntas, mostram o preço e o benefício de entregar tarefas a um assistente de IA. De um lado, o modo Tasks ficou disponível para um público muito maior. Do outro, a empresa vai guardar por mais tempo as conversas que o usuário achava temporárias.\n\nComeçando pelo Tasks. Segundo a TechCrunch, trata-se de uma chave dentro do aplicativo que transforma o chatbot em algo mais ativo. Em vez de apenas conversar, o Gemini passa a executar funções básicas de secretaria: ligar para estabelecimentos e marcar horários, concluir compras por meio do Google Pay e até entrar em sites de forma segura quando solicitado. O vice-presidente do Gemini, Josh Woodward, disse ter usado o recurso para ligar para concessionárias e agendar a revisão da minivan da família, além de analisar a conta de luz.\n\nO recurso nasceu em maio como Gemini Spark, um ajudante que funciona 24 horas, e chegou a assinantes americanos do plano Google AI Ultra. Depois virou Task Mode. Agora, de acordo com a TechCrunch, será liberado de graça para centenas de milhões de pessoas que usam o novo modelo Gemini 4 Hydrogen. O usuário ativa o Tasks no aplicativo e também pode mandar comandos por mensagem ou por ligação. A The Verge também noticiou que o Spark virou Tasks e passou a ser gratuito.\n\nA segunda mudança é a retenção. Também segundo a TechCrunch, o Google vai manter por cerca de dois meses as conversas temporárias e as feitas com o histórico desativado, contra as 72 horas que constavam na central de privacidade do Gemini em versão arquivada de 12 de novembro. A empresa diz que o objetivo é melhorar segurança e proteção à medida que os sistemas de IA ficam mais capazes. Questionada sobre o que motivou a mudança e se ela afeta o acesso ou a revisão das conversas, não respondeu e apontou para um post em blog. A central de privacidade cita ainda possíveis falhas de sistema como motivo e afirma que conversas temporárias não são usadas para treinar modelos.\n\nPara comparar: a OpenAI diz que pode guardar conversas temporárias do ChatGPT por até 30 dias, e a Anthropic mantém por 30 dias, por padrão, os chats anônimos do Claude, de acordo com a reportagem. Todas podem reter dados por mais tempo por razões legais ou de segurança.\n\nO Google também separa, a partir de agora, o histórico de conversas do uso delas para treinar modelos, que antes dependiam da mesma opção, a Keep Activity. As duas novas opções virão desativadas para quem já havia desligado essa configuração; quem a mantinha ligada continuará com histórico e pode decidir à parte sobre o treinamento.\n\nO que observar: o quanto o Tasks erra ao agir em nome do usuário, como os reguladores veem a retenção mais longa e se concorrentes copiarão a gratuidade do recurso.",
+      "sources": [
+        "s_0fc744e43d60",
+        "s_560e703561a2"
+      ]
+    },
+    {
+      "slug": "trump-xi-putin-shenzhen-apec-baixas-expectativas",
+      "category": "geopolitica",
+      "badge": "FATO",
+      "title": "Trump pousa em Shenzhen para encontrar Xi e Putin com expectativas baixas de avanço",
+      "dek": "Cúpula da Apec tem reunião a três inédita, mas analistas esperam estabilidade e pouco acordo concreto, com a sombra do escândalo da Nvidia.",
+      "image": "s_4dbfacf9e3c0",
+      "body": "O presidente americano, Donald Trump, aterrissou nesta quarta-feira, 18, em Shenzhen, na China, para a cúpula da Apec, o fórum de cooperação econômica da Ásia e do Pacífico. Segundo a Al Jazeera, é o terceiro encontro dele com o presidente chinês, Xi Jinping, desde que os dois pausaram a guerra comercial no ano passado, e as expectativas de grandes avanços são baixas.\n\nO gesto de abertura chamou atenção. Xi recebeu Trump no aeroporto, algo raro para presidentes chineses diante de visitantes, enquanto jornalistas que viajavam com o americano esperavam no avião. Apesar da recepção, analistas ouvidos pela emissora acham que o encontro bilateral, marcado para quinta-feira, deve render poucos acordos. Trump também participará de uma reunião a três, sem precedentes, com Xi e o presidente russo, Vladimir Putin. De acordo com a Al Jazeera, o tema deve girar em torno de estabilizar a relação entre Washington e Pequim.\n\nO que pesa é a crise na Nvidia. Trump tem procurado minimizar a controvérsia sobre a relação do ex-presidente da empresa, Jensen Huang, com uma executiva da Megaspeed acusada de ser espiã chinesa. Pequim nega, chamando as alegações de totalmente infundadas e destinadas a difamar a China. Na segunda-feira, promotores americanos confirmaram uma investigação criminal sobre a Megaspeed, em meio a críticas à falha do Departamento de Comércio em incluí-la na lista de controle de exportações. Trump disse que não convinha insultar a China antes de chegar lá.\n\nRyan Hass, do centro Thornton, da Brookings, afirmou que os dois líderes se beneficiam de projetar controle sobre a relação, mas que a capacidade de conduzi-la será testada no próximo ano, com menos oportunidades de diplomacia direta. Deborah Elms, da Fundação Hinrich, de Singapura, disse que, após as eleições de meio de mandato e o desgaste da Nvidia, o simples fato de os dois se cumprimentarem sem incidente será visto como vitória, e apontou dúvidas sobre o que os democratas que chegam ao Congresso em janeiro querem em relação à China. Dennis Wilder, ex-integrante do governo americano, esperava que a conversa dure cerca de duas horas, sem anúncio de prorrogação da trégua comercial.\n\nAs pautas prováveis, segundo Wilder, incluem as queixas chinesas sobre novos controles de exportação de alta tecnologia e as queixas americanas sobre importações agrícolas e exportações de terras raras que a China não cumpriria, além de IA em termos gerais, mas provavelmente sem tocar no caso Nvidia. O objetivo de Trump, disse ele, é manter a estabilidade estratégica anunciada na cúpula de Washington.\n\nO que observar: o tom da conversa a três com Putin, qualquer sinal de extensão da trégua comercial e a reação de Pequim às regras que restringem chips a clientes chineses.",
+      "sources": [
+        "s_4dbfacf9e3c0"
+      ],
+      "singleSource": true
+    },
+    {
+      "slug": "senado-adia-destaques-do-ajuste-fiscal",
+      "category": "brasil",
+      "badge": "FATO",
+      "title": "Senado adia destaques do ajuste fiscal e governo diz que esgotou as concessões",
+      "dek": "Texto-base passou por 45 a 31; economia estimada é de R$ 50 bilhões a R$ 60 bilhões em 2027, mas críticos veem alcance limitado.",
+      "image": "s_cbbd68d3eeae",
+      "body": "O presidente do Senado, Davi Alcolumbre, adiou para esta quarta-feira, 18, a votação dos destaques do projeto de ajuste fiscal do governo Lula. De acordo com a Agência Brasil, a falta de entendimento entre base e oposição inviabilizou a votação na terça e o adiamento atendeu a um pedido do relator, o senador Eduardo Braga, do MDB do Amazonas. Nova tentativa começa às 16h. A expectativa do governo era mandar o texto à Câmara ainda na terça, onde o presidente Hugo Motta disse que seria apreciado com prioridade.\n\nO projeto, o PLP 299/2026, prevê economia de R$ 50 bilhões a R$ 60 bilhões em 2027, segundo o Ministério do Planejamento. Entre os pontos, a Agência Brasil lista mudança no arcabouço fiscal para permitir bloqueios adicionais de despesas, redução de 2,5% para 2% do limite de crescimento dos gastos acima da inflação nos anos em que houver contenção, corte de benefícios tributários, adiamento de parte dos repasses da Lei Kandir a estados e municípios e prazo de 120 dias para o Congresso regulamentar pagamentos acima do teto do funcionalismo, hoje de R$ 46,3 mil.\n\nOs destaques podem alterar o texto-base. Um deles, do senador Alan Rick, do Republicanos do Acre, retira a autorização para o governo limitar o uso de créditos tributários por empresas, o que sozinho poderia render até R$ 18,3 bilhões em 2027 e é contestado pelo setor empresarial. Outro, do PL, tenta impedir o adiamento de cerca de R$ 12 bilhões da Lei Kandir, que seriam pagos entre 2031 e 2037. O líder da oposição, Rogério Marinho, propõe baixar o limite de crescimento das despesas de 2% para 0,6% acima da inflação e impedir que subsídios ao diesel, motivados pela guerra no Irã, sejam descontados da meta de 2026.\n\nO que cada lado diz. Segundo a Revista Oeste, Alcolumbre afirmou que a Casa tem os votos para concluir a análise e que a rejeição dos destaques da oposição seria possível já na terça. O líder do governo no Congresso, Randolfe Rodrigues, do PT do Amapá, descartou novas concessões: disse que a fase de ajustes terminou e que o governo espera superar os 41 votos necessários para manter o texto. A ausência de senadores da base na sessão, de acordo com a Oeste, levantou dúvidas entre governistas sobre repetir o placar.\n\nHá crítica de fundo. Em reportagem da Oeste, o economista Bruno Perri, da Forum Investimentos, chama o pacote de avanço insuficiente. Ele lembra que o ajuste de R$ 45,1 bilhões a R$ 56,1 bilhões em 2027 equivale a algo entre 3,5% e 4,4% do déficit nominal de R$ 1,275 trilhão em 12 meses até setembro, puxado pelos juros, e que o limite de gastos continua permitindo alta real das despesas, só em ritmo menor. Ele também diz que o desconforto de setores da esquerda não prova que o ajuste seja rigoroso. Vale notar que a Oeste é um veículo de linha editorial à direita; a cobertura da Agência Brasil, pública, limita-se a descrever o trâmite.\n\nMotta, por sua vez, disse estar preocupado com a alta do dólar e a perspectiva de juros altos e defendeu que o governo construa outras saídas além do ajuste.\n\nO que observar: se os destaques derrubam trechos como o limite aos créditos tributários, quanto da economia prevista sobrevive e como a Câmara tratará o texto.",
+      "sources": [
+        "s_a3e797122ef5",
+        "s_cbbd68d3eeae",
+        "s_83d4d3341d94"
+      ]
+    },
+    {
+      "slug": "peltola-vence-no-alasca-democratas-56-cadeiras",
+      "category": "mundo",
+      "badge": "FATO",
+      "title": "Mary Peltola vence no Alasca e eleva para 56 as cadeiras democratas no Senado americano",
+      "dek": "Última disputa das eleições de meio de mandato foi marcada por briga judicial sobre um candidato de nome quase igual ao do senador Dan Sullivan.",
+      "image": "s_51cc2eeb8d89",
+      "body": "A democrata Mary Peltola venceu a eleição para o Senado dos Estados Unidos no Alasca e derrubou o republicano Dan Sullivan, que cumpria dois mandatos. Segundo a Al Jazeera, é a primeira vitória democrata no estado para a Casa em mais de uma década. Com cerca de 99% dos votos apurados, a contagem da agência AP dava a ela 50,1% dos votos de primeira escolha contra 45,8% de Sullivan. Como o Alasca adota voto por classificação, ultrapassar 50% garante a eleição sem novas rodadas.\n\nEra a última corrida do Senado a ser definida nas eleições de meio de mandato, duas semanas depois do início da apuração, e a vitória leva os democratas a 56 cadeiras, contra 44 dos republicanos. O resultado não decide o controle da Casa, que os democratas já tinham, mas, segundo o professor Scott Lucas, da University College Dublin, tem peso num contexto mais amplo.\n\nA disputa teve um capítulo jurídico incomum. Em maio, um professor aposentado chamado Dan J Sullivan entrou na corrida como independente. O órgão eleitoral estadual o retirou da cédula em junho, alegando que ele escolhera o nome para causar confusão com o senador, mas a Justiça reverteu a decisão, e a Suprema Corte do Alasca a manteve. Ele apareceu como Daniel J Sullivan Jr. Republicanos disseram que era um isca. O New York Times, segundo a Al Jazeera, relatou depois que funcionários da campanha de Peltola e operadores democratas trabalharam para que ele concorresse. A pedido de Trump, o Departamento de Justiça processou para adiar a certificação se Sullivan perdesse e separar os votos do homônimo; a juíza federal Sharon Gleason arquivou o caso em 1º de novembro, e o departamento disse que recorreria.\n\nNa terça-feira ficou claro que, mesmo que o senador recebesse todos os votos do homônimo, não teria vencido. O homônimo teve 1,7% na contagem da AP. Lucas disse que a prática, chamada de ballot stacking, não é rara e foi usada pelos dois partidos, e que não acha que tenha feito muita diferença.\n\nPeltola, de origem yup'ik, foi a primeira nativa do Alasca eleita ao Congresso, na eleição especial de 2022 para a Câmara. Perdeu a reeleição em 2024. Na campanha deste ano, minimizou o rótulo democrata, impopular no estado, e falou de empregos em energia, fronteira e armas. Lucas a descreveu como pragmática. Segundo ele, Sullivan foi prejudicado por concorrer na chapa de Trump.\n\nO Alasca é o nono estado republicano a virar nesta eleição, depois de Carolina do Norte, Carolina do Sul, Ohio, Texas, Kansas, Iowa, Maine e Mississippi. O Texas foi democrata pela primeira vez desde 1988 e o Kansas desde 1932. Como os senadores têm mandato de seis anos, as vagas conquistadas agora só voltam à disputa em 2032, o que, para Lucas, dá aos democratas uma folga para tornar mais difícil a retomada republicana em 2028. A maioria de dois terços, necessária para certas votações, fica um pouco mais próxima.\n\nO que observar: o recurso do Departamento de Justiça e a posse em janeiro.",
+      "sources": [
+        "s_51cc2eeb8d89"
+      ],
+      "singleSource": true
+    },
+    {
+      "slug": "trump-xi-putin-gogue-e-magogue-leitura-profetica",
+      "category": "escatologia",
+      "badge": "ESCATOLOGIA",
+      "title": "Trump, Xi e Putin na mesma mesa: por que parte do mundo profético lê Gogue e Magogue nas manchetes",
+      "dek": "O encontro inédito a três em Shenzhen reacende uma leitura bíblica antiga sobre uma coalizão do norte, e sites do gênero seguem a contagem do fim dos tempos.",
+      "image": "s_4dbfacf9e3c0",
+      "anchor": "s_4dbfacf9e3c0",
+      "body": "O fato: Donald Trump desembarcou em Shenzhen para a cúpula da Apec e participará de uma reunião a três, inédita, com Xi Jinping e Vladimir Putin, segundo a Al Jazeera. Analistas ouvidos pela emissora esperam poucos acordos concretos e foco em estabilidade. Para a diplomacia, é um encontro com pauta de comércio, chips e guerras. Para um nicho de comentaristas proféticos, é o tipo de cena que pede outra leitura.\n\nA tese. Entre autores evangélicos que acompanham a geopolítica pelo prisma do livro de Ezequiel, é recorrente a leitura de que os capítulos 38 e 39 descrevem uma aliança liderada por Gogue, da terra de Magogue, vinda do extremo norte, que atacaria Israel nos últimos dias. O catálogo de referências do Sync News lembra que Gogue e Magogue aparecem em Gênesis, em Ezequiel, no Apocalipse e no Alcorão, e que o nome se aplica a um príncipe, a um líder ou a um povo, em regiões chamadas Meseque e Tubal. Na tradição de leitura profética moderna, muitos intérpretes associam esse norte à Rússia e enxergam parceiros como Irã. Os defensores dessa linha sustentam que a aproximação entre Moscou e Pequim e a guerra envolvendo o Irã seriam peças do quebra-cabeça. Não localizei, na coleta de hoje, texto que ligue especificamente esta cúpula à profecia; a associação é a que esses leitores costumam fazer, não algo afirmado pelos veículos.\n\nO que os sites do gênero publicam agora. O Rapture Ready, um dos mais conhecidos do segmento, trouxe em 17 de novembro um texto do pastor Nathan E. Jones sobre cinco feitos de Jesus no que ele chama de intervalo de 75 dias depois da Tribulação. Segundo o autor, o livro de Daniel (12:11-12) indicaria esse prazo extra depois do retorno de Cristo, durante o qual ele acorrentaria Satanás, julgaria os sobreviventes separando ovelhas de cabritos e realizaria outras tarefas antes do reino milenar. O texto não menciona a cúpula nem o presidente americano; é um exemplo de como o gênero organiza uma cronologia detalhada do fim dos tempos, na qual eventos como o de Ezequiel 38 antecederiam esses últimos passos, em leituras que variam muito de autor para autor.\n\nComo os defensores fazem a ligação. A lógica costuma ser de correspondência: um bloco de nações do norte e do leste, nomes que coincidem com mapas antigos, um conflito no Oriente Médio e a ideia de que líderes poderosos se reúnem à margem do mundo ocidental. Para quem lê assim, a presença de Putin e Xi lado a lado soa como confirmação de que os tempos se aproximam. Há também o fascínio com palavras como carve-up e Yalta, usadas pelo Guardian em análise sobre o encontro, que lembram partilhas de poder entre grandes potências.\n\nVale ver o outro lado com respeito. Escatologia é um campo de fé e interpretação em que cristãos, judeus e muçulmanos discordam entre si e dentro de cada tradição: há leituras simbólicas, históricas, em que Gogue e Magogue representam o mal em geral, e leituras que veem cumprimento já ocorrido. A identificação de nações modernas com nomes antigos é disputada. Em outras palavras, a mesma passagem sustenta teses diferentes.",
+      "sources": [
+        "s_4dbfacf9e3c0",
+        "s_d2e7ae879d15"
+      ],
+      "attribution": "Intérpretes proféticos evangélicos, entre eles o pastor Nathan E. Jones, do site Rapture Ready, na leitura de Ezequiel 38 e 39 e de Daniel 12.",
+      "counterpoint": {
+        "body": "A reportagem da Al Jazeera descreve a reunião como um esforço de estabilização, com expectativa de poucos resultados e pautas de comércio, tecnologia e guerras, sem nenhuma referência a profecias. A referência sobre Gogue e Magogue mostra que a figura aparece em tradições diferentes e é lida de formas distintas, como príncipe, líder ou povo. Na coleta de hoje, nenhum veículo noticioso liga o encontro a cenários do fim dos tempos, e a associação de nações modernas a nomes bíblicos é uma interpretação, não um fato verificável.",
+        "sources": [
+          "s_4dbfacf9e3c0",
+          "b_ref-gogue-magogue"
+        ]
+      }
+    },
+    {
+      "slug": "agentes-de-ia-gemini-tasks-e-a-singularidade",
+      "category": "teorias",
+      "badge": "TEORIA",
+      "title": "Quando o assistente liga e paga por você: o Gemini Tasks e a velha teoria da singularidade",
+      "dek": "O agente gratuito do Google reacende a ideia de que máquinas acelerem sozinhas até escapar ao controle humano.",
+      "image": "s_0fc744e43d60",
+      "anchor": "s_0fc744e43d60",
+      "body": "O fato: o Google ampliou o acesso ao Tasks, o modo do Gemini que liga para empresas, marca horários, conclui compras pelo Google Pay e entra em sites quando solicitado, segundo a TechCrunch. O recurso nasceu em maio, como Gemini Spark, e agora chega de graça a centenas de milhões de pessoas que usam o novo modelo Gemini 4 Hydrogen. Para o Google, é um assistente prático. Para uma corrente de pensadores, é mais um degrau de uma escada que leva à singularidade tecnológica.\n\nA origem da ideia. O catálogo de referências do Sync News descreve a singularidade como um evento hipotético em que o crescimento tecnológico acelera além do controle humano, produzindo mudanças imprevisíveis na civilização. Na versão mais popular, ligada ao modelo de explosão de inteligência de I. J. Good, de 1965, um agente inteligente capaz de se aperfeiçoar entraria num ciclo de retroalimentação: gerações mais inteligentes surgiriam cada vez mais rápido, num aumento explosivo de capacidade. Autores como Ray Kurzweil popularizaram datas para esse ponto de virada.\n\nComo os defensores fazem a ligação. Na leitura de quem acredita nessa trajetória, o que importa no Tasks não é ligar para a concessionária, e sim a passagem do chatbot que responde para o agente que age: ele decide, tenta, usa ferramentas e opera dinheiro. Os defensores da tese sustentam que cada capacidade nova, como discar, pagar ou navegar sozinho, reduz a distância entre uma ferramenta supervisionada e um sistema com autonomia, e que a adoção em massa, agora gratuita, acelera a coleta de dados e o aprendizado. Para essa corrente, o fato de o Google ter trocado o nome do recurso de Spark para Task Mode e depois para Tasks, e de o lançar para todos, indicaria ritmo crescente de mudanças. A escala de investimentos em curso, como a abertura de capital da Anthropic, também seria vista como combustível do ciclo.\n\nO tom da conversa. Entre os otimistas, o ciclo traria cura de doenças e abundância; entre os preocupados, o risco é perder o controle. É um debate que mistura engenharia, filosofia e algo próximo de fé. Há, inclusive, quem trate a singularidade como uma espécie de escatologia secular: um fim da história humana como a conhecemos, com data marcada e redenção prometida.\n\nO que a notícia mostra de fato: um agente que cumpre tarefas simples, como agendar a revisão de um carro e analisar a conta de luz, exemplos dados pelo próprio executivo do Google. O texto não fala em autoaperfeiçoamento da máquina nem em perda de controle. A empresa também ampliou de 72 horas para cerca de dois meses a retenção de conversas temporárias, justificando a medida com segurança.",
+      "sources": [
+        "s_0fc744e43d60",
+        "s_560e703561a2"
+      ],
+      "attribution": "Defensores da singularidade tecnológica, como I. J. Good e Ray Kurzweil, e entusiastas que veem nos agentes de IA um passo rumo a essa hipótese.",
+      "counterpoint": {
+        "body": "A notícia descreve um recurso de secretaria virtual, que executa tarefas pedidas pelo usuário, sem evidência de que o sistema se melhore sozinho. A singularidade, segundo a referência do catálogo, é um evento hipotético, e o ceticismo científico pede que afirmações sejam sustentadas por pesquisa empírica e reprodutível. Também não há datas confirmadas: as previsões de quando ocorreria variam bastante entre autores e dependem de premissas discutíveis.",
+        "sources": [
+          "s_0fc744e43d60",
+          "b_ref-singularidade",
+          "b_ref-ceticismo"
+        ]
+      }
+    },
+    {
+      "slug": "voyager-1-um-dia-luz-e-a-caca-aos-ovnis",
+      "category": "teorias",
+      "badge": "TEORIA",
+      "title": "Voyager 1 chega a um dia-luz da Terra e Avi Loeb planeja telescópios para fotografar OVNIs",
+      "dek": "Uma sonda de 1977 leva um disco com mensagens ao espaço interestelar enquanto um físico de Harvard quer resolver objetos misteriosos com imagem e espectro.",
+      "image": "s_5c3d13d5482e",
+      "anchor": "s_5c3d13d5482e",
+      "body": "O fato: nesta quarta-feira, 18, a Voyager 1, lançada pela NASA em 1977, chega a um dia-luz de distância da Terra, cerca de 25,9 bilhões de quilômetros, segundo o Olhar Digital. É a primeira vez que um objeto construído pela humanidade alcança essa marca. A sonda cruzou a heliopausa em 2012 e continua transmitindo; um comando enviado daqui leva quase 24 horas para chegar, e uma resposta exige outro intervalo parecido.\n\nA pergunta. A notícia é puramente científica, mas toca numa velha curiosidade: se a humanidade está lançando mensagens ao cosmos, alguém as recebe? E, no sentido inverso, há visitantes que já nos observam? A questão ganhou atualidade com outra notícia da semana. O site OVNI Hoje relata que Avi Loeb, físico de Harvard que preside um conselho científico consultivo sobre OVNIs, divulgou planos de um sistema de telescópios de escala métrica que seriam apontados para objetos misteriosos assim que o radar os detectasse, para coletar imagens de alta resolução e espectros que revelem a composição. Com financiamento de 1,5 milhão de dólares, um protótipo será montado num observatório em Ithaca, em Nova Iorque, que já foi a casa do astrônomo Carl Sagan.\n\nO que dizem os defensores. Na leitura de entusiastas, a combinação mostra que a ciência finalmente passa a tratar o assunto com instrumentos, em vez de depoimentos. Loeb diz que é possível resolver os objetos e descobrir o que são, e que depois do teste o equipamento poderia ser levado a locais onde militares veem coisas que não conseguem identificar. Os defensores de uma origem não humana apontam que relatos de orbes perto de instalações militares seriam indício de algo fora do comum. A lógica da ligação com a Voyager é de simetria: enviamos um disco com sons e imagens, e a presença de visitantes seria a resposta que ainda não identificamos.\n\nA própria fonte, porém, recomenda cautela. O OVNI Hoje informa que Loeb sugeriu que os objetos avistados podem, no fim, ser rastreados até seres humanos, talvez projetos secretos de nações adversárias, e que isso é um trabalho em andamento. O site também registra que o presidente Trump disse, em entrevista ao programa 60 Minutes, não ter conhecimento de nenhum programa secreto dos EUA para estudar tecnologia não humana, e que o assunto é o que mais ouve em conversas privadas. O próprio site avisa que não avaliza a veracidade total ou parcial dos textos que publica.\n\nNo meio disso tudo, o dia-luz da Voyager é um lembrete de escala: segundo o Olhar Digital, a sonda ainda levaria cerca de 40 mil anos para atingir o limite do Sistema Solar, na interpretação que o situa além da Nuvem de Oort. Qualquer encontro hipotético exige distâncias e tempos que desafiam a imaginação.",
+      "sources": [
+        "s_5c3d13d5482e",
+        "s_77b3951e3981"
+      ],
+      "attribution": "Avi Loeb, físico da Universidade de Harvard, e entusiastas da pesquisa de OVNIs que defendem observação instrumental dos fenômenos.",
+      "counterpoint": {
+        "body": "A Voyager 1 não registrou nada que sugira vida inteligente; a notícia é sobre distância e comunicação. A referência do catálogo define OVNI como objeto ou luz no céu que o observador não consegue identificar com os meios que tem, ou seja, desconhecido não significa extraterrestre. O ceticismo científico pede evidência empírica reprodutível, e o projeto de Loeb justamente propõe coletá-la. O próprio Loeb admite que as causas podem ser humanas.",
+        "sources": [
+          "s_5c3d13d5482e",
+          "b_ref-ovni",
+          "b_ref-ceticismo"
+        ]
+      }
+    },
+    {
+      "slug": "capa-da-economist-the-world-ahead-e-as-previsoes-ocultas",
+      "category": "teorias",
+      "badge": "TEORIA",
+      "title": "Capa da Economist vira oráculo na internet: o que dizem os decifradores e o que diz a própria revista",
+      "dek": "A edição The World Ahead 2027 mal saiu e já circulam vídeos que enxergam impeachment, crise financeira e intervenção militar.",
+      "image": "s_231a189cb27a",
+      "anchor": "s_231a189cb27a",
+      "body": "O fato: o Guardian relatou que o secretário de Estado americano, Marco Rubio, afirmou haver zero informação ligando a cascata de apagões de serviços, que afetou Microsoft, grandes bancos, o controle de tráfego aéreo e a Agência de Segurança Nacional, entre si ou a um agente mal-intencionado. Num clima de ansiedade assim, qualquer imagem com ares de presságio ganha tração. Foi o que aconteceu com a nova capa da revista britânica Economist.\n\nO que houve. Segundo o Aos Fatos, a Economist lançou na segunda-feira, 16, a edição The World Ahead, que reúne artigos com tentativas de prever tendências políticas, econômicas e tecnológicas. A publicação existe desde 1986 e se chamava The World In até 2021. Desde 2024, traz uma grande ilustração para resumir as previsões. As capas, ao lado dos episódios de Os Simpsons, alimentam há anos centenas de premonições nas redes.\n\nA tese dos decifradores. Na leitura de conspiracionistas, a ilustração esconderia previsões ocultas, como se a revista soubesse de antemão o que vai acontecer. O Aos Fatos encontrou vídeos que dizem que a capa revelaria uma intervenção militar no Brasil, o impeachment de Trump e uma crise financeira mundial. Para esse público, os acertos históricos da publicação, como a queda do Muro de Berlim em 1989, seriam prova de que existe conhecimento privilegiado. Houve até uma capa falsa da edição de 2027 circulando, que anunciaria um arrebatamento, espécie de fim do mundo.\n\nComo os defensores fazem a ligação. A técnica é a pareidolia aplicada a imagens: cada elemento do desenho, uma mão algemada, um jogador de camisa vermelha, ganha um significado atribuído depois do fato. No caso da capa de 2026, a internet associou a mão algemada à prisão de Nicolás Maduro e o jogador vestido de vermelho à vitória da Espanha na Copa do Mundo, previsões que, segundo o Aos Fatos, não constam da edição oficial. Quando o evento acontece, a leitura é celebrada; quando não, esquecida.\n\nO que a revista diz. A própria Economist afirma que existe uma correspondência simples e direta entre os elementos da capa e os artigos da edição. Segundo ela, os temas deste ano incluem a corrida para suceder Donald Trump no Partido Republicano, a reação contra a IA e o calor trazido pelas mudanças climáticas. A revista também admite que de vez em quando coloca símbolos misteriosos ou pistas falsas só para manter os conspiracionistas na dúvida.\n\nEntre os fatos que ajudam a pesar a tese está o histórico de erros: o Aos Fatos lembra que várias edições dos anos 1990 anunciaram o fim do regime de Fidel Castro, que só deixou o poder em 2008, e que a revista foi pessimista quanto à ascensão econômica chinesa. Quem previu bem às vezes errou muito.",
+      "sources": [
+        "s_231a189cb27a",
+        "s_77fcf8e3ea1c"
+      ],
+      "attribution": "Usuários e produtores de conteúdo conspiracionista nas redes, que dizem decifrar previsões ocultas nas capas da Economist.",
+      "counterpoint": {
+        "body": "O Aos Fatos mostra que as capas ilustram os artigos da edição e que várias das previsões atribuídas a elas não constam do conteúdo oficial. A própria Economist lembra que erra previsões, algo incompatível com informação secreta, e diz inserir pistas falsas de propósito. A referência sobre teorias da conspiração define o conspiracionismo como hipótese de que pessoas ou organizações tramam em segredo, o que exige provas. Quanto aos apagões, Rubio afirmou não haver informação que os relacione.",
+        "sources": [
+          "s_77fcf8e3ea1c",
+          "s_231a189cb27a",
+          "b_ref-conspiracao"
+        ]
+      }
+    }
+  ],
+  "updates": [
+    {
+      "watch": "openai",
+      "title": "OpenAI lança GPT-6.2 Astra e Sol e amplia plugins do ChatGPT para vendas",
+      "body": "A OpenAI apresentou os modelos GPT-6.2 Astra e Sol, que prometem melhores resultados profissionais, programação e uso de computador a custo menor no ChatGPT Work, no Codex e na API. Também lançou o ChatGPT para Vendas, com mais de 30 plugins de parceiros, e liberou o pedido de acesso ao Astra for Law para clientes Enterprise.",
+      "sources": [
+        "s_549a77347d5e",
+        "s_c6c361c53bc4",
+        "s_0604bc2b50fc"
+      ]
+    },
+    {
+      "watch": "anthropic",
+      "title": "Anthropic detalha IPO: Amazon e Google terão 28,4% do capital, sem direito a voto",
+      "body": "Documento enviado à SEC mostra que Amazon (14,7%) e Google (13,7%) receberão ações sem voto, enquanto os cofundadores mantêm 50,1% do poder de voto. A oferta prevê preços de 70 a 78 dólares e negociação na Nasdaq com o código ANT. Para o usuário do Claude, nada muda no produto, mas a empresa passa a ter acionistas públicos.",
+      "sources": [
+        "s_6908e71926e8",
+        "s_64055b04ef5d"
+      ]
+    },
+    {
+      "watch": "meta-ai",
+      "title": "Muse, agente pessoal de IA da Meta, chega à Austrália com conectores locais",
+      "body": "O Muse passa a funcionar na Austrália e se conecta a serviços como Gmail, Google Agenda, Instagram e OpenTable. Parceiros locais, como Canva, Domain, Kogan e Ticketek, entram aos poucos, e alguns recursos só ficarão disponíveis depois do lançamento.",
+      "sources": [
+        "s_9ab9f5272f52"
+      ]
+    },
+    {
+      "watch": "claude-code",
+      "title": "Claude Code 2.1.327 pede confirmação ao instalar app do GitHub e lista arquivos quebrados",
+      "body": "A versão acrescenta confirmação antes de o comando de instalação do aplicativo do GitHub alterar um repositório e permite ler o JSON de servidores MCP pela entrada padrão, mantendo tokens fora da linha de comando. O comando de status agora mostra arquivos de agentes, skills e comandos com erro, e há correção para o modo de trabalho com worktrees.",
+      "sources": [
+        "s_1560056f3e5d"
+      ]
+    }
+  ],
+  "pill": {
+    "title": "A cidade que trocou de nome para se redimir de um assassinato",
+    "body": "Entre as coxilhas do sul do Rio Grande do Sul fica uma cidade que carrega no nome a lembrança de um crime cometido a centenas de quilômetros de distância. Hoje conhecida como Pinheiro Machado, ela nasceu como Nossa Senhora da Luz das Cacimbinhas, depois abreviado para Cacimbinhas, e só em 1915 recebeu o nome que usa até hoje.\n\nA origem é simples e quase poética. A região tinha vastos banhados e pouca água na superfície, o que obrigava os moradores a cavar cacimbas, poços rasos, para encontrar água subterrânea. Segundo a tradição local, um fazendeiro chamado José Dutra de Andrade, que havia perdido a visão, prometeu erguer uma capela a Nossa Senhora da Luz se recuperasse a vista ao lavar o rosto na água de uma dessas cacimbas. Curado, cumpriu a promessa e, com o vizinho Antônio, conhecido como Nico, doou o terreno da capela. Em 1851 nasceu o curato; em 1878 o povoado virou município, desmembrado de Piratini.\n\nA mudança veio de um acontecimento nacional. Em 8 de setembro de 1915, o senador gaúcho José Gomes Pinheiro Machado foi morto a punhaladas no Hotel dos Estrangeiros, no Rio de Janeiro. O autor, Francisco Manço de Paiva Coimbra, era natural de Jaguarão, mas havia vivido algum tempo em Cacimbinhas. O fato manchou a reputação da cidade, e o intendente provisório, Ney de Lima Costa, decidiu rebatizar o município para redimi-lo da associação com o assassino.\n\nO ato municipal número 30, de 30 de outubro de 1915, trocou o nome para Pinheiro Machado. O intendente justificou que o nome antigo era irrisório e nada significava na tradição histórica do município. A população não gostou. Parte dela se revoltou, o conflito chegou a provocar enfrentamentos armados entre facções políticas locais e a decisão terminou levando à destituição do intendente. Mesmo assim, a alteração nunca foi desfeita.\n\nO detalhe surpreendente é que, mais de um século depois, a questão segue viva. Muitos moradores ainda demonstram afeto pelo nome original, Cacimbinhas, e a troca continua sendo motivo de controvérsia. Hoje o município, com população estimada em cerca de 11 mil habitantes em 2022, é conhecido como a Capital da Ovelha. Sua economia é rural, centrada na criação de ovinos e bovinos, com um rebanho estimado de mais de 150 mil ovelhas, e sedia a Feira e Festa Estadual da Ovelha, a Feovelha, considerada a maior feira de ovinos do Brasil.\n\nPor que importa? Porque a história mostra como um nome pode carregar disputas de memória, honra e identidade. A cidade foi batizada em homenagem a uma vítima para se afastar de um crime, e acabou criando um impasse que dura gerações, entre quem defende a homenagem e quem prefere a origem das cacimbas.",
+    "wikipediaId": "s_fa58fcf79bb1",
+    "sourceUrl": "https://pt.wikipedia.org/wiki/Pinheiro_Machado_(Rio_Grande_do_Sul)",
+    "license": "CC BY-SA 4.0",
+    "adapted": true
+  }
+}
