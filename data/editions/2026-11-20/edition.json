@@ -1,0 +1,254 @@
+{
+  "date": "2026-11-20",
+  "publishedAt": "2026-11-20T07:27:27-03:00",
+  "overview": {
+    "title": "Anthropic estreia na bolsa, Shenzhen termina sem acordo nuclear e dólar passa de R$ 5,93",
+    "body": "A manchete do dia é financeira e tecnológica: a Anthropic abriu capital na Nasdaq, levantou 81,3 bilhões de dólares e viu as ações subirem na estreia, enquanto o Guardian relata que as bolsas mundiais caíram na sexta-feira em meio a uma liquidação de papéis ligados à IA. O Google também liberou o uso do computador no Gemini para Mac, e a Apple prepara o seu agente.\n\nNo mundo, a cúpula de Trump, Xi e Putin em Shenzhen terminou com declaração curta e sem acordo nuclear, e os Estados Unidos e o Irã voltaram a trocar ataques. Na Ucrânia, a Rússia respondeu ao golpe na ponte de Kerch atingindo pontes de Kiev e a rede elétrica.\n\nNo Brasil, o dólar fechou acima de 5,93 reais, e a Câmara vota na segunda-feira o ajuste fiscal. No Supremo, Fachin mandou à PGR relatórios do caso Master que citam quatro ministros. No Arcanum, as panes em cadeia na tecnologia, a leitura profética do conflito com o Irã, a singularidade e as previsões atribuídas a videntes sobre a Rússia.",
+    "highlights": [
+      "Anthropic faz a maior abertura de capital da história e capta US$ 81,3 bilhões",
+      "Trump, Xi e Putin divulgam declaração de quatro itens, sem acordo nuclear",
+      "EUA e Irã retomam troca de ataques após dois meses de pausa",
+      "Rússia atinge pontes de Kiev após ataque ucraniano a Kerch",
+      "Dólar fecha a R$ 5,93 e Câmara vota o ajuste fiscal na segunda",
+      "Fachin envia à PGR relatórios do caso Master sobre quatro ministros"
+    ]
+  },
+  "articles": [
+    {
+      "slug": "anthropic-estreia-na-nasdaq-maior-ipo-da-historia",
+      "category": "ia",
+      "badge": "FATO",
+      "title": "Anthropic estreia na Nasdaq com a maior abertura de capital da história",
+      "dek": "Ações abriram 33% acima do preço de oferta, mas o resto do mercado de IA fechou a semana no vermelho.",
+      "sources": [
+        "s_d680d8751ecd",
+        "s_f1dd0bea0b97",
+        "s_c990fb121000",
+        "s_b80c1a82c17c",
+        "s_fd2811614640"
+      ],
+      "body": "A Anthropic virou empresa de capital aberto nesta quinta-feira (19) e entrou para a história financeira: segundo o TechCrunch, a oferta levantou 81,3 bilhões de dólares, mais do que qualquer abertura de capital já feita. O preço foi fixado em 83 dólares por ação, acima da faixa de 70 a 78 dólares que a própria empresa havia projetado. Nos primeiros minutos de negociação, os papéis giravam perto de 111,50 dólares, um ágio de 33%, o que colocaria o valor de mercado acima de 2 trilhões de dólares. A BBC informou que o primeiro pregão terminou com alta de 17%.\n\nOs números de bastidor são ainda maiores. Somando a oferta pública a uma venda privada de 26 bilhões de dólares em ações especiais sem direito a voto, a empresa captou cerca de 104,8 bilhões. Nvidia e Google compraram 10 bilhões cada, e AMD, Broadcom, Micron, Microsoft e TSMC dividiram o restante. Amazon e Google, juntas, ficam com cerca de 28% do capital. Os sete fundadores venderam ações que renderam quase 2 bilhões de dólares ao todo, perto de 280 milhões para cada um antes de taxas e impostos. A empresa diz que eles prometeram destinar 80% da participação pessoal à filantropia, mas o próprio prospecto descreve o compromisso como voluntário e revogável.\n\nO dinheiro vem com uma conta pesada. De acordo com o TechCrunch, a Anthropic precisa de cerca de 70,7 bilhões de dólares em compromissos de computação nos próximos 12 meses e de 451,6 bilhões até o fim de 2030, dentro de um total que ultrapassa 1 trilhão em obrigações de infraestrutura. A receita do terceiro trimestre foi de 17 bilhões de dólares, e analistas ouvidos pela publicação consideram o fardo administrável se o crescimento continuar. Para um deles, o maior risco não é financeiro no sentido clássico, e sim perder a corrida tecnológica para OpenAI, Google DeepMind ou modelos abertos baratos.\n\nHá também o debate sobre financiamento circular. Amazon e Google são ao mesmo tempo investidoras e fornecedoras de nuvem da Anthropic, e o dinheiro que aportam volta como pagamento por computação. O TechCrunch observa que a abertura de capital pode tornar o ciclo autossustentável, porque a conta passa a ser paga por investidores do mercado e por títulos de dívida, e não só por fornecedores. Os analistas citados rejeitam o rótulo de circular puro e dizem que a operação é benéfica para o ecossistema, em contraste com empresas de nuvem especializadas que dependem do apoio da Nvidia.\n\nO discurso de Dario Amodei antes do sino de abertura tratou de segurança. O presidente-executivo afirmou que a empresa vai ritmar o treinamento e a implantação dos sistemas pelo tempo necessário para ter confiança de que continuam sob controle humano, e que não cederá a pressões comerciais nem políticas. É uma promessa sem mecanismo externo de cobrança, e o The Verge resumiu o desafio ao dizer que a fama de empresa do bem fica em jogo com a maior abertura de capital de todos os tempos.\n\nO humor do mercado, porém, foi pior que o da estreia. O Guardian relatou que as bolsas mundiais caíram nesta sexta-feira porque a operação não conteve a liquidação de ações ligadas à IA: os mercados asiáticos caminhavam para a pior semana desde 2020, e as ações de grandes fabricantes de chips recuaram. Em Taiwan, a queda chegou a 6,7%.\n\nTransparência: esta coluna é escrita com apoio de IA e a Anthropic desenvolve o Claude, de modo que vale ler este texto com esse filtro. O que observar a seguir: o comportamento das ações quando acabar a euforia da estreia, a reação dos concorrentes e se o compromisso de ritmar o desenvolvimento ganha algum instrumento verificável.",
+      "image": "s_d680d8751ecd"
+    },
+    {
+      "slug": "gemini-ganha-controle-do-mac-e-apple-prepara-seu-proprio-agente",
+      "category": "ia",
+      "badge": "FATO",
+      "title": "Gemini passa a controlar o Mac e a Apple prepara seu próprio agente",
+      "dek": "O Google libera o uso do computador no app para macOS, enquanto a Apple endurece as regras para agentes de terceiros.",
+      "sources": [
+        "s_1054662f25c3",
+        "s_8f4728ffc5b9",
+        "s_a22c687c439c"
+      ],
+      "body": "O Google anunciou nesta quinta-feira (19) que o aplicativo do Gemini para macOS ganhou o recurso de uso do computador. Na prática, a IA passa a executar tarefas em nome do usuário, navegando por aplicativos nativos do Mac e por sites em segundo plano. De acordo com o TechCrunch, a pessoa acompanha o trabalho em uma prévia ao vivo dentro da conversa, continua usando a tela e o cursor para outras coisas e pode pausar, interromper ou aprovar cada ação antes que ela aconteça.\n\nO Google sugere usos como preencher formulários, repetir a mesma operação em um lote de arquivos, organizar pastas por critérios e montar apresentações a partir de dados de painéis online. O recurso começa em inglês, nos Estados Unidos, e exige o app para Mac e uma assinatura Google AI Plus, Pro ou Ultra. A empresa não disse quando chega a outros países ou plataformas. O TechCrunch avalia que o Google chega atrasado, já que OpenAI, Anthropic e Meta oferecem agentes parecidos em seus aplicativos de desktop há algum tempo. A novidade vem na esteira da liberação mais ampla do Tasks, o recurso que ajuda o Gemini a entrar em sites, fazer compras e marcar compromissos.\n\nDo outro lado da mesa, a Apple se movimenta. O TechCrunch, citando a Bloomberg, relata que a fabricante publicou uma vaga para um gerente sênior de engenharia que lidere um agente de IA capaz de usar um computador como uma pessoa competente: navegar na web, trabalhar entre aplicativos, executar comandos, escrever e depurar código e chamar serviços, tudo com privacidade e acabamento típicos da marca. A Apple não respondeu ao pedido de comentário. Segundo a Bloomberg, a empresa mira lançar o serviço no fim do próximo ano, mas o trabalho ainda está em estágio inicial. O The Verge também noticiou que a Apple contrata engenheiros para o projeto.\n\nO detalhe mais revelador é a política paralela. Ainda conforme a Bloomberg, a versão 27.3 do macOS trará avisos para desencorajar usuários a dar acesso total a agentes de terceiros. Em outubro, a Apple já tinha avisado desenvolvedores de que criaria controles adicionais para que esse nível extraordinário de acesso só seja concedido por ação explícita. Ou seja: enquanto a empresa constrói o seu agente, ela eleva o custo de atrito para os concorrentes que operam dentro do sistema dela.\n\nPor que importa. Agentes que clicam, digitam e navegam mudam o que significa usar um computador, e também o que significa proteger um. Quem concede acesso a um agente está dando a ele os mesmos poderes que tem na própria máquina, o que explica a insistência em aprovações passo a passo e a briga entre plataformas sobre quem controla essa porta de entrada. O sistema operacional é o ponto de passagem obrigatório, e quem o controla define as regras do jogo.\n\nO que observar a seguir: se o Google expande o recurso para outros idiomas e para o Windows, como a Apple descreve os novos avisos do macOS ao público e se os desenvolvedores de agentes independentes conseguem manter o acesso que hoje têm.",
+      "image": "s_1054662f25c3"
+    },
+    {
+      "slug": "trump-xi-e-putin-encerram-cupula-em-shenzhen-sem-acordo-nuclear",
+      "category": "geopolitica",
+      "badge": "FATO",
+      "title": "Cúpula de Trump, Xi e Putin em Shenzhen termina com declaração curta e sem acordo nuclear",
+      "dek": "Analistas ouvidos pela Foreign Policy descrevem o encontro como mais foto do que negociação.",
+      "sources": [
+        "s_f9769f3205d7",
+        "s_4bfc32c214e2"
+      ],
+      "body": "O primeiro encontro trilateral entre os líderes dos Estados Unidos, da China e da Rússia aconteceu nesta quinta-feira (19), numa vila à beira de um lago em Shenzhen, à margem da cúpula da Apec. Segundo a Foreign Policy, a reunião durou cerca de 70 minutos e foi apresentada de início como oportunidade de fazer a paz. Donald Trump abriu falando em reduzir o número de armas nucleares e o risco de seu uso, argumentando que os três países somam mais de 90% do arsenal mundial.\n\nO resultado concreto foi uma declaração conjunta com quatro itens. O primeiro é o compromisso de reformar a ONU. O segundo prevê aumentar a produção e a oferta de derivados refinados de petróleo e reafirma a importância de fluxos de energia estáveis, sem dizer em que volume. O terceiro afirma que o Tribunal Penal Internacional e instituições semelhantes não devem abusar de sua jurisdição, sobretudo contra autoridades que alegam imunidade. O quarto, o último da lista, reafirma que uma guerra nuclear não pode ser vencida e nunca deve ser travada. Não houve menção a negociações futuras nem a um tratado de redução de arsenais.\n\nCada líder saiu com uma versão favorável. Trump chamou a viagem de grande e de muitas consequências, Xi falou em conversa positiva, construtiva e frutífera, e Putin a descreveu como aberta e franca. A reação interna americana foi dura: o líder da minoria democrata no Senado, Chuck Schumer, classificou o encontro como vexame histórico e traição por causa de uma foto com adversários, de acordo com a Foreign Policy.\n\nEm uma segunda análise, a mesma revista descarta a comparação que circulou antes da reunião com a Conferência de Yalta, de 1945, quando as potências vencedoras da Segunda Guerra dividiram a Europa. Para a publicação, dois dos três países estão atolados em guerras caras contra vizinhos menores, nenhuma das potências tem hoje a força relativa de seus equivalentes de 1945, e o mundo não é delas para dividir: Trump não pode forçar a Ucrânia a se render nem entregar Taiwan a Pequim, e Putin não consegue restaurar a grandeza soviética pela força. O texto lembra ainda que o acordo de Yalta não evitou a Guerra Fria.\n\nA leitura política tem três camadas. Trump, que sofreu uma derrota pesada do partido nas eleições legislativas, ganha a imagem de estadista. Putin aparece como pacificador. Xi, segundo a Foreign Policy, mostra-se como quem está no comando, e o texto conjunto divulgado pela agência estatal chinesa Xinhua repete temas que Pequim promove ao longo do segundo mandato de Trump: estabilidade estratégica, oposição à mentalidade de Guerra Fria e ao desacoplamento econômico, e respeito aos resultados da Segunda Guerra.\n\nO trecho sobre o TPI, porém, tem efeito prático. A administração Trump tenta enfraquecer o tribunal com sanções, e Putin, alvo de um mandado de prisão de 2023 por supostos crimes de guerra, que Moscou nega, tem interesse direto no tema. A Foreign Policy avalia que a condenação conjunta oferece munição ideológica a China e Rússia contra instituições internacionais.\n\nO que observar a seguir: se a promessa de diálogo sobre riscos nucleares vira reunião técnica, como a Rússia responde na guerra da Ucrânia nos próximos dias e como o novo Congresso americano, com democratas no comando de comissões-chave a partir de janeiro, trata a China.",
+      "image": "s_f9769f3205d7"
+    },
+    {
+      "slug": "eua-e-ira-voltam-a-trocar-ataques-apos-dois-meses-de-calmaria",
+      "category": "geopolitica",
+      "badge": "FATO",
+      "title": "EUA e Irã voltam a trocar ataques depois de dois meses de calmaria",
+      "dek": "Radares em Bahrein e uma base no Kuwait foram alvos; Trump diz não ter pressa e Israel pressiona por escalada.",
+      "sources": [
+        "s_b2a6f621e26b",
+        "s_73ab934ead65"
+      ],
+      "body": "A guerra entre Estados Unidos e Irã voltou a esquentar. De acordo com a Foreign Policy, os dois países retomaram os ataques ao longo da última semana, encerrando uma pausa de cerca de dois meses no conflito. A retomada acontece enquanto as negociações diplomáticas voltam a travar, o Irã continua atacando embarcações no Estreito de Ormuz e os americanos mantêm o bloqueio às exportações de petróleo iraniano.\n\nA sequência de trocas, segundo a revista, foi esta. Nos últimos seis dias, o Irã atacou instalações americanas no Bahrein, que abriga a Quinta Frota da Marinha dos EUA, e uma base aérea no Kuwait. Na sexta-feira, o alvo foi um radar de alerta antecipado no Bahrein; no domingo, um radar de uma base de helicópteros no mesmo país. Nenhum dano foi relatado. Teerã disse que agia em represália a bombardeios americanos contra torres de comunicação iranianas e a operações de vigilância com drones. Na terça-feira, o Irã voltou a mirar um radar no Bahrein com drones, que teriam sido interceptados, e os americanos reagiram atingindo uma base de lançamento de mísseis na ilha de Qeshm. Na quarta, a resposta iraniana foi um ataque à base de Ali Al Salem, no Kuwait, de novo sem relato de danos.\n\nTrump tem sido vago sobre o que pretende fazer. Há relatos de que avalia ordenar ataques mais amplos, mas ele disse ao Axios que não tem pressa e que verá o que acontece depois do início do ano. Ao mesmo tempo, Israel pressionaria a Casa Branca por uma nova campanha de bombardeios. O diretor do Mossad, Roman Gofman, esteve em Washington nesta semana e teria levado preocupações sobre um suposto desenvolvimento de armas químicas pelo Irã.\n\nAqui entram alegações que merecem cautela. A CNN informou que a inteligência americana tem indícios de que o Irã fez planos para usar uma bomba suja ou uma arma química em Washington. Trump disse levar o assunto muito a sério, depois minimizou a hipótese e avisou que, se ela se concretizar, o Irã será aniquilado. Em entrevista à Fox News, afirmou haver indicação de que Teerã examina gases e armas biológicas, depois de ter sido barrado no caminho nuclear. São relatos e declarações; a reportagem não apresenta prova pública.\n\nEspecialistas ouvidos pela publicação alertam que uma escalada seria uma grande aposta e levaria a novas retaliações contra forças americanas na região. A comunidade de inteligência dos EUA estimaria que o Irã ainda tem até 2.500 mísseis, apesar de afirmações anteriores do governo de que a capacidade teria sido destruída. O Irã se mostra desafiador diante da pressão econômica e parece encorajado pelas perdas dos republicanos nas eleições legislativas. Outra análise da Foreign Policy, sobre a estratégia iraniana do sapo na água fervente, sustenta que Teerã acredita que sua tática de desgastar o Ocidente está funcionando.\n\nO que observar a seguir: se Trump cumpre a ideia de esperar até o ano que vem ou cede à pressão israelense, se os ataques a navios em Ormuz afetam o petróleo e se a diplomacia, hoje parada, reaparece com algum mediador.",
+      "image": "s_b2a6f621e26b"
+    },
+    {
+      "slug": "russia-ataca-pontes-de-kiev-apos-ofensiva-ucraniana-na-ponte-da-crimeia",
+      "category": "mundo",
+      "badge": "FATO",
+      "title": "Rússia ataca pontes de Kiev e a rede elétrica ucraniana em resposta à ponte da Crimeia",
+      "dek": "Putin havia prometido resposta dolorosa ao ataque a Kerch; Ucrânia diz ter atingido 40 alvos de petróleo e defesa em 50 dias.",
+      "sources": [
+        "s_b4d8b1b930db",
+        "s_f451b9b779d9"
+      ],
+      "body": "Mísseis e drones russos atingiram pontes sobre o Dnipro em Kiev e derrubaram a geração de energia em várias regiões da Ucrânia na madrugada desta sexta-feira (20). Segundo a Al Jazeera, que cita o primeiro-ministro ucraniano, oito pessoas morreram, seis delas em Kiev, e 28 ficaram feridas. A BBC, em um primeiro balanço, falava em cinco mortos. A variação de números é comum nas horas seguintes a ataques desse porte.\n\nO prefeito Vitali Klitschko afirmou que mísseis balísticos danificaram as pontes Podilskyi e Darnitskyi e a ponte do Sul, o que obriga a restringir o tráfego sobre o rio. Prédios e estruturas de transporte e logística foram atingidos em vários distritos, e houve interrupções de eletricidade na cidade inteira. Usinas nucleares do país tiveram de reduzir a operação, provocando apagões em Kiev e em dez regiões, disse o vice-ministro de Energia Artem Nekrasov. Fontes ucranianas relataram ainda um morto num ataque a um hospital na região de Zaporíjia.\n\nO Ministério da Defesa russo diz que mirou pontes rodoviárias e ferroviárias usadas para levar armas e equipamento militar ao front, além de instalações da indústria de defesa e de infraestrutura de energia e transporte. Moscou também afirmou ter interceptado 310 drones ucranianos, e o governador de Smolensk disse que um ataque de drones danificou uma instalação industrial na região, sem identificá-la.\n\nO pano de fundo é o ataque à ponte de Kerch, que liga a Rússia à Crimeia, anexada ilegalmente por Moscou em 2014. Os ucranianos destruíram parcialmente a estrutura no início da semana, e a pista rodoviária ficou seriamente danificada, segundo Putin. O presidente russo prometeu uma resposta dolorosa quando falava a jornalistas na China, após a cúpula com os presidentes chinês e americano, e disse que reconstruirá a ponte.\n\nTambém falou o comandante das Forças de Sistemas Não Tripulados da Ucrânia: 40 alvos de petróleo e da indústria de defesa russos foram atingidos nos últimos 50 dias. Os dois lados, portanto, miram a infraestrutura que sustenta o esforço de guerra, o que aumenta o custo para civis, que ficam sem luz, sem transporte e sob risco constante.\n\nA cronologia importa para a leitura política. O ataque ocorre horas depois do encontro de Shenzhen e da fala de Putin, o que mostra que a promessa de diálogo da cúpula não alterou o ritmo militar. Para quem acompanha o conflito, os sinais a observar são a velocidade do reparo das pontes, a capacidade de a rede elétrica ucraniana suportar o inverno que se aproxima e se a próxima resposta ucraniana atinge de novo símbolos russos, como Kerch.\n\nVale lembrar o limite dessa cobertura: os números de baixas e de alvos atingidos vêm de autoridades de cada lado e não foram verificados de forma independente pelas reportagens consultadas.",
+      "image": "s_b4d8b1b930db"
+    },
+    {
+      "slug": "dolar-passa-de-r-5-93-e-camara-vota-ajuste-fiscal-na-segunda",
+      "category": "brasil",
+      "badge": "FATO",
+      "title": "Dólar passa de R$ 5,93 e Câmara marca para segunda a votação do ajuste fiscal",
+      "dek": "Moeda fechou no maior valor desde abril de 2025 mesmo com venda de US$ 1 bilhão do Banco Central.",
+      "sources": [
+        "s_f9155037db5b",
+        "s_a61e3c4dfca1"
+      ],
+      "body": "O dólar subiu pela sexta sessão seguida e fechou a quinta-feira (19) a 5,932 reais, a maior cotação desde 8 de abril de 2025, de acordo com a Agência Brasil. A alta de 1,1% veio mesmo depois de o Banco Central vender 1 bilhão de dólares no mercado à vista entre 12h03 e 12h08. Durante o leilão a moeda recuou à faixa de 5,85 reais, mas voltou a subir. Na semana encurtada pelo feriado, o dólar acumulou alta de 4,95%; no mês, 9,01%; no ano, 8,13%. O Ibovespa recuou 0,69%, acompanhando Nova York, e o Tesouro Direto suspendeu por um período a negociação de parte dos títulos por causa da forte oscilação das taxas.\n\nO estresse tem origem fiscal. Na quarta-feira (18), o Senado concluiu a votação do projeto que busca criar condições para um superávit primário de 0,5% do PIB em 2027, com impacto superior a 50 bilhões de reais, segundo estimativas do governo. O mercado pressiona por cortes no Orçamento e por sinais da equipe econômica, e a especulação continuou mesmo com a aprovação no Senado e com as novas manifestações do Planejamento. O ministro Bruno Moretti disse que medidas adicionais poderão ser adotadas, mas que a prioridade é aprovar o texto na Câmara.\n\nPela Revista Oeste, sabe-se o que o texto faz. O relator na Câmara, deputado Mauro Benevides Filho, do União Brasil do Ceará, apresentou parecer favorável sem mudar o que o Senado aprovou, para evitar que o projeto volte ao Senado. O líder do governo, Paulo Pimenta, pediu urgência. O presidente da Câmara, Hugo Motta, convocou sessão extraordinária para segunda-feira (23). Se aprovado sem alterações, o projeto vai à sanção de Lula.\n\nO conteúdo inclui autorização para bloquear mais gastos e cumprir as metas fiscais. A partir de 2027, permite reduzir de 2,5% para 2% o teto de crescimento real das despesas, caso o Executivo adote certas medidas de contenção. Restringe o uso de créditos que empresas e contribuintes têm com a Receita para pagar tributos, amplia de 10% para 20% o corte de certos benefícios fiscais e limita a 2 bilhões de reais por ano, até 2030, o repasse da União a Estados e municípios para compensar perdas com impostos sobre exportações, com o restante pago entre 2028 e 2030. Também deixa até 10,5 bilhões de reais em subsídios ao diesel fora do cálculo da meta de 2026.\n\nA leitura política divide-se. Ao assinar o decreto que regulamenta a jornada 5x2, Lula atribuiu parte das críticas a um movimento especulativo de agentes que lucram com a instabilidade. Disse que cada ministro será indicado por ele, na data que quiser, e que quem deseja controle fiscal e economia séria é ele, não o mercado. Já a Oeste, veículo de linha editorial oposta ao governo, destaca o conteúdo das medidas e o calendário de votação. O dado objetivo é que a moeda reagiu mal ao conjunto de sinais, e que o mercado cobra mais do que o projeto já entrega.\n\nO que observar a seguir: o resultado da votação de segunda na Câmara, o novo patamar do dólar e se o Banco Central repete intervenções para conter a volatilidade.",
+      "image": "s_a61e3c4dfca1"
+    },
+    {
+      "slug": "fachin-envia-a-pgr-relatorios-do-caso-master-sobre-quatro-ministros-do-stf",
+      "category": "brasil",
+      "badge": "FATO",
+      "title": "Fachin envia à PGR relatórios do caso Master que citam quatro ministros do STF",
+      "dek": "Seis outros relatórios foram arquivados em sigilo; caberá a Paulo Gonet decidir se há motivo para investigar.",
+      "sources": [
+        "s_8dd3dad0c634",
+        "s_a0617cbfd693",
+        "s_0b013cb65667"
+      ],
+      "body": "Na quinta-feira (19), o presidente do Supremo Tribunal Federal, Edson Fachin, mandou para a Procuradoria-Geral da República quatro relatórios da Polícia Federal que tratam de ministros citados em mensagens do telefone de Daniel Vorcaro, ex-banqueiro preso na apuração sobre o Banco Master. De acordo com a Agência Brasil, os documentos se referem a Alexandre de Moraes, André Mendonça, Kassio Nunes Marques e Dias Toffoli. Fachin é o relator temporário do caso, e os relatórios foram entregues a ele na quarta-feira (18) pela cúpula da PF.\n\nA palavra decisiva agora é do procurador-geral, Paulo Gonet. Ele pode pedir o arquivamento por falta de provas ou solicitar a abertura de investigação, o que precisaria ser previamente aprovado pelo plenário do Supremo. Em paralelo, Fachin mandou arquivar seis relatórios sobre menções a Luiz Fux, Cármen Lúcia, Gilmar Mendes, Flávio Dino, Cristiano Zanin e ao próprio Fachin. A decisão está sob segredo de Justiça e as razões não foram divulgadas.\n\nHá um ponto que exige cuidado de leitura. O teor dos relatórios é sigiloso, e não é possível saber em que contexto os nomes aparecem nem o grau de envolvimento dos ministros com Vorcaro ou com pessoas que trabalhavam para ele. Estar citado em conversas não equivale a ter cometido irregularidade, e a própria PGR pode concluir que não há o que apurar.\n\nA Gazeta do Povo, citando reportagem de jornal, informa que a Polícia Federal incluiu Mendonça no pedido de apuração depois que o ministro Andrei Rodrigues pediu novos relatórios; a primeira versão recomendava apurar Moraes, Toffoli e Nunes Marques, sem citar Mendonça. A informação é atribuída ao jornal, e não foi confirmada nas demais reportagens consultadas. A Gazeta também registra que Fachin centraliza no Supremo as investigações sobre o Master, e a CartaCapital, de linha editorial diferente, noticiou a mesma remessa de relatórios à PGR, sem divergência nos fatos centrais.\n\nPor que importa. O Supremo julga, na prática, o caso em que alguns de seus membros são mencionados. A solução escolhida por Fachin, de repassar o material à PGR em vez de decidir sozinho, é uma forma de afastar a suspeita de autoproteção, mas o sigilo mantém o público sem acesso aos critérios. Para a credibilidade da Corte, a transparência sobre por que alguns relatórios foram arquivados e outros encaminhados será tão relevante quanto o desfecho.\n\nO que observar a seguir: o prazo e o sentido da manifestação de Gonet, qualquer pedido de abertura de inquérito ao plenário e se partes dos relatórios vêm a público por decisão judicial.",
+      "image": "s_a0617cbfd693"
+    },
+    {
+      "slug": "pane-em-cadeia-na-tecnologia-acende-teorias-sobre-ia-ciberataque-e-ate-ufos",
+      "category": "teorias",
+      "badge": "TEORIA",
+      "title": "Panes em cadeia nos EUA acendem teorias sobre IA, ciberataque e até inteligência não humana",
+      "dek": "Voos, bancos e e-mails falharam em poucos dias. Entre a coincidência e a conspiração, o que as evidências mostram.",
+      "anchor": "s_f2dddf2ea7d8",
+      "sources": [
+        "s_2e8a692e65f5",
+        "s_f2dddf2ea7d8"
+      ],
+      "attribution": "Comentaristas de tecnologia e sites de mistérios que ligam as panes à IA ou a ataques",
+      "body": "Nas duas últimas semanas, serviços que sustentam a rotina americana falharam em sequência. De acordo com o TechCrunch, o Apple Pay saiu do ar, a rede interna de comunicação da NASA caiu, a FAA mandou parar todos os voos por horas, algo que só aconteceu três vezes desde o 11 de Setembro, e uma pane da Microsoft derrubou Outlook, Teams e Copilot por quase dois dias. A United Airlines teve falha em seu sistema na segunda-feira (16), e o JPMorgan relatou atrasos em transações. A pergunta que circula é se tudo isso tem a mesma causa.\n\nA resposta oficial é que não. O diretor de Inteligência Nacional afirmou que as panes não parecem terrorismo patrocinado por Estado, e Donald Trump as chamou de eventos individuais. Segundo o site OVNI Hoje, que resume a discussão, a FAA atribuiu a paralisação do dia 13 a cerca de mil tentativas de conexão a cada quatro ou cinco segundos, que sobrecarregaram equipamentos de telecomunicações antigos e desestabilizaram radar e comunicação, com uma das origens do tráfego em um local que trocava de roteador. A Microsoft falou em problema de atualização de capacidade da rede e o JPMorgan, em falha de software, ambos descartando ataque.\n\nÉ nesse vazio entre explicação oficial e sensação de padrão que nascem as teorias. A primeira, defendida por parte dos observadores de segurança, é a de que a IA está por trás, de modo direto ou indireto. O investidor Dave DeWalt, ex-presidente da McAfee, disse ao TechCrunch que as panes seriam efeito colateral de um surto de correções: ferramentas de IA estariam expondo vulnerabilidades antigas em velocidade e escala inéditas, e as empresas correm para consertá-las antes que criminosos as explorem. Esse movimento provocaria instabilidade de curto prazo. A engenheira Anusha Iyer, da Corsha, aponta para a colisão entre sistemas antigos e modernos que nunca foram projetados para serem conectados.\n\nUma segunda linha, mais ousada, vem do OVNI Hoje, que lista coincidências intrigantes. O novo sistema SMART da FAA, avaliado em 875 milhões de dólares e baseado em IA, foi ampliado para todo o país em 10 de novembro, três dias antes da paralisação. Na mesma época, pesquisadores da Wiz divulgaram duas falhas críticas no PHP, achadas com ajuda de IA avançada. O texto chega a perguntar se haveria algo ligado a inteligência não humana, mas deixa claro que se trata de especulação, não de achado.\n\nO TechCrunch batizou o clima de Y2K à moda dos agentes de IA, em referência ao bug do ano 2000, quando o medo de uma pane global de computadores gerou meses de preparativos. O paralelo tem apelo narrativo: no Y2K, boa parte do mundo acreditou que o sistema entraria em colapso, e a ausência de catástrofe virou, para uns, prova de que o trabalho de correção funcionou e, para outros, de que o alarme foi exagerado. Quem defende a leitura atual sustenta que estamos diante de um teste de estresse em tempo real, e o senador Mark Warner disse que as falhas devem funcionar como alerta de que a IA avança mais depressa que a nossa capacidade de lidar com as consequências, embora as investigações ainda estejam em curso.\n\nO catálogo desta coluna ajuda a pôr o debate em perspectiva. A teoria da conspiração costuma nascer quando eventos aparentemente desconexos são ligados por uma narrativa única que reduz a incerteza; o ceticismo científico propõe, ao contrário, testar a explicação mais simples antes das mais exóticas. Aqui, a explicação simples, tecnologia envelhecida sob estresse de modernização, já cobre a maior parte dos casos descritos.\n\nResta uma dúvida legítima, que é de política pública, não de mistério: se as correções aceleradas por IA têm o efeito colateral de derrubar sistemas essenciais, quem fiscaliza o ritmo da mudança em estruturas como o controle de tráfego aéreo?",
+      "counterpoint": {
+        "body": "Nenhuma reportagem consultada apresenta prova de que IA, ataque ou inteligência não humana causaram as panes. A FAA e o fornecedor do SMART negam relação, a Microsoft e o JPMorgan apontam causas técnicas próprias, e o próprio OVNI Hoje conclui que não há evidência comprovada. A explicação mais econômica é uma soma de sistemas legados sobrecarregados com trocas de equipamento, que o ceticismo científico recomenda esgotar antes de qualquer hipótese extraordinária.",
+        "sources": [
+          "s_2e8a692e65f5",
+          "b_ref-ceticismo"
+        ]
+      },
+      "image": "s_2e8a692e65f5"
+    },
+    {
+      "slug": "guerra-com-ira-reacende-leitura-profetica-de-ezequiel-38-sobre-gogue-e-persia",
+      "category": "escatologia",
+      "badge": "ESCATOLOGIA",
+      "title": "Guerra com o Irã reacende a leitura profética de Ezequiel 38 sobre Gogue e a Pérsia",
+      "dek": "Comentaristas de profecia ligam os ataques no Golfo ao texto bíblico; tradições antigas leem o trecho de outro modo.",
+      "anchor": "s_b2a6f621e26b",
+      "sources": [
+        "b_ref-gogue-magogue",
+        "s_99f5e9614f7f"
+      ],
+      "attribution": "Comentaristas de profecia cristã, como os do Harbingers Daily e do Rapture Ready",
+      "body": "O fato de partida é jornalístico. A Foreign Policy relata que Estados Unidos e Irã retomaram a troca de ataques depois de cerca de dois meses de pausa, com drones iranianos mirando radares no Bahrein e uma base no Kuwait, e uma resposta americana contra um local de lançamento de mísseis na ilha de Qeshm. Donald Trump diz não ter pressa para escalar, enquanto Israel, segundo a revista, pressiona por uma nova campanha de bombardeios.\n\nPara uma parte do mundo evangélico e dos comentaristas de profecia, a notícia não é apenas geopolítica. Eles recorrem a Ezequiel 38 e 39, que falam de Gogue, da terra de Magogue, príncipe de Meseque e Tubal, a quem o profeta dirige uma mensagem de juízo. O verbete do catálogo desta coluna resume que Gogue e Magogue aparecem também em Apocalipse e no Alcorão, como Iajuje e Majuje, e que o tema atravessa judaísmo, cristianismo e islã.\n\nA ligação com o Irã costuma passar pela lista de aliados de Gogue no texto de Ezequiel, que, na leitura de muitos comentaristas modernos, inclui a Pérsia, antigo nome da região hoje ocupada pelo Irã. Na visão desses autores, um conflito prolongado no Golfo, com Israel no centro, seria um sinal do cenário descrito. O colunista do Harbingers Daily que comentou o tema nesta semana relata ameaças do Irã e de seus aliados contra autoridades americanas, diz que o momento é perigoso e expressa a esperança de que Israel conclua o trabalho em Gaza e no Irã. Outro texto do mesmo universo, do Pleno.News, que trata a cúpula de Shenzhen como um encontro de gigantes, mostra como notícias distintas são lidas por esse filtro.\n\nO que as fontes mais antigas dizem sobre quem é Gogue complica a leitura direta. Segundo o catálogo, comentaristas judeus clássicos como Rashi e Radak o descrevem como rei da nação de Magogue, descendente de Magogue, filho de Jafé, sem associá-lo a um país ou território específico além do norte de Israel. O historiador Flávio Josefo identificou Magogue com os citas, povos ao norte do Mar Negro, e o Talmude e o Midrash também discutem a localização. Em outras palavras, a tradição não aponta o Irã, e a identificação com um Estado moderno é uma interpretação posterior.\n\nHá ainda a distinção entre os livros. O mesmo verbete menciona que muitos estudiosos consideram que Ezequiel e Apocalipse tratam de eventos diferentes, apesar de repetirem os nomes: em Ezequiel, Gogue lidera um grande exército que ataca a terra de Israel; em Apocalipse 20, a referência aparece em outro contexto. Quem defende a leitura atual precisa, portanto, escolher uma entre várias linhas de interpretação e atribuir ao Irã o papel de protagonista, algo que o texto não afirma.\n\nTambém vale notar a dimensão humana do tema. Profecias de fim dos tempos tendem a reforçar o desejo de que um conflito se resolva pela força, como no desejo de que o trabalho seja concluído. A coluna registra o argumento por respeito às pessoas que o sustentam, mas lembra que a pergunta prática, o que fazer diante de ataques entre dois Estados armados, pertence à diplomacia e ao direito, e não à exegese.\n\nPara o leitor curioso, a lição histórica é que cada geração de comentaristas encontrou Gogue em seu inimigo do momento. Já se viu a figura associada a impérios, povos nômades e superpotências, e a identificação se desloca com a política.",
+      "counterpoint": {
+        "body": "A Foreign Policy descreve uma disputa com causas políticas e militares concretas: bloqueio de petróleo, ataques a navios em Ormuz, retaliações de radares e bases, pressão de Israel e eleições americanas. Não há nesses fatos nenhuma confirmação da leitura profética. As tradições judaicas clássicas citadas no catálogo não ligam Gogue ao Irã, e a distinção entre Ezequiel e Apocalipse indica que a identificação moderna é interpretação, não consenso.",
+        "sources": [
+          "s_b2a6f621e26b",
+          "b_ref-gogue-magogue"
+        ]
+      },
+      "image": "b_ref-gogue-magogue"
+    },
+    {
+      "slug": "ipo-da-anthropic-e-a-promessa-de-ritmar-a-ia-reabrem-o-debate-da-singularidade",
+      "category": "teorias",
+      "badge": "TEORIA",
+      "title": "IPO da Anthropic e a promessa de ritmar a IA reabrem o debate sobre a singularidade",
+      "dek": "A velha ideia de uma explosão de inteligência volta à mesa justamente quando o setor levanta cifras recorde.",
+      "anchor": "s_c990fb121000",
+      "sources": [
+        "b_ref-singularidade",
+        "s_b80c1a82c17c"
+      ],
+      "attribution": "Defensores da hipótese da singularidade tecnológica",
+      "body": "A notícia é o IPO. A Anthropic estreou na Nasdaq nesta quinta-feira (19) e, segundo o TechCrunch, deve ter cerca de 220 bilhões de dólares em caixa, mais do que qualquer empresa já teve ao abrir o capital. Antes do sino de abertura, o presidente-executivo, Dario Amodei, disse que a empresa vai ritmar o treinamento e a implantação dos sistemas até ter confiança de que são seguros e seguem sob controle humano. Ele também falou em riscos reais, como o mau uso por indivíduos ou Estados, a disrupção econômica e a perda de controle sobre sistemas de IA.\n\nÉ o tipo de frase que alimenta uma velha discussão. A singularidade tecnológica é, na definição do catálogo desta coluna, um acontecimento hipotético em que o avanço tecnológico se acelera além da capacidade humana de controle, produzindo transformações imprevisíveis. Na formulação mais conhecida, baseada no modelo de explosão da inteligência proposto por I. J. Good em 1965, um agente capaz de se aperfeiçoar iniciaria um ciclo de realimentação: cada geração, mais inteligente que a anterior, desenvolveria a seguinte mais depressa.\n\nVernor Vinge comparou a situação ao horizonte de eventos de um buraco negro: do lado de cá é difícil prever o que haveria do lado de lá. Ray Kurzweil reserva o termo para uma expansão rápida da inteligência artificial que permitiria superar limitações do corpo e do cérebro biológicos, desde que a inteligência baseada em computadores supere de forma expressiva a capacidade intelectual humana combinada. Na leitura de quem defende essas ideias, uma empresa com centenas de bilhões em caixa e compromissos de computação na casa do trilhão estaria acelerando exatamente o processo que eles descrevem.\n\nO texto de Amodei, curiosamente, trabalha com a mesma premissa em sentido inverso. Ele sustenta que a IA poderia comprimir um século de progresso científico e médico em uma década, ao mesmo tempo em que afirma que os riscos são evitáveis se quem constrói a tecnologia fizer boas escolhas. É uma tese de aceleração com freio, que a empresa chama de corrida para o topo, em que o objetivo é melhorar o setor inteiro, vença quem vencer.\n\nEm outra frente, há quem veja na própria operação financeira um sinal de que a promessa é grande demais. O TechCrunch registra que a Anthropic assumiu compromissos de infraestrutura que somam mais de 1 trilhão de dólares, que parte relevante do dinheiro volta aos fornecedores que também são investidores e que analistas debatem se isso configura financiamento circular. Os defensores da singularidade enxergariam aí um motor de aceleração; os céticos, uma bolha clássica.\n\nConvém separar três coisas que o debate costuma misturar. Uma IA capaz de executar muitas tarefas bem não é necessariamente uma inteligência geral. Uma melhoria expressiva em uma tarefa específica não demonstra explosão de inteligência. E uma empresa valer mais de 2 trilhões de dólares na abertura, o que o TechCrunch calculou a partir do preço dos primeiros minutos, mede expectativa de mercado, não capacidade de máquina.\n\nO que observar: se a promessa de ritmar o desenvolvimento ganhará instrumentos verificáveis, como as avaliações externas citadas em setembro, e se o setor avança para além de ganhos pontuais.",
+      "counterpoint": {
+        "body": "A hipótese é contestada por pesquisadores como Paul Allen, Jeff Hawkins, Jaron Lanier, Steven Pinker, Gordon Moore e Roger Penrose, segundo o catálogo. Uma das objeções é que o progresso pode render retornos decrescentes, seguindo uma curva sigmoide, em vez de acelerar sem parar. Os analistas ouvidos pelo TechCrunch tratam o risco principal da Anthropic como concorrencial, perder a corrida para outras empresas ou modelos abertos baratos, e não como um salto incontrolável.",
+        "sources": [
+          "b_ref-singularidade",
+          "s_c990fb121000"
+        ]
+      },
+      "image": "s_b80c1a82c17c"
+    },
+    {
+      "slug": "ataque-a-pontes-de-kiev-reabre-o-arquivo-de-baba-vanga-e-nostradamus-sobre-a-russia",
+      "category": "profecias",
+      "badge": "PROFECIA",
+      "title": "Ataque a pontes de Kiev reabre o arquivo de Baba Vanga e Nostradamus sobre a Rússia",
+      "dek": "A cada escalada na Ucrânia, previsões atribuídas a videntes voltam a circular. O que sustenta, e o que não sustenta, essas ligações.",
+      "anchor": "s_b4d8b1b930db",
+      "sources": [
+        "b_ref-baba-vanga",
+        "b_ref-nostradamus"
+      ],
+      "attribution": "Seguidores de Baba Vanga e de Nostradamus e os autores de listas de previsões",
+      "body": "O fato de partida é a guerra. Na madrugada desta sexta-feira (20), de acordo com a Al Jazeera, a Rússia lançou mísseis e drones contra pontes sobre o Dnipro em Kiev e contra a rede de energia da Ucrânia, em retaliação ao ataque ucraniano à ponte de Kerch, na Crimeia. As autoridades ucranianas falam em oito mortos e em apagões em Kiev e em dez regiões.\n\nSempre que o conflito escala, circulam nas redes listas de previsões atribuídas a videntes. Duas figuras aparecem com mais frequência. A primeira é Baba Vanga, nome popular de Vangelia Gushterova, mística búlgara que ficou cega na infância e se tornou conhecida, nos anos 1970 e 1980, na região do Pacto de Varsóvia por supostos dons de clarividência. Morreu em 1996. A segunda é Michel de Nostredame, o Nostradamus, astrólogo e médico francês do século 16, autor de Les Prophéties, coleção de 942 quadras poéticas publicada pela primeira vez em 1555.\n\nNa leitura de seus seguidores, Vanga teria antecipado a dissolução da União Soviética, o desastre de Chernobyl, a data da morte de Stalin, o naufrágio do submarino russo Kursk e os ataques de 11 de setembro, segundo obras como o guia Weiser Field Guide to the Paranormal, citado no catálogo. A partir daí, as listas virais costumam projetar para o presente trechos sobre a Rússia e sobre guerras no futuro, e as quadras de Nostradamus são lidas como se descrevessem o mesmo cenário.\n\nPor que a ligação seduz. As previsões atribuídas aos dois são, em geral, curtas, simbólicas e abertas. Os defensores sustentam que a vagueza é a forma natural de um dom que vê imagens, não manchetes. Quem lê a notícia de Kiev procura palavras como ponte, fogo e norte e, ao encontrá-las, sente que o arquivo foi confirmado. Esse tipo de leitura retroativa funciona porque a guerra na Ucrânia produz, todos os dias, imagens fortes que cabem em qualquer verso.\n\nA origem do material também importa. Vanga não escreveu livros: o que dizia era registrado por membros de sua equipe, e depois vieram obras esotéricas sobre sua vida e suas previsões. Nostradamus, por sua vez, escreveu quadras baseadas, segundo o catálogo, em precedentes históricos e literários, e conquistou ao longo dos séculos apoiadores que o creditam por ter previsto grandes eventos. A recepção inicial dos Les Prophéties foi mista.\n\nHá uma camada ética. Atribuir a uma vidente a previsão de uma guerra em curso pode dar a mortes reais um ar de destino inevitável, o que não corresponde ao que as reportagens mostram: decisões militares e políticas de governos que escolhem alvos, calculam respostas e anunciam retaliações, como fez Vladimir Putin ao prometer uma resposta dolorosa ao ataque a Kerch.\n\nPara o leitor, a conclusão mais útil talvez seja metodológica: quando uma previsão só se torna compreensível depois do evento, ela deixa de ser previsão e passa a ser interpretação. O fascínio permanece, e é compreensível, mas convém tratá-lo como fenômeno cultural, não como fonte de informação sobre o que acontecerá em Kiev.",
+      "counterpoint": {
+        "body": "Segundo o catálogo, fontes búlgaras afirmam que pessoas próximas a Vanga dizem que ela nunca profetizou sobre o Kursk nem sobre a Terceira Guerra Mundial, e que muitos mitos sobre ela são falsos. Quanto a Nostradamus, a maioria das fontes acadêmicas rejeita a ideia de dons sobrenaturais e atribui as associações com eventos reais a más interpretações ou traduções incorretas, já que as quadras são vagas e se aplicam a quase qualquer fato. Nada nas reportagens sobre Kiev confirma qualquer previsão.",
+        "sources": [
+          "b_ref-baba-vanga",
+          "b_ref-nostradamus"
+        ]
+      },
+      "image": "b_ref-baba-vanga"
+    }
+  ],
+  "updates": [
+    {
+      "watch": "anthropic",
+      "title": "Anthropic abre capital na Nasdaq e capta US$ 81,3 bilhões",
+      "body": "A empresa estreou na bolsa a 83 dólares por ação, acima da faixa prevista, e ganhou ágio já no primeiro pregão. O caixa esperado passa de 200 bilhões de dólares. Amodei prometeu ritmar o treinamento e a implantação de modelos pelo tempo que a segurança exigir.",
+      "sources": [
+        "s_d680d8751ecd",
+        "s_b80c1a82c17c"
+      ]
+    },
+    {
+      "watch": "meta-ai",
+      "title": "Muse, agente da Meta, tem relatos de mistura de conversas e Charm deve custar US$ 300",
+      "body": "A Reuters ouviu funcionários da Meta que dizem que o Muse misturou conversas de contas diferentes e mostrou dados privados, o que a empresa atribui a versões de teste internas. Separadamente, o aparelho Muse Charm, em formato de chaveiro, deve custar cerca de 300 dólares, segundo relatos ainda não confirmados.",
+      "sources": [
+        "s_2919f418f3f5",
+        "s_6f0f2d869f0f"
+      ]
+    },
+    {
+      "watch": "chatgpt",
+      "title": "ChatGPT passa a transcrever enquanto você fala com o Ditado ao Vivo",
+      "body": "O recurso mostra o texto durante a fala, sem esperar o fim da gravação, e chega a todos os planos na web, no app de desktop e nos aplicativos para iOS e Android, com liberação global em andamento.",
+      "sources": [
+        "s_2600860578f3"
+      ]
+    },
+    {
+      "watch": "claude-code",
+      "title": "Claude Code 2.1.329 avisa onde ficam os hooks e corrige perda de configurações",
+      "body": "A caixa de confiança agora diz onde os hooks de uma pasta foram declarados, e há alerta quando hooks de configurações gerenciadas falham ao carregar. O /tasks passa a listar tarefas agendadas e bifurcações. Correções evitam que o arquivo de configuração seja zerado e reduzem desconexões no macOS.",
+      "sources": [
+        "s_9166064c2f31"
+      ]
+    },
+    {
+      "watch": "codex",
+      "title": "Codex 0.171.0 traz modelos GPT-6.2 Sol e Astra e liga o novo espaço de trabalho no terminal",
+      "body": "Sol e Astra entram nos catálogos, com Sol como seleção padrão. O espaço de trabalho do TUI vem ativado, com prévias de documentos e imagens e transcrições de subagentes. Também chegam atalhos de desfazer e refazer e o comando para retomar sessões em um servidor existente.",
+      "sources": [
+        "s_3186386788f0"
+      ]
+    }
+  ],
+  "pill": {
+    "title": "Antes de ser Rei, Roberto Carlos dividiu um conjunto com Tim Maia",
+    "body": "Em 1957, no Rio de Janeiro, quatro adolescentes formaram um conjunto vocal chamado The Sputniks. O nome vinha do primeiro satélite artificial colocado em órbita pela União Soviética naquele mesmo ano. Dois deles se tornariam gigantes da música brasileira: Roberto Carlos e Tim Maia. Os outros eram Arlênio Lívio Gomes e Wellington Oliveira.\n\nA turma se reunia no Bar Divino, na esquina da rua do Matoso com a Haddock Lobo, na Tijuca. Foi lá que Roberto, recém-chegado ao Rio, aprendeu a tocar rock no violão observando Tim Maia, que liderava o grupo e deixava os ensaios acontecerem no porão da casa dele. As apresentações tinham no máximo dois violões, e todos cantavam em harmonia. O vocalista principal, porém, era Wellington, porque era o único com alguma noção de inglês, já que o repertório se resumia a versões. Ele ainda improvisava percussão com caneca e colher.\n\nA estreia pública foi em dezembro de 1957, num evento na igreja de São Sebastião dos Capuchinhos, e depois o grupo passou a cantar nas missas de domingo. Um amigo de Wellington viu a disputa de um concurso de calouros e indicou os rapazes ao empresário Carlos Imperial, que tinha acabado de estrear na TV Tupi o programa Clube do Rock. A música escolhida para o teste foi Little Darlin, dos Diamonds, a principal versão do conjunto.\n\nO detalhe surpreendente veio logo depois da gravação. Roberto esperou Imperial no corredor e pediu uma chance de cantar sozinho, dizendo que sabia imitar Elvis Presley. Tim descobriu, os dois discutiram em frente ao estúdio e o clima pesou no último ensaio. Roberto faltou ao show seguinte, e o conjunto acabou de forma abrupta. Cada um culpou o individualismo do outro, e as versões publicadas mostram a mágoa: Roberto disse que Tim sempre quis carreira solo, enquanto Tim falou que Roberto era muito esperto.\n\nNa semana seguinte, Roberto apareceu no Clube do Rock como o Elvis Presley brasileiro, cantando Jailhouse Rock com os trejeitos do ídolo. Tim também procurou Imperial e passou a se apresentar como o Little Richard brasileiro. Wellington largou a música, estudou e virou advogado. Arlênio montou outro grupo, que virou The Snakes e serviu de banda de apoio para Roberto e Tim, e foi por intermédio dele que Roberto conheceu Erasmo Esteves, com quem formou uma grande amizade.\n\nO Sputniks importa porque é lembrado como um dos primeiros conjuntos de rock do país, tocando o gênero no mesmo ano em que Cauby Peixoto lançou Rock and Roll em Copacabana, considerado o primeiro exemplar do estilo no Brasil. Tim Maia guardou a lembrança da turma na canção Haddock Lobo Esquina com Matoso, de 1982, e o grupo aparece na cinebiografia Tim Maia, de 2014.",
+    "wikipediaId": "s_9e28525ed313",
+    "sourceUrl": "https://pt.wikipedia.org/wiki/The_Sputniks",
+    "license": "CC BY-SA 4.0",
+    "adapted": true
+  }
+}
