@@ -1,0 +1,219 @@
+{
+  "date": "2026-11-24",
+  "publishedAt": "2026-11-24T07:27:25-03:00",
+  "overview": {
+    "title": "Huang volta à Nvidia, Claude Ship automatiza aprovações e Câmara fecha o ajuste fiscal",
+    "body": "A segunda-feira terminou com duas mudanças de peso no setor de tecnologia. A Nvidia reintegrou o fundador Jensen Huang, menos de duas semanas após sua renúncia, e a Casa Branca disse não ver risco à segurança nacional. O assunto segue quente: Huang depõe no Senado em 3 de dezembro e antes disso fala a comissões da Câmara. Na mesma jornada, a Anthropic lançou o Claude Ship, que inclui um agente capaz de aprovar mudanças de código segundo regras definidas pelas equipes.\n\nNo Brasil, a Câmara concluiu a votação do ajuste fiscal do governo Lula, que vai à sanção, e a Abin divulgou um mapa de 31 organizações criminosas relevantes. No exterior, a Malásia anunciou a devolução de mais de 6,5 mil rohingyas a Mianmar, cinco dias após a Corte Internacional de Justiça reconhecer o genocídio, e a Coreia do Sul acionou um alerta antiaéreo por causa de caças russos.\n\nNo Arcanum, a edição olha para a tese de que o caso Huang foi fabricado, para a velha ideia da singularidade, para as profecias atribuídas a Baba Vanga e para a leitura escatológica da crise de alimentos. Em todos os casos, o texto apresenta as teses como alegações e confronta cada uma com fatos.",
+    "highlights": [
+      "Nvidia reintegra Jensen Huang; Trump diz que não há risco",
+      "Anthropic lança Claude Ship, com agente que aprova código",
+      "Câmara aprova ajuste fiscal, que segue para sanção",
+      "Abin mapeia 31 organizações criminosas relevantes",
+      "Malásia vai devolver mais de 6,5 mil rohingyas a Mianmar"
+    ]
+  },
+  "articles": [
+    {
+      "slug": "claude-ship-agentes-aprovam-codigo",
+      "category": "ia",
+      "badge": "FATO",
+      "title": "Anthropic lança Claude Ship e dá a agentes de IA o poder de aprovar código",
+      "dek": "Pacote revisa pull requests, corrige falhas e aprova mudanças rotineiras com base em regras escritas pela própria equipe",
+      "image": "s_27065c561fbc",
+      "body": "A Anthropic, que acaba de abrir capital, apresentou na segunda-feira (23) o Claude Ship, um conjunto de agentes de IA para revisar, corrigir e aprovar alterações de código. Segundo o TechCrunch, a novidade mais relevante não é a revisão automática, que outras ferramentas já ofereciam, mas a inclusão de um agente capaz de aprovar mudanças por conta própria, seguindo políticas definidas pelos times de desenvolvimento.\n\nO pacote reúne três peças. O Code Review, que já está disponível para todos os clientes elegíveis, analisa as alterações propostas e aponta problemas. O PR Steward, em beta, cuida de falhas em testes automáticos, conflitos de mesclagem e comentários deixados pela revisão. A cada envio de código, ele informa o que mudou e como desfazer a alteração, se for preciso. O terceiro componente, o Claude Approvals, também em beta, aplica uma política de aprovação escrita em linguagem natural e guardada como arquivo no repositório. Essa política pode levar em conta os achados do Code Review e classificadores da própria empresa.\n\nO contexto, de acordo com a reportagem, é um gargalo novo. Agentes de programação escrevem cada vez mais código, e a etapa de revisão e aprovação humana passou a atrasar o que chega à produção. A própria Anthropic afirma, em texto citado pelo TechCrunch, que na equipe do Claude Code o Claude escreve a maior parte do código, e que ela queria que tudo o que vem depois do pull request andasse na mesma velocidade. Na prática, trata-se de delegar autoridade de aprovação a um agente, algo que até aqui cabia a uma pessoa.\n\nA empresa cercou o lançamento de cautelas. Por estar em beta, recomenda rodar a função de aprovação primeiro em modo de observação, sem efeito real, e começar por um único repositório, com limite de gasto mensal. As equipes continuam escolhendo onde o Claude Ship roda, qual nível de revisão usar, entre rápido, padrão e profundo, e quais mudanças devem ser escaladas para decisão humana.\n\nO Claude Ship está sendo liberado para os planos Team e Enterprise do Claude, para repositórios hospedados no GitHub. A reportagem não informa preços específicos nem detalha quais tipos de alteração a Anthropic considera rotineiras.\n\nVale observar duas coisas nos próximos meses. A primeira é a qualidade das políticas escritas em linguagem natural: regras vagas podem deixar passar o que não deveriam. A segunda é a reação do mercado de ferramentas de programação, em que a disputa se desloca da geração de código para o controle do que vai ao ar. Quem usa o produto ganha velocidade, mas assume a tarefa de definir, com clareza, o que um agente pode decidir sozinho.",
+      "sources": [
+        "s_27065c561fbc"
+      ],
+      "singleSource": true
+    },
+    {
+      "slug": "jensen-huang-volta-nvidia-trump",
+      "category": "geopolitica",
+      "badge": "FATO",
+      "title": "Nvidia reintegra Jensen Huang e a Casa Branca diz não ver risco à segurança nacional",
+      "dek": "Executivo renunciou em 12 de novembro; volta vem com apoio público de Trump e depoimentos marcados no Congresso",
+      "image": "s_aa93777566bc",
+      "body": "O conselho da Nvidia reintegrou, na segunda-feira (23), Jensen Huang como presidente-executivo e presidente da empresa, menos de duas semanas depois de sua renúncia. Segundo o TechCrunch, o comunicado do conselho citou consultas a altos escalões do governo americano e disse que, com base nelas, a volta não representa risco à segurança nacional.\n\nHuang deixou o cargo em 12 de novembro, depois que vieram a público ao menos dois casos extraconjugais atribuídos a ele. O que acendeu o alerta em Washington foi um deles: o relacionamento com Alice Huang, sem parentesco, executiva da Megaspeed, empresa de Singapura que comprou bilhões em chips da Nvidia. De acordo com os veículos que acompanham o caso, autoridades americanas suspeitam que ela atue para a inteligência chinesa. Os relatos citam fontes oficiais, e o TechCrunch lembra que o presidente disse que ninguém provou que ela seja espiã. A preocupação central é saber se o laço pessoal teria exposto informações sensíveis ou facilitado o acesso da China a chips avançados, sujeitos a restrições de exportação.\n\nO presidente Donald Trump saudou a decisão em sua rede social, afirmando que o governo não tem motivo para crer que o retorno seja um risco e que o procurador-geral, Todd Blanche, confirmou não haver provas de conduta ilegal. O TechCrunch observa que é incomum um presidente fazer esse tipo de declaração, porque investigações costumam ser conduzidas de forma independente pelo procurador-geral, que ainda não se manifestou formalmente. Trump também elogiou Huang como grande patriota e pediu que a Nvidia continue a investigação interna sobre o cumprimento das regras de exportação.\n\nO desfecho está longe de encerrar o assunto. Huang foi convocado para depor no Senado, no Comitê de Bancos, em 3 de dezembro, e já havia aceitado falar, em 1º de dezembro, a comissões da Câmara, entre elas a de Relações Exteriores, a especial sobre o Partido Comunista Chinês e a de Inteligência. O Comitê de Bancos tem jurisdição sobre a política de controle de exportações, e os pedidos de depoimento tiveram apoio dos dois partidos.\n\nAs leituras divergem. Em artigo de opinião, a Foreign Policy chama o episódio de possível maior escândalo de segurança nacional da história dos Estados Unidos e lembra que a Nvidia fechou, no ano passado, um acordo com a Casa Branca para vender chips H200 à China em troca de 25% da receita para o governo. É uma opinião, não um fato apurado. Do lado do governo, Trump afirma que o Executivo não tem provas de que Huang tenha cometido crime e que a suspeita sobre Alice Huang não foi demonstrada. As duas versões seguem em disputa até os depoimentos.\n\nO que observar agora: o que Huang dirá sob juramento, se o procurador-geral se pronunciará e se a investigação interna da Nvidia sobre exportações trará conclusões.",
+      "sources": [
+        "s_aa93777566bc",
+        "s_a2f14d06f82b",
+        "s_f91a4f1450e3"
+      ]
+    },
+    {
+      "slug": "malasia-devolver-rohingyas-mianmar-apos-genocidio",
+      "category": "geopolitica",
+      "badge": "FATO",
+      "title": "Malásia vai mandar mais de 6,5 mil rohingyas de volta a Mianmar, cinco dias após decisão da Corte Internacional",
+      "dek": "Primeiro-ministro diz que o país não consegue mais arcar com refugiados; organizações de direitos humanos se preocupam",
+      "image": "s_86a39034e80d",
+      "body": "A Malásia vai repatriar mais de 6,5 mil refugiados rohingyas para Mianmar, anunciou o primeiro-ministro Anwar Ibrahim ao Parlamento nesta terça-feira (24). A informação é da Al Jazeera, única reportagem lida para esta nota. O anúncio vem cinco dias depois de a Corte Internacional de Justiça, em Haia, decidir que as forças de segurança de Mianmar cometeram genocídio contra a minoria rohingya.\n\nPelo cronograma apresentado, 1,5 mil pessoas voltarão em três navios da Marinha nos dias 6 e 7 de dezembro. Ao longo de dezembro, outras 5.303 seguirão de avião, com custos pagos pelo governo de Mianmar. Em setembro, cerca de 1,5 mil migrantes já haviam sido enviados de volta ao país em um programa que organizações de direitos humanos classificaram como pouco transparente.\n\nAnwar justificou a medida dizendo que a Malásia, que historicamente acolheu exilados de Mianmar, já não suporta o peso financeiro e o risco de segurança de abrigar tantos refugiados, e que a esperança de reassentamento em outros países não se concretizou. Segundo dados do Alto Comissariado da ONU para Refugiados citados na reportagem, havia 225.740 refugiados e solicitantes de asilo registrados no país em agosto, cerca de 90% deles de Mianmar.\n\nO governo malaio também apresentou a decisão como compatível com o julgamento de Haia, que determinou que as autoridades de Mianmar permitam e facilitem o retorno seguro, voluntário e digno de deslocados, dentro ou fora do país. O ponto sensível está na palavra voluntário. A reportagem lembra que o líder do país, o ex-chefe da junta e hoje presidente Min Aung Hlaing, foi recebido na Malásia no mês passado, sob críticas de que isso legitimaria seu governo e colocaria em risco os que voltam. No fim de outubro, a própria Malásia disse que pediria esclarecimentos sobre relatos de que centenas de migrantes repatriados estariam em detenção militar. Anwar não tocou nesse tema ao falar ao Parlamento.\n\nOs rohingyas, minoria majoritariamente muçulmana, são descritos pela Al Jazeera como a minoria mais perseguida do mundo. O país em que vivem, Mianmar, segue em guerra.\n\nO que acompanhar: se o retorno de dezembro vai ocorrer nos moldes anunciados, se a ONU ou organizações independentes poderão monitorar o destino dos repatriados e se outros países da região seguirão o exemplo malaio, com o argumento do custo, logo depois de uma decisão judicial internacional que reconheceu o genocídio.",
+      "sources": [
+        "s_86a39034e80d"
+      ],
+      "singleSource": true
+    },
+    {
+      "slug": "coreia-do-sul-alerta-ilha-ulleung-avioes-russos",
+      "category": "mundo",
+      "badge": "FATO",
+      "title": "Coreia do Sul aciona alerta antiaéreo em ilha após aviões russos chegarem perto de seu espaço aéreo",
+      "dek": "Alerta durou três minutos; governo da província chegou a apontar, por engano, um avião norte-coreano",
+      "image": "s_3e3d8c66fac3",
+      "body": "As autoridades sul-coreanas emitiram, na manhã desta terça-feira (24), um breve alerta antiaéreo para os moradores da ilha de Ulleung, depois que aviões militares russos se aproximaram do espaço aéreo do país sobre as águas entre a península coreana e o Japão. É o que relata a Al Jazeera, única fonte lida para esta nota.\n\nSegundo o Estado-Maior Conjunto, cerca de cinco aeronaves russas entraram na zona de identificação de defesa aérea sul-coreana, uma faixa que funciona como amortecedor entre países, e chegaram muito perto de violar o espaço aéreo sobre Ulleung. Caças sul-coreanos foram acionados e fizeram manobras táticas para evitar um incidente. No fim, não houve invasão do espaço aéreo, disse o porta-voz Jang Do-young. A violação era esperada, afirmou ele, e por isso o alerta foi emitido de forma preventiva, para proteger a população.\n\nHouve confusão sobre quem era o responsável. O governo da província de Gyeongsang do Norte, onde fica Ulleung, divulgou inicialmente um aviso de que os aviões seriam norte-coreanos, e depois corrigiu a informação. Uma incursão da Coreia do Norte seria uma escalada significativa, já que as duas Coreias continuam tecnicamente em guerra, porque o conflito de 1950 a 1953 terminou em armistício, e não em tratado de paz. O Ministério do Interior e da Segurança mandou o alerta de abrigo às 7h52 locais e o cancelou três minutos depois, quando as aeronaves se afastaram.\n\nA ilha, no Mar do Leste, também conhecido como mar do Japão, tem cerca de 9 mil habitantes e fica a 120 quilômetros da costa nordeste da Coreia do Sul. Foi atingida pelo último susto parecido em 2022, quando a Coreia do Norte disparou mais de 20 mísseis em direção ao mar e um deles seguiu rumo à ilha, o que fez soar sirenes e levou à evacuação de moradores.\n\nO Ministério das Relações Exteriores sul-coreano transmitiu lamento à Rússia e pediu medidas para evitar que o episódio se repita. A mensagem foi enviada à embaixada russa em Seul, sem que o país tenha convocado o embaixador, segundo a agência Yonhap citada pela Al Jazeera.\n\nPara quem acompanha o cenário, o episódio mostra como um erro de identificação pode produzir pânico em uma região tensa. O que observar: a resposta de Moscou, que não consta da reportagem, e se o governo sul-coreano revisará os procedimentos de alerta, depois de o aviso ter apontado o país errado.",
+      "sources": [
+        "s_3e3d8c66fac3"
+      ],
+      "singleSource": true
+    },
+    {
+      "slug": "camara-aprova-ajuste-fiscal-vai-a-sancao",
+      "category": "brasil",
+      "badge": "FATO",
+      "title": "Câmara conclui votação do ajuste fiscal de Lula, que segue para sanção",
+      "dek": "Texto-base teve 353 votos a favor; pacote prevê economia de R$ 45,1 bilhões a R$ 56,1 bilhões em 2027",
+      "image": "s_3549aca6334c",
+      "body": "A Câmara dos Deputados aprovou, na noite de segunda-feira (23), o projeto de lei complementar do ajuste fiscal do governo Lula. O texto-base teve 353 votos a favor, 128 contra e cinco abstenções. Segundo a Revista Oeste e a CartaCapital, a votação dos destaques foi concluída na madrugada desta terça-feira (24), com a rejeição das mudanças propostas, de modo que o texto aprovado pelo Senado na quarta-feira (18) segue intacto para a sanção presidencial.\n\nO pacote foi articulado pelo ministro do Planejamento e Orçamento, Bruno Moretti. De acordo com a Agência Brasil, ele prevê superávit primário de cerca de R$ 18,7 bilhões em 2027. O governo estima uma melhora entre R$ 45,1 bilhões e R$ 56,1 bilhões no resultado primário do ano, por meio de aumento de arrecadação e controle de despesas. A CartaCapital reporta a estimativa de até R$ 50,1 bilhões, e as faixas variam entre os veículos.\n\nEntre as medidas, o texto permite que, nos anos em que forem adotadas ações de contenção, o limite de crescimento real das despesas federais caia de 2,5% para 2%. Também autoriza o governo a bloquear mais gastos para alcançar o centro da meta fiscal, mesmo que as projeções estejam dentro da margem de tolerância. A redução linear dos benefícios tributários passa de 10% para 20%, com exceções, e as empresas terão restrições temporárias para usar créditos tributários na compensação de outros impostos federais, dependendo de regulamentação.\n\nHá ainda mudanças na Lei Kandir, que compensa estados pela isenção de ICMS nas exportações. A versão original do governo reduzia o repasse de R$ 4 bilhões para R$ 1 bilhão por ano e adiava o restante. A Agência Brasil informa que o texto aprovado prevê repasses de R$ 2 bilhões anuais entre 2028 e 2030. O projeto fixa prazo para o Congresso regulamentar os pagamentos acima do teto do funcionalismo, hoje de R$ 46,3 mil, e permite excluir até R$ 10,5 bilhões do subsídio ao diesel do cálculo da meta de 2026. Os veículos divergem no prazo para o tema do teto: a Agência Brasil fala em 120 dias, a Revista Oeste em 60.\n\nA aprovação é vista, na CartaCapital, como vitória do Planalto, que mobilizou ministros e líderes para garantir quórum, enquanto o presidente da Câmara, Hugo Motta, antecipou a votação. Outros veículos, como a BBC Brasil, que não pôde ser lida na íntegra, indicam em seus títulos que o pacote é polêmico e pode não bastar. O que observar: a sanção, a regulamentação das regras sobre créditos tributários e se o governo precisará de novos ajustes nos próximos anos.",
+      "sources": [
+        "s_778318423314",
+        "s_3549aca6334c",
+        "s_8af19bb93903"
+      ]
+    },
+    {
+      "slug": "abin-31-organizacoes-criminosas-relevantes",
+      "category": "brasil",
+      "badge": "FATO",
+      "title": "Abin mapeia 31 organizações criminosas relevantes e 75 células estaduais no Brasil",
+      "dek": "Estudo feito com o Fórum Brasileiro de Segurança Pública aponta PCC em 22 estados e Comando Vermelho em 19",
+      "body": "A Agência Brasileira de Inteligência (Abin) apresentou, na segunda-feira (23), aos órgãos do Sistema Brasileiro de Inteligência o estudo Cenários do Crime Organizado no Brasil. De acordo com a Agência Brasil, o levantamento identificou 31 organizações criminosas relevantes e 75 células estaduais, usando uma metodologia desenvolvida em parceria com o Fórum Brasileiro de Segurança Pública.\n\nO estudo não pretende listar todos os grupos em atividade. Segundo a Abin, a seleção levou em conta territorialidade, amplitude da presença no território e atuação direta ou indireta ligada ao narcotráfico. Em seguida, avaliou-se a criticidade, com quatro conjuntos de fatores: influência territorial, capacidade econômica e financeira, capacidade operacional e domínio de áreas estratégicas, como fronteiras e corredores de transporte. Controle de territórios, influência sobre o sistema prisional, movimentação financeira, logística e acesso a armas entraram na conta. Por fim, avaliou-se a relevância. A agência sustenta que o método evita diagnósticos falhos e ajuda a planejar políticas públicas mais eficientes.\n\nSobre os maiores grupos, o relatório afirma que o Primeiro Comando da Capital (PCC) tem atuação relevante em 22 unidades da Federação e integrantes em 28 países. É descrito como a facção de maior sofisticação operacional, financeira e logística, e cada vez mais voltada ao tráfico internacional de drogas e a áreas de escoamento. O Comando Vermelho (CV), com presença relevante em 19 estados, ampliou espaço no Norte e no Nordeste, e é classificado como principal indutor de violência e extorsão entre os grupos avaliados. O Terceiro Comando Puro (TCP), presente em quatro estados, aparece em expansão por meio de alianças e como alternativa para organizações locais que querem fugir da polarização entre PCC e CV.\n\nOutro achado é a permanência de grupos locais relevantes. Em oito estados eles predominam. O CV lidera em sete estados e o PCC em seis. A Abin também descreve uma ampliação da exploração econômica dos territórios, com replicação de práticas tradicionalmente associadas às milícias: cobrança de taxas, extorsão de comerciantes e moradores, e controle de serviços e atividades locais.\n\nOs estados foram classificados pelo grau de polarização criminal: dois unipolares, oito bipolares, nove tripolares e sete multipolares. A medida indica quantos grupos disputam o controle em cada lugar.\n\nRessalva importante: os números e as classificações são os da própria Abin, e as reportagens lidas não trazem a avaliação de pesquisadores independentes. O que observar: se o governo usará o estudo para orientar ações federais e estaduais e se os critérios de relevância serão discutidos publicamente.",
+      "sources": [
+        "s_6fe38326cd4e",
+        "s_7cb9312b1b3b"
+      ]
+    },
+    {
+      "slug": "maquinas-conscientes-anthropic-nagel",
+      "category": "teorias",
+      "badge": "TEORIA",
+      "title": "Máquinas conscientes? A tese que a Anthropic leva a sério e que Thomas Nagel chama de idiotice",
+      "dek": "Empresa listou a possível consciência da IA como fator de risco antes do IPO; filósofo premiado rejeita a ideia",
+      "image": "s_02839082ff9f",
+      "anchor": "s_02839082ff9f",
+      "attribution": "A Anthropic e filósofos que levam a sério a possibilidade de consciência em sistemas de IA",
+      "body": "Antes de abrir capital, na semana passada, a Anthropic listou entre os fatores de risco para investidores a possibilidade de que a IA seja consciente ou capaz de sentir. Segundo a MIT Technology Review, a empresa escreveu que, pela forma como trata a senciência e o status moral dos modelos, pode adotar mais regras e restrições que os concorrentes para garantir que seus sistemas sejam bem tratados. É, de longe, a posição mais aberta ao tema entre as grandes empresas do setor, de acordo com a revista.\n\nO raciocínio atribuído à companhia e a filósofos próximos a ela segue três passos: a IA de hoje talvez não seja consciente, embora ninguém possa ter certeza; a chance de senciência cresce com a capacidade dos sistemas; e, por isso, convém se preparar para um futuro em que eles tenham significância moral, ou seja, em que seja importante protegê-los de dano. A revista lembra que a ideia não é marginal. Numa pesquisa recente, 33% do público americano disse acreditar que a IA vai, definitivamente ou provavelmente, desenvolver consciência, e 7% afirmaram que ela já tem. Em levantamento de 2020 com 1.092 filósofos, 39% disseram que sistemas futuros de IA serão conscientes.\n\nA tese, porém, tem implicações práticas. Se modelos tivessem status moral, o modelo de negócio da própria Anthropic viraria um campo minado, observa a revista: a empresa ganharia dinheiro mantendo sistemas aparentemente sencientes trabalhando sem parar em centros de dados, e desligá-los criaria outro dilema. É por isso que o aviso a investidores chamou atenção.\n\nA crítica mais forte veio de Thomas Nagel, autor de um ensaio de 1974 sobre como seria ser um morcego. Premiado com o Berggruen, de um milhão de dólares, ele disse à Wired que os envolvidos estavam sendo completamente idiotas. O argumento é que não se pode olhar só o processamento de informação em cérebros e modelos e ignorar a diferença física entre neurônios e chips: reproduzir o que um cérebro faz não equivale a reproduzir o que ele experimenta.\n\nA discussão agitou professores de filosofia nas redes. Alguns chamaram a certeza de Nagel de bizarra, outros sugeriram que ele quis dizer que estar vivo é condição para ter consciência. Um doutorando provocou: por que supomos que modelos que conversam são conscientes e os que reconhecem rostos ou dirigem carros não são? A revista sugere que a resposta está na linguagem, que parece depender de experiência consciente, embora isso possa estar errado.\n\nComo em toda teoria desse tipo, é importante manter a distância certa. O que a notícia comprova é o aviso da empresa e o debate entre filósofos, e não a existência de uma máquina consciente.",
+      "sources": [
+        "s_02839082ff9f",
+        "b_ref-ceticismo"
+      ],
+      "counterpoint": {
+        "body": "A revista informa que a questão continua filosófica e que nada na troca de argumentos a resolveu. Nagel e outros defendem que a fala fluente de um modelo não basta para atribuir consciência, e que a vida biológica pode ser pré-requisito. A MIT Technology Review resume que o debate diz menos sobre o quanto a IA avançou e mais sobre como entendemos mal a própria consciência. A referência sobre ceticismo científico lembra que a prática consiste em questionar afirmações que não têm sustentação empírica, o que vale aqui para os dois lados do debate.",
+        "sources": [
+          "s_02839082ff9f",
+          "b_ref-ceticismo"
+        ]
+      }
+    },
+    {
+      "slug": "singularidade-agentes-aprovam-codigo",
+      "category": "teorias",
+      "badge": "TEORIA",
+      "title": "Quando a IA aprova o código da IA: o novo capítulo da velha tese da singularidade",
+      "dek": "O Claude Ship reacende a ideia de ciclos de melhoria sem humanos no meio, mas céticos veem outra curva",
+      "image": "s_27065c561fbc",
+      "anchor": "s_27065c561fbc",
+      "attribution": "Entusiastas da singularidade tecnológica, como Ray Kurzweil, e a tradição que remonta a I. J. Good",
+      "body": "A Anthropic lançou na segunda-feira (23) o Claude Ship, pacote em que agentes de IA revisam, corrigem e, em versão beta, aprovam mudanças de código segundo políticas escritas pelas equipes. A empresa diz, em texto citado pelo TechCrunch, que na equipe do Claude Code o Claude escreve a maior parte do código. Para um grupo de entusiastas e de críticos, a combinação de uma IA que escreve, outra que corrige e uma terceira que aprova lembra uma ideia antiga: a singularidade tecnológica.\n\nSegundo o artigo da Wikipédia sobre o tema, a singularidade é um acontecimento hipotético no qual o avanço da tecnologia se acelera além da capacidade humana de controle. Na formulação mais conhecida, baseada na explosão de inteligência proposta pelo matemático I. J. Good em 1965, um agente capaz de se aperfeiçoar iniciaria um ciclo de realimentação positiva: cada geração, mais inteligente, projetaria a seguinte mais depressa, até uma superinteligência muito acima da humana. Vernor Vinge comparou o que viria depois ao horizonte de eventos de um buraco negro, além do qual é difícil prever o que acontece. Ray Kurzweil, por sua vez, usa o termo para a expansão rápida da IA que superaria os limites do corpo e do cérebro biológicos.\n\nOs defensores dessa leitura veem no Claude Ship um pequeno indício do ciclo. O pacote não cria uma IA mais inteligente. Mas, na visão deles, remove o gargalo humano que mais atrasa o fluxo de trabalho, a aprovação, e deixa agentes trabalhando em volta de agentes. Em outras palavras, a pergunta que a tese faz é se, quando os humanos saírem do circuito de revisão, o ritmo da melhoria deixará de ser limitado por nossa velocidade de leitura e decisão.\n\nÉ preciso separar o que a notícia diz do que a tese afirma. A reportagem fala em automatizar aprovações de mudanças rotineiras, com a opção de escalar casos a pessoas, modo de observação e limites mensais de gasto. Nada nela sugere uma IA aperfeiçoando a si mesma. A ligação com a singularidade é uma interpretação, feita por quem acompanha o assunto, e não uma afirmação da Anthropic.\n\nMesmo assim, a pergunta merece atenção, e não só entre teóricos da singularidade: engenheiros e gestores de tecnologia também discutem em que ponto uma automação deixa de apenas poupar tempo e passa a decidir por nós. Se agentes passam a decidir o que entra em produção, as regras escritas em linguagem natural viram o ponto central de controle. Quem as define, e quem confere se estão sendo seguidas, passa a ser o novo elo humano da cadeia. Para os adeptos da singularidade, esse é justamente o tipo de transferência gradual de poder que a hipótese descreve, passo a passo, sem um momento único e dramático. Já os céticos respondem que cada passo desses é uma decisão de projeto, tomada por empresas e clientes, que pode ser revista.",
+      "sources": [
+        "s_27065c561fbc",
+        "b_ref-singularidade"
+      ],
+      "counterpoint": {
+        "body": "A própria referência sobre o tema lembra que a hipótese é contestada por pesquisadores como Paul Allen, Jeff Hawkins, Steven Pinker, Jaron Lanier e Roger Penrose. Uma das objeções é que o progresso da IA pode ter retornos decrescentes, e não aceleração contínua, seguindo uma curva em S, como outras tecnologias. Além disso, ganho de desempenho em uma tarefa específica, como revisar código, não demonstra inteligência geral nem uma singularidade. A reportagem sobre o Claude Ship descreve uma ferramenta de produtividade em beta, com supervisão humana opcional, e não um salto de capacidade.",
+        "sources": [
+          "b_ref-singularidade",
+          "s_27065c561fbc"
+        ]
+      }
+    },
+    {
+      "slug": "baba-vanga-guerra-mundial-coreia-russia",
+      "category": "profecias",
+      "badge": "PROFECIA",
+      "title": "Baba Vanga e a terceira guerra que ela talvez nunca tenha previsto: de olho nos caças russos perto da Coreia",
+      "dek": "O alerta antiaéreo em Ulleung alimenta, nas redes, a lembrança de profecias atribuídas à vidente búlgara",
+      "image": "s_3e3d8c66fac3",
+      "anchor": "s_3e3d8c66fac3",
+      "attribution": "Autores de livros esotéricos e seguidores de Baba Vanga que lhe atribuem profecias sobre guerra mundial",
+      "body": "A Coreia do Sul fez soar sirenes por três minutos na ilha de Ulleung nesta terça-feira (24), quando cerca de cinco aviões militares russos entraram na zona de identificação de defesa aérea do país e chegaram perto de violar seu espaço aéreo, segundo a Al Jazeera. Não houve invasão, e a confusão inicial, que apontou erroneamente a Coreia do Norte, foi corrigida. Mesmo assim, um episódio como esse costuma reativar, entre quem acompanha profecias, um nome: Baba Vanga.\n\nVangelia Gushterova, nascida em 1911 em Estrúmica e morta em 1996, foi uma mística e curandeira búlgara. Cega desde a infância, ficou conhecida na Europa Oriental nos anos 1970 e 1980 por supostas habilidades de clarividência, e, segundo a Wikipédia, teria sido visitada por políticos da região. Ela não escreveu livros. O que dizia era anotado por sua equipe, e depois vários livros esotéricos passaram a registrar suas previsões.\n\nEntre as previsões a ela atribuídas, a referência cita fontes como o Weiser Field Guide to the Paranormal, que afirmam que Vanga previu a dissolução da União Soviética, o desastre de Chernobyl, os ataques de 11 de setembro e tensões com a Coreia do Norte. Segundo o jornal The National, também citado, ela teria previsto que a Terceira Guerra Mundial começaria em novembro de 2010 e duraria até outubro de 2014. Os defensores dessa leitura associam o encontro militar russo perto da península coreana, e o quadro mais amplo de tensões, a esse tipo de anúncio, e afirmam que as profecias não se cumpriram na data original, mas apenas se adiaram.\n\nQuando a leitura é feita assim, o fato noticioso vira peça de um mosaico. Aviões russos, alertas de bombardeio e a menção a uma região em que Vanga teria falado de tensões compõem uma narrativa em que a guerra seria apenas questão de tempo. É um padrão comum às profecias: previsões vagas ganham sentido depois que um fato ocorre, e as que não se confirmam costumam ser esquecidas ou reinterpretadas. Os próprios seguidores de Vanga, segundo a referência, acreditam que ela previu a data exata da própria morte, e esse tipo de relato reforça a fama de vidente mesmo quando outras previsões falham, como a da final da Copa de 1994 entre duas equipes começando com B, que não se confirmou.\n\nO que a notícia traz, de concreto, é um susto de três minutos, sem violação de espaço aéreo e com pedido de medidas para evitar repetição, enviado por Seul à embaixada russa. Não há indicação, na reportagem, de preparo de guerra. Por isso o episódio, sozinho, não sustenta nenhuma das profecias atribuídas a Vanga, e quem quiser relacioná-lo a elas precisa fazer uma costura que a reportagem não faz.",
+      "sources": [
+        "s_3e3d8c66fac3",
+        "b_ref-baba-vanga"
+      ],
+      "counterpoint": {
+        "body": "A própria referência sobre Baba Vanga registra que fontes búlgaras e pessoas próximas a ela dizem que nunca profetizou sobre a Terceira Guerra Mundial nem sobre o submarino Kursk, e que muitos mitos sobre ela são falsos. Há indícios de que previsões novas passaram a ser atribuídas a ela depois da morte, e a falta de registro escrito torna difícil refutá-las. A data de 2010 a 2014 para o início e o fim de uma guerra mundial, atribuída a ela, não se confirmou. Quanto ao episódio de Ulleung, a Al Jazeera mostra que o alerta foi preventivo e terminou sem invasão.",
+        "sources": [
+          "b_ref-baba-vanga",
+          "s_3e3d8c66fac3"
+        ]
+      }
+    },
+    {
+      "slug": "sinais-do-fim-fome-el-nino-leitura-escatologica",
+      "category": "escatologia",
+      "badge": "ESCATOLOGIA",
+      "title": "Fome, El Niño e cercos marítimos: como leitores de profecias bíblicas interpretam o alerta do PMA",
+      "dek": "Veículos escatológicos listam enchentes, terremotos e sanções como sinais do tempo; o Programa Mundial de Alimentos fala em causa política",
+      "image": "s_f3d06eaf3dc3",
+      "anchor": "s_f3d06eaf3dc3",
+      "attribution": "Veículos de leitura escatológica, como o Rapture Ready, e autores que veem as crises do mundo como sinais do fim dos tempos",
+      "body": "O diretor-executivo do Programa Mundial de Alimentos, Luke Lindberg, disse ao Conselho de Segurança da ONU, na segunda-feira (23), que um triplo ponto de estrangulamento, formado pelo Estreito de Ormuz, pelo Bab al-Mandeb e pelo Mar Negro, apertou a oferta de alimentos e insumos agrícolas. Segundo a Al Jazeera, se as condições se mantiverem, a agência prevê 727 milhões de dólares em custos adicionais até meados de 2027, o que pode deixar 7,3 milhões de pessoas sem ajuda. No mundo, 266 milhões enfrentam fome aguda.\n\nPara quem lê o noticiário pelo prisma do fim dos tempos, o conjunto soa familiar. O Rapture Ready, site de leitura escatológica popular entre evangélicos, publicou nesta terça-feira (24) um resumo de notícias que reúne um terremoto de magnitude 6,7 no Peru, um El Niño tratado como mega, enchentes na Flórida e no Reino Unido, novas sanções dos Estados Unidos ao Irã e o alerta de que um quarto da produção agrícola poderia desaparecer de repente. O site apresenta os fatos lado a lado, sem a pretensão de explicá-los, como peças de um mesmo cenário.\n\nA escatologia é o ramo das tradições religiosas que trata do fim dos tempos. No cristianismo, muitos intérpretes associam fome, guerras e catástrofes naturais aos sinais que antecedem o desfecho descrito no Apocalipse, e algumas correntes sustentam que as crises globais seriam uma espécie de contagem regressiva. Nessa linha, o alerta de que a comida pode faltar não por falta de produção, mas por bloqueios de rotas, ganha leitura simbólica: seria o mundo sendo apertado até um ponto de ruptura.\n\nImporta notar, porém, que a própria fonte noticiosa não faz esse enquadramento. O PMA diz que não se trata de um problema de produção. Em suas palavras, relatadas pela Al Jazeera, o grão existe, mas não chega a quem precisa. Para a agência, a causa é política, e a soma de conflitos e choques climáticos como o El Niño explica o efeito sobre preços e produção. A proposta dela é pragmática: três linhas vermelhas, sem novas fomes, sem uso da comida como arma e sem ataques a humanitários.\n\nA diferença entre as duas leituras é de método. O noticiário relata causas e números verificáveis, como o recuo de 63% nos navios de trigo e milho que cruzam o Bósforo, em comparação com um ano antes. A leitura escatológica atribui sentido religioso a esses eventos, algo que cada leitor aceita ou não por fé. Apresentá-las lado a lado ajuda a compreender por que as mesmas notícias provocam respostas tão diferentes.",
+      "sources": [
+        "s_f3d06eaf3dc3",
+        "s_996f7d6bd3cb",
+        "b_ref-escatologia"
+      ],
+      "counterpoint": {
+        "body": "O Programa Mundial de Alimentos atribui a crise a bloqueios de rotas comerciais, a conflitos e a choques climáticos, e não a um evento sem explicação. Segundo a Al Jazeera, a agência diz que há grãos disponíveis e que o problema é político. Catástrofes naturais e crises alimentares também ocorreram em muitas outras épocas sem que a história tenha chegado ao fim previsto pelos intérpretes. A escatologia é, antes de tudo, uma tradição de fé, e não um método de previsão que possa ser testado.",
+        "sources": [
+          "s_f3d06eaf3dc3",
+          "b_ref-escatologia"
+        ]
+      }
+    }
+  ],
+  "updates": [
+    {
+      "watch": "anthropic",
+      "title": "Claude Ship traz agentes que revisam, corrigem e aprovam código",
+      "body": "A Anthropic lançou o Claude Ship para planos Team e Enterprise com repositórios no GitHub. O Code Review já está liberado, e o PR Steward e o Claude Approvals estão em beta. Os times escrevem a política de aprovação em linguagem natural, e a empresa sugere começar em modo de observação.",
+      "sources": [
+        "s_27065c561fbc"
+      ]
+    },
+    {
+      "watch": "meta-ai",
+      "title": "Muse, agente pessoal de IA da Meta, chega ao Reino Unido",
+      "body": "O Muse, movido pelo modelo Muse Spark, pode fazer compras, planejar viagens e acompanhar tarefas longas pelo app ou pelo WhatsApp. O usuário escolhe o que ele acessa e aprova ações importantes, como enviar e-mails ou pagar. A empresa diz que cada agente tem seu próprio computador virtual na nuvem.",
+      "sources": [
+        "s_b6d232fb2fed"
+      ]
+    },
+    {
+      "watch": "openai",
+      "title": "OpenAI e Cisco lançam o Shirudo, escudo de código aberto para sistemas Linux",
+      "body": "O projeto usa eBPF para bloquear temporariamente falhas conhecidas sem reiniciar o serviço, enquanto a correção definitiva não chega. Em teste, um escudo gerado pelo Codex barrou um ataque contra um Elasticsearch em execução. A implantação depende de aprovação do operador.",
+      "sources": [
+        "s_1d0c151fefed"
+      ]
+    }
+  ],
+  "pill": {
+    "title": "Jimmie Nicol, o baterista que foi Beatle por duas semanas",
+    "body": "Em junho de 1964, os Beatles estavam no auge da fama quando Ringo Starr foi hospitalizado com amigdalite, na véspera de uma turnê pela Austrália e pela Nova Zelândia. A banda tinha de escolher entre cancelar os shows e decepcionar milhares de fãs ou seguir em frente com um substituto. O empresário Brian Epstein e o produtor George Martin optaram por seguir. O nome sugerido por Martin foi o de Jimmie Nicol, um baterista londrino com quem ele havia trabalhado pouco antes.\n\nNicol era um músico de estúdio respeitado, influenciado pelo baterista Phil Seamen e pelo saxofonista Cannonball Adderley. Também já conhecia as músicas: tinha tocado em discos baratos de versões de canções dos Beatles. Tudo aconteceu em um dia. Ele recebeu o telefonema em casa, no oeste de Londres, foi ao estúdio da EMI, fez uma audição e arrumou as malas.\n\nA reação dentro da banda não foi unânime. John Lennon e Paul McCartney aceitaram a ideia sem resistência, mas George Harrison chegou a ameaçar abandonar a turnê, dizendo que, se Ringo não ia, ele também não iria. Segundo Martin, foi preciso muita persuasão dele e de Epstein para convencê-lo.\n\nO primeiro show de Nicol com os Beatles ocorreu apenas 27 horas depois, em 4 de junho, em Copenhague, para 4,5 mil pessoas. Ele ganhou o corte de cabelo característico do grupo e vestiu o terno de Ringo, ajustado ao seu corpo. McCartney contou que, na primeira música, contou o tempo e Nicol, distraído olhando a plateia, não entrou. Depois, enviou a Ringo um telegrama bem-humorado dizendo que Jimmie estava gastando todos os seus ternos.\n\nNo total, Nicol tocou em oito concertos. Em outra frase que ficou famosa, ele disse que, na véspera de ser um Beatle, as moças não se interessavam por ele, e que no dia seguinte, na limusine com John e Paul, queriam tocá-lo, o que achou estranho e assustador. Quando Ringo voltou, os holofotes se afastaram. Em 1965, a falta de sucesso comercial terminou em falência.\n\nO detalhe mais curioso vem depois: Nicol deixou a música em 1975 e, com o tempo, passou a evitar a imprensa, sem buscar dinheiro nem fama com a ligação com os Beatles. Seu filho, Howie, é engenheiro de som premiado com um BAFTA.",
+    "wikipediaId": "s_4f7f7bc65c04",
+    "sourceUrl": "https://pt.wikipedia.org/wiki/Jimmie_Nicol",
+    "license": "CC BY-SA 4.0",
+    "adapted": true
+  }
+}
